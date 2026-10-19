@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erwachsenen-Ausflugsziele Karte</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#2b4a7a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Erwachsene">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --panel: #ffffff;
+    --border: #e2e2e0;
+    --text: #2b2b28;
+    --text-muted: #6b6b66;
+    --accent: #2f6f4f;
+    --accent-hover: #24583e;
+    --chip-bg: #eef0ec;
+    --chip-active-bg: #2f6f4f;
+    --chip-active-text: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  #app { display: flex; flex-direction: column; height: 100vh; }
+
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 6px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  header h1 { font-size: 13.5px; margin: 0; font-weight: 700; display: inline; }
+  header .sub { font-size: 10.5px; color: var(--text-muted); margin-left: 8px; }
+  .stats-bar { font-size: 10.5px; color: var(--accent-hover); font-weight: 600; margin-left: 8px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+  .search-box {
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    font-size: 12px;
+    min-width: 180px;
+    flex: 1 1 200px;
+    max-width: 300px;
+  }
+  .ai-box {
+    padding: 4px 8px;
+    border: 1px solid var(--accent);
+    border-radius: 7px;
+    font-size: 12px;
+    min-width: 220px;
+    flex: 1 1 240px;
+    max-width: 380px;
+    background: #f4f9f5;
+  }
+  .ai-feedback { font-size: 10.5px; color: var(--accent-hover); min-height: 12px; }
+  #tablePane { display: none; flex: 1; overflow: auto; padding: 10px 14px; background: var(--panel); }
+  body.table-mode #tablePane { display: block; }
+  body.table-mode #map-pane, body.table-mode #list-pane { display: none; }
+  body.list-only #map-pane { display: none; }
+  body.list-only #list-pane { flex: 1; border-left: none; border-top: none; }
+  body.list-only .card-list { max-width: 900px; margin: 0 auto; }
+  .view-seg { display: inline-flex; border: 1px solid var(--border); border-radius: 18px; overflow: hidden; background: var(--chip-bg); }
+  .view-seg button { border: none; background: none; font: inherit; font-size: 11.5px; padding: 3px 10px; color: var(--text); cursor: pointer; white-space: nowrap; }
+  .view-seg button + button { border-left: 1px solid var(--border); }
+  .view-seg button.on { background: var(--chip-active-bg); color: var(--chip-active-text); }
+  .cmp-title { font-size: 13.5px; font-weight: 700; margin: 6px 0 6px; }
+  .cmp-table { border-collapse: collapse; width: 100%; font-size: 12.5px; margin-bottom: 20px; }
+  .cmp-table th { text-align: left; font-weight: 600; color: var(--text-muted); padding: 6px 8px; border-bottom: 1px solid var(--border); cursor: pointer; user-select: none; white-space: nowrap; }
+  .cmp-table th.sorted { color: var(--accent-hover); }
+  .cmp-table td { padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .cmp-table td.nm { font-weight: 600; min-width: 160px; }
+  .cmp-table td.nm a { color: inherit; text-decoration: none; }
+  .cmp-table td.nm a:hover { text-decoration: underline; }
+  .cmp-table .na { color: var(--text-muted); }
+  .cmp-table .src { font-weight: 400; margin-left: 4px; color: var(--text-muted); }
+  .cmp-note { font-size: 11px; color: var(--text-muted); margin: 0 0 10px; }
+  @media (max-width: 760px) {
+    .cmp-table thead { display: none; }
+    .cmp-table, .cmp-table tbody, .cmp-table tr, .cmp-table td { display: block; }
+    .cmp-table tr { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 8px; padding: 6px 10px; background: #fff; }
+    .cmp-table td { border: none; padding: 2px 0; }
+    .cmp-table td::before { content: attr(data-label) ": "; color: var(--text-muted); }
+    .cmp-table td.nm::before { content: none; }
+  }
+  .real-ai-bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 2px; }
+  .real-ai-label { font-size: 10.5px; color: var(--text-muted); white-space: nowrap; }
+  .real-ai-input {
+    padding: 4px 8px;
+    border: 1px solid var(--accent);
+    border-radius: 7px;
+    font-size: 12px;
+    min-width: 220px;
+    flex: 1 1 240px;
+    max-width: 420px;
+    background: #fff8f0;
+  }
+  .real-ai-btn, .real-ai-keybtn, .real-ai-clearbtn {
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+    padding: 4px 9px;
+    font-size: 11.5px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .real-ai-keybtn { background: none; color: var(--text-muted); border-color: var(--border); }
+  .real-ai-clearbtn { background: none; color: #c92a2a; border-color: #c92a2a; }
+  .real-ai-feedback { font-size: 10.5px; color: var(--accent-hover); min-height: 12px; flex: 1 1 100%; }
+  #chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip {
+    border: 1px solid var(--border);
+    background: var(--chip-bg);
+    color: var(--text);
+    border-radius: 18px;
+    padding: 3px 10px;
+    font-size: 11.5px;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    transition: background 0.15s, color 0.15s;
+  }
+  .chip .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+  .chip.active { background: var(--chip-active-bg); color: var(--chip-active-text); border-color: var(--chip-active-bg); }
+  .chip.ai-highlight { box-shadow: 0 0 0 2px #d97706; }
+  .chip.reset, .chip.action { margin-left: 0; background: none; border: 1px solid var(--border); color: var(--text-muted); }
+  .chip.reset { text-decoration: underline; border: none; margin-left: auto; }
+  .count-badge { font-size: 12px; color: var(--text-muted); margin-left: 4px; }
+
+  main { flex: 1; display: flex; min-height: 0; }
+  #map-pane { flex: 1 1 55%; min-width: 280px; }
+  #list-pane { flex: 1 1 45%; min-width: 320px; display: flex; flex-direction: column; background: var(--panel); border-left: 1px solid var(--border); }
+  .table-scroll { flex: 1; overflow: auto; }
+
+  .route-bar {
+    display: none;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: #fff7e6;
+    border-bottom: 1px solid #f0c36d;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .route-bar button {
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .route-bar button.secondary { background: none; color: var(--text-muted); border-color: var(--border); }
+
+  .sort-bar {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+    padding: 8px 12px; border-bottom: 1px solid var(--border);
+    font-size: 11.5px; color: var(--text-muted); flex-shrink: 0;
+  }
+  .sort-btn {
+    border: 1px solid var(--border); background: var(--panel); color: var(--text-muted);
+    border-radius: 6px; padding: 3px 9px; font-size: 11.5px; cursor: pointer;
+  }
+  .sort-btn.sorted { color: var(--text); border-color: var(--accent); font-weight: 600; }
+  .sort-btn.sorted::after { content: " " attr(data-dir); }
+
+  .card-list { padding: 0; }
+  .empty-note { padding: 24px 16px; text-align: center; color: var(--text-muted); font-size: 13px; }
+  .row-card {
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    padding: 10px 12px;
+  }
+  .row-card:hover { background: #f2f5f1; }
+  .row-card.selected { background: #e3ede3; }
+  .row-card.visited .card-name { color: var(--text-muted); }
+  .card-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .card-name { font-weight: 600; font-size: 14px; }
+  .card-meta { margin-top: 4px; font-size: 12.5px; }
+  .card-addr { margin-top: 2px; font-size: 12px; color: var(--text-muted); }
+  .card-note { margin-top: 4px; }
+  .visited-tick { color: var(--accent); margin-right: 4px; }
+  .note-cell { color: var(--text-muted); font-size: 12px; }
+  .my-note-row { display: flex; gap: 5px; margin-top: 4px; align-items: center; }
+  .my-note-input {
+    flex: 1;
+    width: 100%;
+    font-size: 11.5px;
+    padding: 3px 5px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    background: #fbfbfa;
+  }
+  .d4-top { display: flex; align-items: flex-start; gap: 10px; }
+  .d4-check { cursor: pointer; flex: 0 0 auto; margin-top: 1px; }
+  .d4-check input, .d4-link input { position: absolute; opacity: 0; width: 0; height: 0; }
+  .d4-check .box { width: 22px; height: 22px; border-radius: 6px; border: 1.5px solid #b9b9b2; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; color: transparent; background: #fff; transition: all .12s; }
+  .d4-check input:checked + .box { background: #2f9e44; border-color: #2f9e44; color: #fff; }
+  .d4-check input:focus-visible + .box, .d4-link input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .d4-main { flex: 1; min-width: 0; }
+  .d4-stars { flex: 0 0 auto; display: inline-flex; gap: 1px; white-space: nowrap; }
+  .d4-star { cursor: pointer; font-size: 19px; line-height: 1; color: #d6d6cf; user-select: none; }
+  .d4-star.f { color: #ef9f27; }
+  .d4-star:hover { color: #f5c26b; }
+  .d4-foot { display: flex; align-items: center; gap: 8px; border-top: 1px solid var(--border); margin-top: 8px; padding-top: 6px; }
+  .d4-link { cursor: pointer; }
+  .d4-link span { display: inline-flex; align-items: center; gap: 4px; font-size: 12.5px; color: var(--text-muted); padding: 3px 7px; border-radius: 6px; }
+  .d4-link:hover span { background: #eef1ec; }
+  .d4-link.route input:checked + span { color: #1971c2; background: #e7f0fb; font-weight: 600; }
+  .d4-link.del input:checked + span { color: #c92a2a; background: #fdecec; font-weight: 600; }
+  .d4-link.disabled { opacity: .4; cursor: not-allowed; }
+  .d4-vis { margin-left: auto; font-size: 12px; color: #2f9e44; }
+  .type-tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    background: var(--chip-bg);
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .no-loc { color: #b45309; font-size: 11px; }
+  .approx-flag { color: #b45309; font-size: 11px; }
+  .closed-badge { color: #b45309; font-size: 11.5px; font-weight: 600; }
+  .closed-badge a { color: #b45309; }
+  .rating-cell { white-space: nowrap; }
+  .dist-cell { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+  .reset-view-btn {
+    width: 30px; height: 30px; line-height: 30px; text-align: center;
+    background: #fff; border: none; font-size: 17px; cursor: pointer;
+    display: block; padding: 0; color: var(--text);
+  }
+  .reset-view-btn:hover { background: #f4f4f4; }
+  .leaflet-popup-content { font-size: 13px; min-width: 180px; }
+  .popup-title { font-weight: 700; margin-bottom: 3px; font-size: 14px; }
+  .popup-note { color: #6b6b66; font-style: italic; margin-top: 4px; }
+  .popup-link { display: inline-block; margin-top: 6px; font-size: 12px; }
+
+  @media (max-width: 860px) {
+    main { flex-direction: column; }
+    #map-pane { flex: 0 0 45vh; }
+    #list-pane { flex: 1; border-left: none; border-top: 1px solid var(--border); }
+  }
+
+  @media (max-width: 600px) {
+    .search-box, .ai-box, .real-ai-input { flex: 1 1 100%; max-width: 100%; }
+    #chips { flex: 1 1 100%; gap: 8px; }
+    .chip { font-size: 14px; padding: 8px 16px; }
+    .chip .dot { width: 10px; height: 10px; }
+    .chip.reset { margin-left: 0; flex: 1 1 100%; text-align: center; padding: 8px 0; }
+    .count-badge { flex: 1 1 100%; }
+  }
+  .filter-toggle, .to-top { display: none; }
+  @media (max-width: 600px) {
+    #app { height: 100vh; height: 100dvh; }
+    header { padding: 6px 10px; gap: 4px; }
+    header .sub { display: none; }
+    header h1 { font-size: 14px; }
+    .stats-bar { margin-left: 6px; font-size: 10px; }
+    .view-seg { flex: 1 1 100%; }
+    .view-seg button { flex: 1; min-height: 44px; font-size: 13px; padding: 0 6px; }
+    .filter-toggle { display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 6px; min-height: 44px; padding: 0 14px; font-size: 14px; font-weight: 600; color: var(--text); background: var(--chip-bg); border: 1px solid var(--border); border-radius: 10px; cursor: pointer; }
+    .filter-toggle #filterToggleInfo { font-weight: 500; color: var(--accent-hover); }
+    header:not(.open) .toolbar, header:not(.open) #aiFeedback, header:not(.open) #realAiBar { display: none; }
+    header.open { max-height: 72vh; max-height: 72dvh; overflow-y: auto; }
+    main { min-height: 0; }
+    #map-pane { flex: 0 0 36dvh; min-height: 160px; }
+    #list-pane { min-height: 0; position: relative; }
+    .table-scroll { min-height: 0; padding-bottom: 34px; }
+    #lockLink { left: 50%; right: auto; transform: translateX(-50%); bottom: 6px; padding: 4px 12px; background: rgba(255,255,255,.92); border-radius: 12px; }
+    #tablePane { min-height: 0; }
+    .sort-bar { padding: 6px 10px; }
+    .d4-check { position: relative; }
+    .d4-check::after { content: ''; position: absolute; inset: -12px; }
+    .d4-check .box { width: 26px; height: 26px; font-size: 16px; }
+    .d4-star { font-size: 26px; padding: 2px 1px; }
+    .d4-link span { min-height: 44px; padding: 0 12px; font-size: 14px; }
+    .d4-foot { gap: 4px; margin-top: 4px; padding-top: 2px; }
+    .my-note-input { font-size: 14px; padding: 8px; }
+    .to-top { position: absolute; left: 10px; bottom: 14px; width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--accent); color: #fff; font-size: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 500; cursor: pointer; }
+    .to-top.show { display: block; }
+  }
+
+  #lockScreen {
+    position: fixed; inset: 0; background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 9999;
+  }
+  #lockScreen .lock-box {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 28px 32px; max-width: 320px; text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  #lockScreen h2 { margin: 0 0 6px; font-size: 16px; }
+  #lockScreen p { margin: 0 0 16px; font-size: 12.5px; color: var(--text-muted); }
+  #lockScreen input {
+    width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+    font-size: 14px; text-align: center; margin-bottom: 10px; box-sizing: border-box;
+  }
+  #lockScreen button {
+    width: 100%; padding: 8px 10px; border: none; border-radius: 8px;
+    background: var(--accent); color: #fff; font-size: 14px; cursor: pointer;
+  }
+  #lockScreen .lock-error { color: #c92a2a; font-size: 12px; min-height: 16px; margin-top: 8px; }
+  #app.locked { display: none; }
+  #lockLink { position: fixed; bottom: 8px; right: 10px; font-size: 11px; color: var(--text-muted); z-index: 100; cursor: pointer; }
+</style>
+</head>
+<body>
+<div id="lockScreen">
+  <div class="lock-box">
+    <h2>🔒 Geschützt</h2>
+    <p>Bitte Passwort eingeben, um die Karte zu öffnen.</p>
+    <input id="lockPassword" type="password" placeholder="Passwort" autocomplete="off" />
+    <button id="lockSubmit">Öffnen</button>
+    <div class="lock-error" id="lockError"></div>
+  </div>
+</div>
+<span id="lockLink">🔒 sperren</span>
+<div id="app" class="locked">
+  <header>
+    <div>
+      <h1>Für Erwachsene – Ausflugsziele-Karte</h1>
+      <span class="sub">Fahrzeit ab Schwabach (echte Route) · Stand: 19.10.2026</span>
+      <span id="statsBar" class="stats-bar"></span>
+      <button id="filterToggle" class="filter-toggle" type="button"><span>☰ Filter und Suche</span><span id="filterToggleInfo">▾</span></button>
+    </div>
+    <div class="toolbar">
+      <input id="aiSearch" class="ai-box" type="text" placeholder="🔎 Was suchst du? z.B. „Restaurant in der Nähe“" />
+      <input id="search" class="search-box" type="text" placeholder="…oder Name durchsuchen" />
+      <div id="chips"></div>
+      <label class="chip" id="mapBoundsLabel" for="mapBoundsToggle" title="Liste auf den aktuell sichtbaren Kartenausschnitt beschränken">
+        <input type="checkbox" id="mapBoundsToggle" style="margin-right:5px; vertical-align:middle;" />🗺️ Nur Kartenausschnitt
+      </label>
+      <span id="visibleCount" class="count-badge"></span>
+      <span class="view-seg" id="viewSeg">
+        <button type="button" data-view="both" class="on">🗺️ Karte + Liste</button>
+        <button type="button" data-view="list">📋 Nur Liste</button>
+        <button type="button" data-view="table">📊 Tabelle</button>
+      </span>
+      <button class="chip action" id="exportJson">⬇ JSON</button>
+      <button class="chip action" id="exportCsv">⬇ CSV</button>
+      <button class="chip reset" id="resetFilters">Filter zurücksetzen</button>
+    </div>
+    <div id="aiFeedback" class="ai-feedback"></div>
+    <div id="realAiBar" class="real-ai-bar">
+      <span class="real-ai-label">🤖 Echte KI fragen:</span>
+      <input id="realAiInput" class="real-ai-input" type="text" placeholder="z.B. „Was ist im Umkreis von 20 km um München?“" />
+      <button id="realAiAsk" class="real-ai-btn">Fragen</button>
+      <button id="realAiKeyBtn" class="real-ai-keybtn" title="API-Key setzen/ändern">🔑 Key</button>
+      <button id="realAiClear" class="real-ai-clearbtn" style="display:none;">✕ Filter aufheben</button>
+      <span id="realAiFeedback" class="real-ai-feedback"></span>
+    </div>
+  </header>
+  <main>
+    <div id="map-pane"></div>
+    <div id="tablePane"></div>
+    <div id="list-pane">
+      <button id="toTop" class="to-top" type="button" aria-label="Nach oben">↑</button>
+      <div id="routeBar" class="route-bar">
+        <span class="route-count">0 Ziele ausgewählt</span>
+        <button id="openRouteBtn">Rundtour in Google Maps öffnen ↗</button>
+        <button id="clearRouteBtn" class="secondary">Auswahl leeren</button>
+      </div>
+      <div id="deleteBar" class="route-bar" style="background:#fdecec; border-bottom-color:#e8a3a3;">
+        <span class="delete-count">0 Einträge markiert</span>
+        <button id="deleteSelectedBtn" style="background:#c92a2a; border-color:#c92a2a;">Markierte löschen</button>
+        <button id="clearDeleteBtn" class="secondary">Auswahl leeren</button>
+      </div>
+      <div class="sort-bar">
+        Sortieren:
+        <button class="sort-btn" data-key="name">Name</button>
+        <button class="sort-btn" data-key="rating">Bewertung</button>
+        <button class="sort-btn" data-key="driveMin">Fahrzeit</button>
+        <button class="sort-btn" data-key="addr">Ort</button>
+      </div>
+      <div class="table-scroll">
+        <div id="cardList" class="card-list"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+// ---------- Data ----------
+const SCHWABACH = { lat: 49.3346915, lon: 11.0294139 };
+
+const DATA = [];
+
+const GROUPS = {
+  "Restaurant":          { color: "#c92a2a", emoji: "🍽️" },
+  "Café & Bar":          { color: "#e8590c", emoji: "☕" },
+  "Museum & Kultur":     { color: "#7048e8", emoji: "🏛️" },
+  "Sehenswürdigkeit":    { color: "#1971c2", emoji: "📸" },
+  "Natur & Wandern":     { color: "#2f9e44", emoji: "🥾" },
+  "Wellness & Therme":   { color: "#0c8599", emoji: "🧖" },
+  "Sport & Aktiv":       { color: "#f59f00", emoji: "🚴" },
+  "Hotel":               { color: "#364fc7", emoji: "🏨" },
+  "Events":              { color: "#d6336c", emoji: "🎟️" },
+  "Sonstiges":           { color: "#6b6b66", emoji: "📍" }
+};
+
+// synonyms/keywords for the local "AI" query parser
+const GROUP_KEYWORDS = {
+  "Restaurant": ["restaurant","restaurants","essen","abendessen","mittagessen","essen gehen","küche","kueche","gasthaus","gasthof","wirtshaus","italienisch","sushi","steak","pizza","fine dining","sterne"],
+  "Café & Bar": ["café","cafe","kaffee","frühstück","fruehstueck","brunch","bar","bars","cocktail","cocktails","weinbar","wein","biergarten","brauerei","kneipe","rooftop"],
+  "Museum & Kultur": ["museum","museen","ausstellung","galerie","theater","oper","kultur","kino","konzerthaus"],
+  "Sehenswürdigkeit": ["sehenswürdigkeit","sehenswuerdigkeit","schloss","burg","altstadt","aussicht","aussichtspunkt","kirche","dom","denkmal","besichtigen"],
+  "Natur & Wandern": ["natur","wandern","wanderung","wanderweg","spaziergang","see","berg","berge","park","garten","radtour","radweg"],
+  "Wellness & Therme": ["wellness","therme","thermen","spa","sauna","massage","entspannen","bad","schwimmen","baden"],
+  "Sport & Aktiv": ["sport","aktiv","klettern","bouldern","boulderhalle","golf","kart","kartbahn","ski","skifahren","radfahren","escape room","escape"],
+  "Hotel": ["hotel","resort","übernachten","uebernachten","übernachtung","uebernachtung","unterkunft","wochenende","kurzurlaub","urlaub"],
+  "Events": ["event","events","festival","konzert","konzerte","markt","weihnachtsmarkt","fest","volksfest","messe","veranstaltung"],
+  "Sonstiges": ["shopping","einkaufen","einkaufszentrum","outlet"]
+};
+const COUNTRY_KEYWORDS = {
+  "deutschland": "Deutschland", "germany": "Deutschland",
+  "österreich": "Österreich", "oesterreich": "Österreich", "austria": "Österreich",
+  "tschechien": "Česko", "tschechei": "Česko", "czech": "Česko",
+  "niederlande": "Nederland", "holland": "Nederland", "netherlands": "Nederland",
+  "italien": "Italia", "italy": "Italia", "südtirol": "Italia", "suedtirol": "Italia",
+  "lettland": "Latvija", "latvia": "Latvija",
+  "ägypten": "مصر", "aegypten": "مصر", "egypt": "مصر"
+};
+const NEAR_KEYWORDS = ["nähe","naehe","nah","nahegelegen","nahe gelegen","kurze fahrt","in der nähe","in der naehe"];
+const RATING_KEYWORDS = ["gut bewertet","top bewertet","beste","top bewertung","hohe bewertung","hoch bewertet"];
+const STOPWORDS = new Set(["ein","eine","einen","der","die","das","in","im","am","an","zu","für","fuer","von","mit","und","oder","was","ich","suche","suchen","gerade","bitte","mal","gibt","es","nach","bei","unter","über","ueber","als","weniger","circa","ca","etwa","ungefähr","ungefaehr","max","maximal","gibts"]);
+
+// ---------- Personal data (visited / own notes), stored in this browser only ----------
+const USERDATA_KEY = 'adultmap_userdata_v1';
+function loadUserData() {
+  try { return JSON.parse(localStorage.getItem(USERDATA_KEY)) || {}; } catch (e) { return {}; }
+}
+function saveUserData() { try { localStorage.setItem(USERDATA_KEY, JSON.stringify(userData)); } catch (e) { /* localStorage unavailable (e.g. private mode) - keep working in-memory */ } }
+let userData = loadUserData();
+function getUserEntry(name) { return userData[name] || { visited: false, myNote: '', myRating: null }; }
+function setUserEntry(name, patch) {
+  userData[name] = Object.assign({}, getUserEntry(name), patch);
+  saveUserData();
+}
+function escapeHtml(s) {
+  return (s || '').toString()
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function formatDuration(min) {
+  if (min == null) return null;
+  const h = Math.floor(min / 60);
+  const m = Math.round(min % 60);
+  return h > 0 ? `${h} Std ${m} Min` : `${m} Min`;
+}
+
+// ---------- Deleted entries (hidden per browser, not a real data change) ----------
+const DELETED_KEY = 'adultmap_deleted_v1';
+function loadDeleted() {
+  try { return new Set(JSON.parse(localStorage.getItem(DELETED_KEY)) || []); } catch (e) { return new Set(); }
+}
+function saveDeleted() { try { localStorage.setItem(DELETED_KEY, JSON.stringify(Array.from(deletedNames))); } catch (e) {} }
+let deletedNames = loadDeleted();
+
+// ---------- State ----------
+let activeGroups = new Set(Object.keys(GROUPS));
+let searchTerm = "";
+let sortKey = "driveMin";
+let sortDir = 1;
+let selectedIdx = null;
+let aiParsed = null; // result of parseAIQuery(), or null when empty
+let routeSelection = []; // ordered array of DATA indices, for route planning
+let deleteSelection = []; // ordered array of DATA indices, marked for deletion
+let externalAiNames = null; // Set of DATA names returned by the real-AI query, or null when inactive
+let mapBoundsFilterActive = false; // when true, list is restricted to markers within the current map viewport
+
+function parseAIQuery(raw) {
+  const q = raw.trim().toLowerCase();
+  if (!q) return null;
+
+  const result = { groups: null, maxKm: null, country: null, terms: [], sortBy: null, sortDir: 1, explainParts: [] };
+
+  // categories
+  const foundGroups = new Set();
+  Object.entries(GROUP_KEYWORDS).forEach(([group, words]) => {
+    if (words.some(w => q.includes(w))) foundGroups.add(group);
+  });
+  if (foundGroups.size) {
+    result.groups = foundGroups;
+    result.explainParts.push("Kategorie: " + Array.from(foundGroups).join(", "));
+  }
+
+  // country
+  for (const [word, token] of Object.entries(COUNTRY_KEYWORDS)) {
+    if (q.includes(word)) { result.country = token; result.explainParts.push("Land: " + word); break; }
+  }
+
+  // "unter X km" (matched against real driving distance)
+  const kmMatch = q.match(/(\d+)\s*km/);
+  if (kmMatch) {
+    result.maxKm = parseInt(kmMatch[1], 10);
+    result.explainParts.push("max. " + result.maxKm + " km Fahrstrecke");
+  }
+
+  // distance intent -> sort by drive time
+  if (NEAR_KEYWORDS.some(k => q.includes(k))) {
+    result.sortBy = "driveMin"; result.sortDir = 1;
+    result.explainParts.push("sortiert nach Fahrzeit");
+  }
+  // rating intent -> sort by rating desc (wins over distance sort if both mentioned)
+  if (RATING_KEYWORDS.some(k => q.includes(k))) {
+    result.sortBy = "rating"; result.sortDir = -1;
+    result.explainParts.push("sortiert nach Bewertung");
+  }
+
+  // remaining free-text tokens (for name/type/note/address matching)
+  // strip recognised keywords on whole-word boundaries, longest first, so
+  // e.g. "hallenbad" is removed as one word instead of matching the
+  // shorter substring "bad" and leaving a meaningless "hallen" fragment.
+  const escapeRegex = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const allKeywords = [
+    ...Object.values(GROUP_KEYWORDS).flat(),
+    ...Object.keys(COUNTRY_KEYWORDS),
+    ...NEAR_KEYWORDS,
+    ...RATING_KEYWORDS
+  ].sort((a, b) => b.length - a.length);
+
+  let rest = q.replace(/\d+\s*km/g, " ");
+  allKeywords.forEach(w => {
+    rest = rest.replace(new RegExp("\\b" + escapeRegex(w) + "\\b", "gi"), " ");
+  });
+  const terms = rest.split(/[^a-zäöüß0-9]+/i).filter(t => t.length > 2 && !STOPWORDS.has(t));
+  if (terms.length) {
+    result.terms = terms;
+    if (!result.explainParts.length) result.explainParts.push("Suchbegriff: " + terms.join(", "));
+  }
+
+  if (!result.groups && !result.country && result.maxKm == null && !result.terms.length && !result.sortBy) {
+    return null; // nothing recognisable, fall back to plain search
+  }
+  return result;
+}
+
+// ---------- Map setup ----------
+const INITIAL_VIEW = { center: [SCHWABACH.lat, SCHWABACH.lon], zoom: 6 };
+const map = L.map('map-pane', { scrollWheelZoom: true }).setView(INITIAL_VIEW.center, INITIAL_VIEW.zoom);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende'
+}).addTo(map);
+
+const ResetViewControl = L.Control.extend({
+  options: { position: 'topleft' },
+  onAdd: function () {
+    const btn = L.DomUtil.create('button', 'leaflet-bar reset-view-btn');
+    btn.innerHTML = '⟲';
+    btn.title = 'Kartenansicht zurücksetzen';
+    btn.type = 'button';
+    L.DomEvent.on(btn, 'click', L.DomEvent.stop).on(btn, 'click', () => {
+      map.setView(INITIAL_VIEW.center, INITIAL_VIEW.zoom);
+    });
+    return btn;
+  }
+});
+map.addControl(new ResetViewControl());
+
+document.getElementById('mapBoundsToggle').addEventListener('change', e => {
+  mapBoundsFilterActive = e.target.checked;
+  document.getElementById('mapBoundsLabel').classList.toggle('active', mapBoundsFilterActive);
+  render();
+});
+map.on('moveend zoomend', () => {
+  if (mapBoundsFilterActive) render();
+});
+
+const MOBILE_MQ = window.matchMedia('(max-width: 600px)');
+if (MOBILE_MQ.matches) {
+  mapBoundsFilterActive = true;
+  document.getElementById('mapBoundsToggle').checked = true;
+  document.getElementById('mapBoundsLabel').classList.add('active');
+}
+document.getElementById('filterToggle').addEventListener('click', () => {
+  document.querySelector('header').classList.toggle('open');
+  updateFilterToggle();
+  setTimeout(() => map.invalidateSize(), 50);
+});
+function updateFilterToggle() {
+  const open = document.querySelector('header').classList.contains('open');
+  const n = (activeGroups.size < Object.keys(GROUPS).length ? 1 : 0) + (searchTerm ? 1 : 0) + (aiParsed ? 1 : 0) + (externalAiNames ? 1 : 0);
+  document.getElementById('filterToggleInfo').textContent = (n ? n + ' aktiv ' : '') + (open ? '▴' : '▾');
+}
+const toTopBtn = document.getElementById('toTop');
+document.querySelector('.table-scroll').addEventListener('scroll', e => {
+  toTopBtn.classList.toggle('show', e.target.scrollTop > 500);
+});
+toTopBtn.addEventListener('click', () => {
+  document.querySelector('.table-scroll').scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+L.circleMarker([SCHWABACH.lat, SCHWABACH.lon], {
+  radius: 7, color: "#1a1a1a", weight: 2, fillColor: "#ffd43b", fillOpacity: 1
+}).addTo(map).bindPopup("<b>Schwabach</b><br>Referenzpunkt für Fahrzeiten");
+
+function makeIcon(group, approx) {
+  const g = GROUPS[group] || GROUPS["Sonstiges"];
+  const dashed = approx ? "border: 2px dashed rgba(0,0,0,0.55);" : "border: 2px solid rgba(0,0,0,0.35);";
+  return L.divIcon({
+    className: "",
+    html: `<div style="background:${g.color};${dashed}width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,0.4);">${g.emoji}</div>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 13],
+    popupAnchor: [0, -13]
+  });
+}
+
+function gmapsLink(p) {
+  // Search by name (+ address when available) so Google Maps resolves to the
+  // actual named place with its info card, instead of just dropping a bare
+  // pin at raw coordinates with no name/reviews/photos attached.
+  const q = encodeURIComponent(p.addr ? `${p.name}, ${p.addr}` : p.name);
+  return `https://www.google.com/maps/search/?api=1&query=${q}`;
+}
+
+const markers = DATA.map((p, i) => {
+  if (p.lat == null || p.lon == null) return null;
+  const marker = L.marker([p.lat, p.lon], { icon: makeIcon(p.group, p.approx) });
+  const ratingHtml = p.rating != null ? `⭐ ${p.rating} (${p.reviews ?? "–"})` : "keine Bewertung";
+  const driveTxt = p.driveMin != null ? `${formatDuration(p.driveMin)} (${p.driveKm} km) ab Schwabach` : "";
+  marker.bindPopup(`
+    <div class="popup-title">${p.name}</div>
+    <div class="type-tag">${p.type}</div><br/>
+    <div style="margin-top:4px;">${ratingHtml}</div>
+    <div style="margin-top:2px;">${driveTxt}</div>
+    ${p.approx ? '<div class="approx-flag">≈ ungefährer Standort</div>' : ""}
+    ${p.note ? `<div class="popup-note">${p.note}</div>` : ""}
+    <a class="popup-link" href="${gmapsLink(p)}" target="_blank" rel="noopener">In Google Maps öffnen ↗</a>
+  `);
+  marker.on('click', () => selectRow(i, false));
+  return marker;
+});
+
+const markerGroup = L.layerGroup(markers.filter(Boolean)).addTo(map);
+
+// ---------- Chips ----------
+const chipsEl = document.getElementById('chips');
+
+function syncChipVisuals() {
+  document.querySelectorAll('.chip[data-group]').forEach(c => {
+    c.classList.toggle('active', activeGroups.has(c.dataset.group));
+  });
+  const allChip = document.getElementById('chipAll');
+  if (allChip) allChip.classList.toggle('active', activeGroups.size === Object.keys(GROUPS).length);
+}
+
+const allChip = document.createElement('span');
+allChip.className = 'chip active';
+allChip.id = 'chipAll';
+allChip.textContent = 'Alle';
+allChip.addEventListener('click', () => {
+  activeGroups = new Set(Object.keys(GROUPS));
+  syncChipVisuals();
+  render();
+});
+chipsEl.appendChild(allChip);
+
+Object.keys(GROUPS).forEach(g => {
+  const chip = document.createElement('span');
+  chip.className = 'chip active';
+  chip.dataset.group = g;
+  chip.innerHTML = `<span class="dot" style="background:${GROUPS[g].color}"></span>${g}`;
+  chip.addEventListener('click', () => {
+    const allActive = activeGroups.size === Object.keys(GROUPS).length;
+    if (allActive) {
+      // first click narrows down to just this one filter
+      activeGroups = new Set([g]);
+    } else if (activeGroups.has(g)) {
+      activeGroups.delete(g);
+    } else {
+      activeGroups.add(g);
+    }
+    syncChipVisuals();
+    render();
+  });
+  chipsEl.appendChild(chip);
+});
+document.getElementById('resetFilters').addEventListener('click', () => {
+  activeGroups = new Set(Object.keys(GROUPS));
+  document.querySelectorAll('.chip[data-group]').forEach(c => c.classList.remove('ai-highlight'));
+  syncChipVisuals();
+  document.getElementById('search').value = '';
+  document.getElementById('aiSearch').value = '';
+  searchTerm = '';
+  aiParsed = null;
+  document.getElementById('aiFeedback').textContent = '';
+  externalAiNames = null;
+  document.getElementById('realAiInput').value = '';
+  document.getElementById('realAiFeedback').textContent = '';
+  document.getElementById('realAiClear').style.display = 'none';
+  mapBoundsFilterActive = MOBILE_MQ.matches;
+  document.getElementById('mapBoundsToggle').checked = MOBILE_MQ.matches;
+  document.getElementById('mapBoundsLabel').classList.toggle('active', MOBILE_MQ.matches);
+  render();
+});
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value.trim().toLowerCase();
+  render();
+});
+document.getElementById('aiSearch').addEventListener('input', e => {
+  aiParsed = parseAIQuery(e.target.value);
+  const fb = document.getElementById('aiFeedback');
+  document.querySelectorAll('.chip[data-group]').forEach(c => c.classList.remove('ai-highlight'));
+  if (aiParsed) {
+    fb.textContent = "Verstanden als: " + aiParsed.explainParts.join(" · ");
+    if (aiParsed.groups) {
+      document.querySelectorAll('.chip[data-group]').forEach(c => {
+        if (aiParsed.groups.has(c.dataset.group)) c.classList.add('ai-highlight');
+      });
+    }
+  } else if (e.target.value.trim()) {
+    fb.textContent = "Kein bekanntes Muster erkannt – suche als Freitext in Name/Art/Notiz/Ort.";
+  } else {
+    fb.textContent = '';
+  }
+  render();
+});
+
+// ---------- Export ----------
+function triggerDownload(filename, content, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+document.getElementById('exportJson').addEventListener('click', () => {
+  const merged = DATA.map(p => Object.assign({}, p, getUserEntry(p.name)));
+  triggerDownload('erwachsenen-ausflugsziele.json', JSON.stringify(merged, null, 2), 'application/json');
+});
+document.getElementById('exportCsv').addEventListener('click', () => {
+  const cols = ['name','type','group','rating','reviews','driveKm','driveMin','addr','note','visited','myNote','myRating'];
+  const esc = v => {
+    const s = (v == null ? '' : String(v)).replace(/"/g, '""');
+    return /[;"\n]/.test(s) ? `"${s}"` : s;
+  };
+  const rows = [cols.join(';')];
+  DATA.forEach(p => {
+    const u = getUserEntry(p.name);
+    const row = Object.assign({}, p, u);
+    rows.push(cols.map(c => esc(row[c])).join(';'));
+  });
+  triggerDownload('erwachsenen-ausflugsziele.csv', rows.join('\n'), 'text/csv;charset=utf-8');
+});
+
+// ---------- Real external-AI query (Claude API, browser-side, personal API key) ----------
+const AI_KEY_STORAGE = 'adultmap_claude_api_key';
+function getApiKey() { try { return localStorage.getItem(AI_KEY_STORAGE) || ''; } catch (e) { return ''; } }
+function setApiKey(k) { try { k ? localStorage.setItem(AI_KEY_STORAGE, k) : localStorage.removeItem(AI_KEY_STORAGE); } catch (e) {} }
+
+document.getElementById('realAiKeyBtn').addEventListener('click', () => {
+  const current = getApiKey();
+  const masked = current ? `aktueller Key endet auf "…${current.slice(-4)}"` : 'noch kein Key gespeichert';
+  const input = prompt(`Anthropic-API-Key eingeben (wird nur in diesem Browser lokal gespeichert, ${masked}).\nLeer lassen + OK = Key löschen.`, '');
+  if (input === null) return; // cancelled
+  setApiKey(input.trim());
+});
+
+document.getElementById('realAiClear').addEventListener('click', () => {
+  externalAiNames = null;
+  document.getElementById('realAiFeedback').textContent = '';
+  document.getElementById('realAiClear').style.display = 'none';
+  render();
+});
+
+async function askRealAI(question) {
+  const key = getApiKey();
+  const fb = document.getElementById('realAiFeedback');
+  const askBtn = document.getElementById('realAiAsk');
+  if (!key) {
+    fb.textContent = '⚠️ Bitte erst über "🔑 Key" einen Anthropic-API-Key eintragen.';
+    return;
+  }
+  if (!question.trim()) return;
+  fb.textContent = 'Frage wird an Claude gesendet…';
+  askBtn.disabled = true;
+  try {
+    const list = DATA
+      .map((p, i) => (deletedNames.has(p.name) ? null : `${i}|${p.name}|${p.group}|${p.lat != null ? p.lat : ''}|${p.lon != null ? p.lon : ''}|${(p.addr || '').replace(/\|/g, ' ')}`))
+      .filter(Boolean)
+      .join('\n');
+    const prompt = `Du bekommst eine Liste von Ausflugszielen im Format "Index|Name|Kategorie|Breitengrad|Längengrad|Adresse", eine Zeile pro Ort. Beantworte die folgende Frage AUSSCHLIESSLICH anhand dieser Liste - erfinde keine neuen Orte und nutze kein Wissen über Orte, die nicht in der Liste stehen. Für Umkreis-/Entfernungsfragen berechne die Entfernung selbst per Haversine-Formel aus Breitengrad/Längengrad. Orte ohne Koordinaten kannst du für solche Fragen nicht berücksichtigen. Antworte AUSSCHLIESSLICH mit einem JSON-Array der passenden Indizes, ohne jeden weiteren Text, z.B. [3,17,42]. Wenn nichts passt, antworte mit [].\n\nListe:\n${list}\n\nFrage: ${question}`;
+
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1024,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!res.ok) {
+      const errText = await res.text();
+      throw new Error(`API-Fehler ${res.status}: ${errText.slice(0, 200)}`);
+    }
+    const data = await res.json();
+    const text = (data.content || []).map(b => b.text || '').join('');
+    const match = text.match(/\[[\s\d,]*\]/);
+    if (!match) throw new Error('Antwort konnte nicht gelesen werden: ' + text.slice(0, 200));
+    const indices = JSON.parse(match[0]);
+    const names = new Set(indices.map(i => DATA[i] && DATA[i].name).filter(Boolean));
+
+    externalAiNames = names;
+    aiParsed = null;
+    document.getElementById('aiSearch').value = '';
+    document.getElementById('aiFeedback').textContent = '';
+    document.querySelectorAll('.chip[data-group]').forEach(c => c.classList.remove('ai-highlight'));
+    fb.textContent = names.size ? `✓ ${names.size} Treffer aus der Liste.` : 'Keine passenden Einträge in der Liste gefunden.';
+    document.getElementById('realAiClear').style.display = 'inline-block';
+    render();
+  } catch (err) {
+    fb.textContent = '⚠️ ' + err.message;
+  } finally {
+    askBtn.disabled = false;
+  }
+}
+
+document.getElementById('realAiAsk').addEventListener('click', () => {
+  askRealAI(document.getElementById('realAiInput').value);
+});
+document.getElementById('realAiInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') askRealAI(e.target.value);
+});
+
+// ---------- Route planning ----------
+function buildRouteUrl() {
+  // Always a round trip: Schwabach -> every selected stop, in selection order -> back to Schwabach.
+  const pts = routeSelection.map(i => DATA[i]).filter(p => p && p.lat != null);
+  if (!pts.length) return null;
+  const schwabach = `${SCHWABACH.lat},${SCHWABACH.lon}`;
+  const waypoints = pts.map(p => `${p.lat},${p.lon}`).join('|');
+  let url = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(schwabach)}&destination=${encodeURIComponent(schwabach)}&travelmode=driving`;
+  url += `&waypoints=${encodeURIComponent(waypoints)}`;
+  return url;
+}
+function updateRouteBar() {
+  const bar = document.getElementById('routeBar');
+  if (routeSelection.length === 0) { bar.style.display = 'none'; return; }
+  bar.style.display = 'flex';
+  bar.querySelector('.route-count').textContent = routeSelection.length + (routeSelection.length === 1 ? ' Ziel ausgewählt' : ' Ziele ausgewählt');
+}
+document.getElementById('openRouteBtn').addEventListener('click', () => {
+  const url = buildRouteUrl();
+  if (url) window.open(url, '_blank', 'noopener');
+});
+document.getElementById('clearRouteBtn').addEventListener('click', () => {
+  routeSelection = [];
+  render();
+});
+
+// ---------- Delete selection ----------
+function updateDeleteBar() {
+  const bar = document.getElementById('deleteBar');
+  if (deleteSelection.length === 0) { bar.style.display = 'none'; return; }
+  bar.style.display = 'flex';
+  bar.querySelector('.delete-count').textContent = deleteSelection.length + (deleteSelection.length === 1 ? ' Eintrag markiert' : ' Einträge markiert');
+}
+document.getElementById('deleteSelectedBtn').addEventListener('click', () => {
+  const names = deleteSelection.map(i => DATA[i].name);
+  if (!names.length) return;
+  const ok = confirm(names.length === 1
+    ? `"${names[0]}" aus der Liste entfernen?`
+    : `${names.length} Einträge aus der Liste entfernen?`);
+  if (!ok) return;
+  names.forEach(n => deletedNames.add(n));
+  saveDeleted();
+  deleteSelection = [];
+  render();
+});
+document.getElementById('clearDeleteBtn').addEventListener('click', () => {
+  deleteSelection = [];
+  render();
+});
+// ---------- Sorting ----------
+document.querySelectorAll('.sort-btn[data-key]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.key;
+    if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+    render();
+  });
+});
+
+// ---------- Filtering / rendering ----------
+function matchesFilter(p) {
+  if (deletedNames.has(p.name)) return false;
+  if (mapBoundsFilterActive && viewMode === 'both') {
+    if (p.lat == null || p.lon == null) return false;
+    if (!map.getBounds().contains([p.lat, p.lon])) return false;
+  }
+  if (externalAiNames) {
+    if (!externalAiNames.has(p.name)) return false;
+    if (searchTerm && !p.name.toLowerCase().includes(searchTerm)) return false;
+    return true;
+  }
+  if (aiParsed) {
+    if (aiParsed.groups && !aiParsed.groups.has(p.group)) return false;
+    if (aiParsed.maxKm != null && (p.driveKm == null || p.driveKm > aiParsed.maxKm)) return false;
+    if (aiParsed.country && !(p.addr && p.addr.toLowerCase().includes(aiParsed.country.toLowerCase()))) return false;
+    if (aiParsed.terms.length) {
+      const hay = (p.name + ' ' + p.type + ' ' + (p.note||'') + ' ' + (p.addr||'')).toLowerCase();
+      if (!aiParsed.terms.some(t => hay.includes(t))) return false;
+    }
+    if (searchTerm && !p.name.toLowerCase().includes(searchTerm)) return false;
+    return true;
+  }
+  if (!activeGroups.has(p.group)) return false;
+  if (searchTerm && !p.name.toLowerCase().includes(searchTerm)) return false;
+  return true;
+}
+
+function cmp(a, b, effKey, effDir) {
+  let va = a[effKey], vb = b[effKey];
+  if (effKey === 'driveMin' || effKey === 'driveKm') {
+    va = va == null ? Infinity : va;
+    vb = vb == null ? Infinity : vb;
+  } else if (effKey === 'rating') {
+    va = va == null ? -1 : va;
+    vb = vb == null ? -1 : vb;
+  } else {
+    va = (va || '').toString().toLowerCase();
+    vb = (vb || '').toString().toLowerCase();
+  }
+  if (va < vb) return -1 * effDir;
+  if (va > vb) return 1 * effDir;
+  return 0;
+}
+
+function selectRow(i) {
+  selectedIdx = i;
+  render();
+  const p = DATA[i];
+  if (p.lat != null && markers[i]) {
+    map.setView([p.lat, p.lon], Math.max(map.getZoom(), 10), { animate: true });
+    markers[i].openPopup();
+  }
+}
+
+const cardList = document.getElementById('cardList');
+cardList.addEventListener('change', e => {
+  const idx = e.target.dataset.idx;
+  if (idx == null) return;
+  const i = Number(idx);
+  const p = DATA[i];
+  if (e.target.classList.contains('visited-checkbox')) {
+    setUserEntry(p.name, { visited: e.target.checked });
+    render();
+  } else if (e.target.classList.contains('route-checkbox')) {
+    if (e.target.checked) {
+      if (routeSelection.length >= 9) {
+        e.target.checked = false;
+        alert('Maximal 9 Ziele pro Route (Google-Maps-Limit).');
+        return;
+      }
+      routeSelection.push(i);
+    } else {
+      routeSelection = routeSelection.filter(x => x !== i);
+    }
+    updateRouteBar();
+  } else if (e.target.classList.contains('my-note-input')) {
+    setUserEntry(p.name, { myNote: e.target.value });
+  } else if (e.target.classList.contains('delete-checkbox')) {
+    if (e.target.checked) {
+      deleteSelection.push(i);
+    } else {
+      deleteSelection = deleteSelection.filter(x => x !== i);
+    }
+    updateDeleteBar();
+  }
+});
+
+cardList.addEventListener('click', e => {
+  const star = e.target.closest('.d4-star');
+  if (!star) return;
+  const p = DATA[Number(star.dataset.idx)];
+  const v = Number(star.dataset.n) * 2;
+  setUserEntry(p.name, { myRating: getUserEntry(p.name).myRating === v ? null : v });
+  render();
+});
+
+function render() {
+  const effKey = (aiParsed && aiParsed.sortBy) ? aiParsed.sortBy : sortKey;
+  const effDir = (aiParsed && aiParsed.sortBy) ? aiParsed.sortDir : sortDir;
+
+  document.querySelectorAll('.sort-btn[data-key]').forEach(btn => {
+    btn.classList.toggle('sorted', btn.dataset.key === effKey);
+    btn.dataset.dir = effDir === 1 ? '▲' : '▼';
+  });
+
+  const indexed = DATA.map((p, i) => ({ p, i })).filter(x => matchesFilter(x.p));
+  indexed.sort((a, b) => cmp(a.p, b.p, effKey, effDir));
+
+  markers.forEach((m, i) => {
+    if (!m) return;
+    const visible = matchesFilter(DATA[i]);
+    if (visible && !map.hasLayer(m)) markerGroup.addLayer(m);
+    if (!visible && map.hasLayer(m)) markerGroup.removeLayer(m);
+  });
+
+  cardList.innerHTML = indexed.length ? '' : `<p class="empty-note">${DATA.length ? 'Keine Einträge für die aktuelle Auswahl.' : 'Noch keine Einträge vorhanden.'}</p>`;
+  indexed.forEach(({ p, i }) => {
+    const u = getUserEntry(p.name);
+    const card = document.createElement('div');
+    card.className = 'row-card';
+    if (i === selectedIdx) card.classList.add('selected');
+    if (u.visited) card.classList.add('visited');
+
+    const ratingTxt = p.rating != null ? `⭐ ${p.rating} (${p.reviews ?? '–'})` : '–';
+    const driveTxt = p.driveMin != null
+      ? `${formatDuration(p.driveMin)} <span style="color:var(--text-muted);">(${p.driveKm} km)</span>`
+      : '<span class="no-loc">Standort unbekannt</span>';
+    const locTxt = p.addr ? p.addr.split(',').slice(-3).join(',').trim() : (p.approx ? '<span class="approx-flag">≈ ungefähr</span>' : '–');
+
+    const isClosedNote = p.note && /geschlossen/i.test(p.note);
+    let noteHtml = '';
+    if (isClosedNote) {
+      noteHtml += `<div class="closed-badge">⚠️ ${escapeHtml(p.note)} · <a href="${gmapsLink(p)}" target="_blank" rel="noopener">Status prüfen ↗</a></div>`;
+    } else if (p.note) {
+      noteHtml += `<div>${escapeHtml(p.note)}</div>`;
+    }
+    noteHtml += `<div class="my-note-row">
+      <input class="my-note-input" data-idx="${i}" placeholder="Eigene Notiz…" value="${escapeHtml(u.myNote)}">
+    </div>`;
+
+    const starsFilled = u.myRating != null ? Math.ceil(u.myRating / 2) : 0;
+    const starsHtml = [1, 2, 3, 4, 5].map(n => `<span class="d4-star${n <= starsFilled ? ' f' : ''}" data-idx="${i}" data-n="${n}">★</span>`).join('');
+    card.innerHTML = `
+      <div class="d4-top">
+        <label class="d4-check" title="Besucht"><input type="checkbox" class="visited-checkbox" data-idx="${i}" ${u.visited ? 'checked' : ''}><span class="box">✓</span></label>
+        <div class="d4-main">
+          <span class="card-name">${escapeHtml(p.name)}</span>
+          <span class="type-tag">${escapeHtml(p.type)}</span>
+          <div class="card-meta">${ratingTxt} &nbsp;·&nbsp; ${driveTxt}</div>
+          <div class="card-addr">${locTxt}</div>
+        </div>
+        <span class="d4-stars" title="${u.myRating != null ? 'Meine Wertung: ' + u.myRating + '/10' : 'Eigene Wertung vergeben'}">${starsHtml}</span>
+      </div>
+      <div class="card-note">${noteHtml}</div>
+      <div class="d4-foot">
+        <label class="d4-link route${p.lat == null ? ' disabled' : ''}" title="Für Routenplanung auswählen"><input type="checkbox" class="route-checkbox" data-idx="${i}" ${routeSelection.includes(i) ? 'checked' : ''} ${p.lat == null ? 'disabled' : ''}><span>🧭 Zur Route</span></label>
+        <label class="d4-link del" title="Zum Löschen markieren"><input type="checkbox" class="delete-checkbox" data-idx="${i}" ${deleteSelection.includes(i) ? 'checked' : ''}><span>🗑 Löschen</span></label>
+        ${u.visited ? '<span class="d4-vis">✓ Besucht</span>' : ''}
+      </div>
+    `;
+    card.addEventListener('click', e => {
+      if (e.target.tagName === 'INPUT' || e.target.closest('label') || e.target.closest('.d4-stars')) return; // don't hijack checkbox/input/star clicks
+      selectRow(i);
+    });
+    cardList.appendChild(card);
+  });
+
+  const activeTotal = DATA.length - deletedNames.size;
+  document.getElementById('visibleCount').textContent = `${indexed.length} / ${activeTotal} Orte`;
+
+  const visitedCount = DATA.filter(p => !deletedNames.has(p.name) && getUserEntry(p.name).visited).length;
+  document.getElementById('statsBar').textContent =
+    `· 📍 ${activeTotal} Orte gesamt · ✅ ${visitedCount} besucht · ⬜ ${activeTotal - visitedCount} noch nicht besucht`;
+
+  updateRouteBar();
+  updateDeleteBar();
+  updateFilterToggle();
+  if (tableMode) renderTable();
+}
+
+// ---------- Comparison table (8 columns per category) ----------
+const TABLE_COLS = {
+  "Restaurant": ["Küche", "Preisniveau", "Reservierung", "Öffnungszeiten", "Besonderheit"],
+  "Café & Bar": ["Angebot", "Preisniveau", "Öffnungszeiten", "Außenbereich", "Besonderheit"],
+  "Museum & Kultur": ["Eintritt", "Öffnungszeiten", "Dauer", "Führungen", "Besonderheit"],
+  "Sehenswürdigkeit": ["Eintritt", "Öffnungszeiten", "Dauer", "Beste Zeit", "Besonderheit"],
+  "Natur & Wandern": ["Strecke / Dauer", "Schwierigkeit", "Einkehr", "Parken", "Besonderheit"],
+  "Wellness & Therme": ["Eintritt", "Sauna", "Becken / Bereiche", "Öffnungszeiten", "Besonderheit"],
+  "Sport & Aktiv": ["Preis", "Angebot", "Voraussetzung", "Öffnungszeiten", "Besonderheit"],
+  "Hotel": ["Preis / Nacht", "Wellness", "Restaurant", "Verpflegung", "Besonderheit"],
+  "Events": ["Termin", "Eintritt", "Ort", "Dauer", "Besonderheit"],
+  "Sonstiges": ["Preis", "Angebot", "Öffnungszeiten", "Dauer", "Hinweis"]
+};
+/*DETAILS_START*/const DETAILS = {};/*DETAILS_END*/
+let viewMode = 'both'; // 'both' = map + list, 'list' = list only, 'table' = comparison table
+let tableMode = false;
+let tableSort = { key: 'driveMin', dir: 1 };
+
+function tableSortVal(p, key) {
+  if (key === 'name') return p.name.toLowerCase();
+  if (key === 'driveMin' || key === 'rating') return p[key] == null ? null : p[key];
+  const v = (DETAILS[p.name] || {})[key];
+  if (v == null) return null;
+  const m = String(v).match(/\d[\d.]*(?:,\d+)?/);
+  if (m) return parseFloat(m[0].replace(/\./g, '').replace(',', '.'));
+  return String(v).toLowerCase();
+}
+function tableCompare(a, b) {
+  const va = tableSortVal(a, tableSort.key), vb = tableSortVal(b, tableSort.key);
+  if (va == null && vb == null) return 0;
+  if (va == null) return 1;
+  if (vb == null) return -1;
+  const na = typeof va === 'number', nb = typeof vb === 'number';
+  if (na !== nb) return na ? -1 : 1;
+  return (va < vb ? -1 : va > vb ? 1 : 0) * tableSort.dir;
+}
+function renderTable() {
+  const byGroup = {};
+  DATA.forEach(p => { if (matchesFilter(p)) (byGroup[p.group] = byGroup[p.group] || []).push(p); });
+  let html = '<p class="cmp-note">Leere Felder (–) sind noch nicht recherchiert oder nicht belegbar. Ein Klick auf die Spaltenüberschrift sortiert.</p>';
+  let any = false;
+  Object.keys(GROUPS).forEach(g => {
+    const rows = byGroup[g];
+    if (!rows || !rows.length) return;
+    any = true;
+    rows.sort(tableCompare);
+    const labels = TABLE_COLS[g] || [];
+    const heads = [['name', 'Name'], ['driveMin', 'Fahrzeit'], ['rating', 'Bewertung']]
+      .concat(labels.map((l, i) => ['c' + (i + 1), l]));
+    html += `<div class="cmp-title">${GROUPS[g].emoji} ${escapeHtml(g)} <span style="font-weight:400;color:var(--text-muted)">(${rows.length})</span></div>`;
+    html += '<table class="cmp-table"><thead><tr>' + heads.map(([k, l]) =>
+      `<th data-key="${k}" class="${tableSort.key === k ? 'sorted' : ''}">${escapeHtml(l)}${tableSort.key === k ? (tableSort.dir === 1 ? ' ▲' : ' ▼') : ''}</th>`).join('') + '</tr></thead><tbody>';
+    rows.forEach(p => {
+      const d = DETAILS[p.name] || {};
+      const src = d.src && /^https?:\/\//.test(d.src) ? `<a class="src" href="${escapeHtml(d.src)}" target="_blank" rel="noopener" title="Quelle">ⓘ</a>` : '';
+      const cell = (label, v) => `<td data-label="${escapeHtml(label)}">${v == null || v === '' ? '<span class="na">–</span>' : escapeHtml(v)}</td>`;
+      html += `<tr><td class="nm"><a href="${gmapsLink(p)}" target="_blank" rel="noopener">${escapeHtml(p.name)}</a>${src}</td>`
+        + cell('Fahrzeit', p.driveMin != null ? `${formatDuration(p.driveMin)} (${p.driveKm} km)` : null)
+        + cell('Bewertung', p.rating != null ? `⭐ ${p.rating} (${p.reviews ?? '–'})` : null)
+        + labels.map((l, i) => cell(l, d['c' + (i + 1)])).join('') + '</tr>';
+    });
+    html += '</tbody></table>';
+  });
+  if (!any) html += '<p>Keine Einträge für die aktuelle Auswahl.</p>';
+  document.getElementById('tablePane').innerHTML = html;
+}
+document.getElementById('tablePane').addEventListener('click', e => {
+  const th = e.target.closest('th[data-key]');
+  if (!th) return;
+  const k = th.dataset.key;
+  if (tableSort.key === k) tableSort.dir *= -1; else tableSort = { key: k, dir: 1 };
+  renderTable();
+});
+const VIEW_KEY = 'adultmap_view_v1';
+function setView(v) {
+  viewMode = v;
+  tableMode = v === 'table';
+  document.body.classList.toggle('table-mode', tableMode);
+  document.body.classList.toggle('list-only', v === 'list');
+  document.querySelectorAll('#viewSeg button').forEach(b => b.classList.toggle('on', b.dataset.view === v));
+  try { localStorage.setItem(VIEW_KEY, v); } catch (e) {}
+  render();
+  if (v === 'both') setTimeout(() => map.invalidateSize(), 50);
+}
+document.querySelectorAll('#viewSeg button').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
+
+render();
+try { const sv = localStorage.getItem(VIEW_KEY); if (sv === 'list' || sv === 'table') setView(sv); } catch (e) {}
+
+// ---------- Lock screen (deterrent only, not real security) ----------
+const LOCK_B64 = 'MTIzNDU2Nzg=';
+const LOCK_KEY = 'adultmap_unlocked_v1';
+
+function showApp() {
+  document.getElementById('lockScreen').style.display = 'none';
+  document.getElementById('app').classList.remove('locked');
+  setTimeout(() => map.invalidateSize(), 50);
+}
+function lockApp() {
+  try { localStorage.removeItem(LOCK_KEY); } catch (e) {}
+  document.getElementById('lockScreen').style.display = 'flex';
+  document.getElementById('app').classList.add('locked');
+  document.getElementById('lockPassword').value = '';
+}
+(() => {
+  let alreadyUnlocked = false;
+  try { alreadyUnlocked = localStorage.getItem(LOCK_KEY) === '1'; } catch (e) {}
+  if (alreadyUnlocked) showApp();
+})();
+document.getElementById('lockSubmit').addEventListener('click', () => {
+  const val = document.getElementById('lockPassword').value;
+  if (btoa(val) === LOCK_B64) {
+    try { localStorage.setItem(LOCK_KEY, '1'); } catch (e) {}
+    document.getElementById('lockError').textContent = '';
+    showApp();
+  } else {
+    document.getElementById('lockError').textContent = 'Falsches Passwort.';
+  }
+});
+document.getElementById('lockPassword').addEventListener('keydown', e => {
+  if (e.key === 'Enter') document.getElementById('lockSubmit').click();
+});
+document.getElementById('lockLink').addEventListener('click', lockApp);
+</script>
+</body>
+</html>
