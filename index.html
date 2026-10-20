@@ -221,6 +221,10 @@
   .d4-link.del input:checked + span { color: #c92a2a; background: #fdecec; font-weight: 600; }
   .d4-link.disabled { opacity: .4; cursor: not-allowed; }
   .d4-vis { margin-left: auto; font-size: 12px; color: #2f9e44; }
+  .card-facts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .fact-pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); color: var(--text); background: var(--panel); }
+  .card-special { margin-top: 5px; font-size: 12px; font-style: italic; color: var(--text-muted); }
+  .d4-link.web { text-decoration: none; }
   .type-tag {
     display: inline-block;
     font-size: 11px;
@@ -287,6 +291,8 @@
     .d4-check .box { width: 26px; height: 26px; font-size: 16px; }
     .d4-star { font-size: 26px; padding: 2px 1px; }
     .d4-link span { min-height: 44px; padding: 0 12px; font-size: 14px; }
+    .fact-pill { font-size: 13px; padding: 2px 9px; }
+    .card-special { font-size: 13px; }
     .d4-foot { gap: 4px; margin-top: 4px; padding-top: 2px; }
     .my-note-input { font-size: 14px; padding: 8px; }
     .to-top { position: absolute; left: 10px; bottom: 14px; width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--accent); color: #fff; font-size: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 500; cursor: pointer; }
@@ -398,7 +404,7 @@
 // ---------- Data ----------
 const SCHWABACH = { lat: 49.3346915, lon: 11.0294139 };
 
-const DATA = [];
+/*DATA_START*/const DATA = [];/*DATA_END*/
 
 const GROUPS = {
   "Restaurant":          { color: "#c92a2a", emoji: "🍽️" },
@@ -1045,6 +1051,23 @@ function render() {
       <input class="my-note-input" data-idx="${i}" placeholder="Eigene Notiz…" value="${escapeHtml(u.myNote)}">
     </div>`;
 
+    // Fakten-Zeile, Besonderheit und Website-Link: nur wenn Recherchedaten (DETAILS) vorhanden sind
+    const det = DETAILS[p.name];
+    let factsHtml = '', specialHtml = '', webHtml = '';
+    if (det) {
+      const labels = TABLE_COLS[p.group] || [];
+      const pills = [];
+      labels.slice(0, -1).forEach((l, k) => {
+        const v = det['c' + (k + 1)];
+        if (v == null || String(v).trim() === '') return;
+        pills.push(`<span class="fact-pill">${l === 'Preisniveau' ? '' : escapeHtml(l) + ': '}${escapeHtml(v)}</span>`);
+      });
+      if (pills.length) factsHtml = `<div class="card-facts">${pills.join('')}</div>`;
+      const sp = labels.length ? det['c' + labels.length] : null;
+      if (sp != null && String(sp).trim() !== '') specialHtml = `<div class="card-special">${escapeHtml(sp)}</div>`;
+      if (det.web && /^https?:\/\//.test(det.web)) webHtml = `<a class="d4-link web" href="${escapeHtml(det.web)}" target="_blank" rel="noopener" title="Website des Lokals"><span>🌐 Website</span></a>`;
+    }
+
     const starsFilled = u.myRating != null ? Math.ceil(u.myRating / 2) : 0;
     const starsHtml = [1, 2, 3, 4, 5].map(n => `<span class="d4-star${n <= starsFilled ? ' f' : ''}" data-idx="${i}" data-n="${n}">★</span>`).join('');
     card.innerHTML = `
@@ -1058,15 +1081,18 @@ function render() {
         </div>
         <span class="d4-stars" title="${u.myRating != null ? 'Meine Wertung: ' + u.myRating + '/10' : 'Eigene Wertung vergeben'}">${starsHtml}</span>
       </div>
+      ${factsHtml}
+      ${specialHtml}
       <div class="card-note">${noteHtml}</div>
       <div class="d4-foot">
         <label class="d4-link route${p.lat == null ? ' disabled' : ''}" title="Für Routenplanung auswählen"><input type="checkbox" class="route-checkbox" data-idx="${i}" ${routeSelection.includes(i) ? 'checked' : ''} ${p.lat == null ? 'disabled' : ''}><span>🧭 Zur Route</span></label>
         <label class="d4-link del" title="Zum Löschen markieren"><input type="checkbox" class="delete-checkbox" data-idx="${i}" ${deleteSelection.includes(i) ? 'checked' : ''}><span>🗑 Löschen</span></label>
+        ${webHtml}
         ${u.visited ? '<span class="d4-vis">✓ Besucht</span>' : ''}
       </div>
     `;
     card.addEventListener('click', e => {
-      if (e.target.tagName === 'INPUT' || e.target.closest('label') || e.target.closest('.d4-stars')) return; // don't hijack checkbox/input/star clicks
+      if (e.target.tagName === 'INPUT' || e.target.closest('label') || e.target.closest('a') || e.target.closest('.d4-stars')) return; // don't hijack checkbox/input/star clicks
       selectRow(i);
     });
     cardList.appendChild(card);
