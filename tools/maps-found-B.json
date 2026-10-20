@@ -1168,7 +1168,7 @@
       "pdfNr": 20,
       "listNr": 90,
       "name": "Alchemist",
-      "reason": "In Nürnberg/Fürth/Schwabach/Erlangen kein \"Alchemist\" gefunden; nur Treffer in Berlin, Düsseldorf, Kopenhagen, Prag (Alchymist). Nachbarn (Südsee-Camp, Züricher Park, Kindermuseum Nürnberg) deuten auf Franken",
+      "reason": "In Nürnberg/Fürth/Schwabach/Erlangen kein \"Alchemist\" gefunden; nur Treffer in Berlin, Düsseldorf, Kopenhagen, Prag (Alchymist). Nachbarn (Südsee-Camp, Züricher Park, Kindermuseum Nürnberg) deuten auf Franken; zweite Suche mit lokalem Kartenausschnitt (Nürnberg/Fürth/Schwabach/Altmühlsee) ohne neuen Treffer",
       "candidates": [
         {
           "mapsName": "Alchymist Grand Hotel and Spa",
@@ -1191,12 +1191,17 @@
       "pdfNr": 42,
       "listNr": 203,
       "name": "Royal Club",
-      "reason": "Mehrere Treffer in Nürnberg/München, keiner eindeutig; PDF ohne Kategorie/Bewertung, Nachbarn (Nerudova 211 Café Prag, Ottobrunner Str. 61, Ghupft wia Gsprunga) geben keine eindeutige Region",
+      "reason": "Mehrere Treffer in Nürnberg/München, keiner eindeutig; PDF ohne Kategorie/Bewertung, Nachbarn (Nerudova 211 Café Prag, Ottobrunner Str. 61, Ghupft wia Gsprunga) geben keine eindeutige Region; zweite Suche mit Kartenausschnitt Nürnberg/Schwabach/München/Prag ebenfalls ohne eindeutigen Treffer",
       "candidates": [
         {
           "mapsName": "Royal Shisha Lounge",
           "addr": "Sonnenstraße 18, 80336 München",
           "why": "Nur Namensähnlichkeit, Kategorie Shisha-Bar nicht belegt"
+        },
+        {
+          "mapsName": "Royal Club UG (haftungsbeschränkt)",
+          "addr": "Echinger Str. 8, 85375 Neufahrn bei Freising",
+          "why": "Exakter Name, Kategorie Restaurant, 4,7 (3) – Region Oberbayern passt zu den Nachbarn Ottobrunner Str. 61 / Ghupft wia Gsprunga, aber nur 3 Bewertungen, nicht belegt"
         }
       ]
     },
@@ -1204,7 +1209,7 @@
       "pdfNr": 46,
       "listNr": 215,
       "name": "Lily bar",
-      "reason": "Kein Treffer mit Namen \"Lily Bar\" in Franken (Nürnberg, Schwabach); nur Namensähnliche (Lilly Bar München im Hotel) ohne passende Region",
+      "reason": "Kein Treffer mit Namen \"Lily Bar\" in Franken (Nürnberg, Schwabach); nur Namensähnliche (Lilly Bar München im Hotel) ohne passende Region; zweite Suche mit lokalem Kartenausschnitt (Nürnberg/Fürth/Schwabach/Altmühlsee) ohne neuen Treffer",
       "candidates": [
         {
           "mapsName": "Lilly Bar Munich",
@@ -1224,7 +1229,7 @@
       "pdfNr": 84,
       "listNr": 395,
       "name": "Gasthaus \"Zum Hirschen\" beim Sch…",
-      "reason": "Name in der Liste abgeschnitten; mehrere Gasthäuser \"Zum Hirschen\" in Mittelfranken/Oberpfalz, keines eindeutig mit Zusatz \"beim Sch…\" (Schloss?) erkennbar",
+      "reason": "Name in der Liste abgeschnitten; mehrere Gasthäuser \"Zum Hirschen\" in Mittelfranken/Oberpfalz, keines eindeutig mit Zusatz \"beim Sch…\" (Schloss?) erkennbar; zweite Suche mit lokalem Kartenausschnitt (Nürnberg/Fürth/Schwabach/Altmühlsee) ohne neuen Treffer",
       "candidates": [
         {
           "mapsName": "Gasthaus & Pension zum Hirschen am Altmühlsee",
@@ -1394,7 +1399,13 @@
       "listNr": 646,
       "name": "Posmitnoho St, 10",
       "reason": "Maps findet unter dieser Straßenadresse nur andere Treffer (ODESA CITY, Hotels), keine eindeutige Adresse",
-      "candidates": []
+      "candidates": [
+        {
+          "mapsName": "Posmitnoho St, 10",
+          "addr": "84619 Horlivka, Oblast Donezk",
+          "why": "Einziger Treffer mit dieser Adresse, aber besetztes Gebiet und nicht Odesa"
+        }
+      ]
     },
     {
       "pdfNr": 174,
