@@ -64,5 +64,3113 @@
     "lon": 11.074847,
     "approx": false,
     "osm": "Einzimmer Küche Bar, 10, Schustergasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "CITY|nl|PV Luttelgeest": {
+    "lat": 52.759933,
+    "lon": 5.830733
+  },
+  "Oosterringweg 34, 8315 PV Luttelgeest, Niederlande|Pantropica": {
+    "lat": 52.759047,
+    "lon": 5.832441,
+    "approx": false,
+    "osm": "34, Oosterringweg, Luttelgeest, Noordoostpolder, Flevoland, Niederlande, 8315 PV, Niederlande"
+  },
+  "CITY|pl|Wręcza": {
+    "lat": 51.996099,
+    "lon": 20.44959
+  },
+  "Nowy Świat 1, Wręcza (Gemeinde Mszczonów), Polen|Suntago Wodny Świat (Park of Poland)": {
+    "lat": 51.988669,
+    "lon": 20.460319,
+    "approx": true,
+    "osm": "Suntago Park Wodny, Nowy Świat, Wręcza, Polen"
+  },
+  "CITY|at|Wagrain": {
+    "lat": 47.333629,
+    "lon": 13.303153
+  },
+  "Markt 59, 5602 Wagrain, Österreich|woom bike area Wagrain": {
+    "lat": 47.32806,
+    "lon": 13.299523,
+    "approx": false,
+    "osm": "59, Markt, Salzburg, 5602, Österreich"
+  },
+  "CITY|de|Furth im Wald": {
+    "lat": 49.308164,
+    "lon": 12.845283
+  },
+  "Daberger Straße, 93437 Furth im Wald, Deutschland|Wildgarten Furth im Wald": {
+    "lat": 49.307282,
+    "lon": 12.855982,
+    "approx": false,
+    "osm": "Daberger Straße, Seuchau, Furth im Wald, Landkreis Cham, Bayern, 93437, Deutschland"
+  },
+  "CITY|cz|Zdice": {
+    "lat": 49.911954,
+    "lon": 13.977986
+  },
+  "Husova 5, 267 51 Zdice, Tschechien|Elce Pelce Café": {
+    "lat": 49.912788,
+    "lon": 13.978457,
+    "approx": false,
+    "osm": "Elce Pelce Café, 5, Husova, Zditz, Bezirk Beraun, Mittelböhmische Region, 267 51, Tschechien"
+  },
+  "CITY|ro|Turda": {
+    "lat": 46.568521,
+    "lon": 23.785364
+  },
+  "Aleea Durgăului 7, Turda, Rumänien|Salina Turda": {
+    "lat": 46.587705,
+    "lon": 23.787327,
+    "approx": true,
+    "osm": "Salina Turda, 7, Aleea Durgăului, Băile Sărate, Thorenburg, Turda, Klausenburg, 401106, Rumänien"
+  },
+  "CITY|de|Nürnberg": {
+    "lat": 49.453872,
+    "lon": 11.077298
+  },
+  "Untere Wörthstraße 7, 90403 Nürnberg, Deutschland|Die UnauffindBar": {
+    "lat": 49.452541,
+    "lon": 11.073856,
+    "approx": false,
+    "osm": "7, Untere Wörthstraße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Nürnberg, Deutschland|Finest Escape Nürnberg": {
+    "lat": 49.453872,
+    "lon": 11.077298,
+    "approx": true,
+    "osm": "Nürnberg, Bayern, Deutschland"
+  },
+  "Industriestraße 21a, 90441 Nürnberg, Deutschland|BAMBULE – Kletterhalle Nürnberg": {
+    "lat": 49.431584,
+    "lon": 11.059193,
+    "approx": false,
+    "osm": "Bambule Kletterhalle, 21a, Industriestraße, Sandreuth, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90441, Deutschland"
+  },
+  "Hirschelgasse 9–11, 90403 Nürnberg, Deutschland|Museum Tucherschloss und Hirsvogelsaal": {
+    "lat": 49.457361,
+    "lon": 11.08484,
+    "approx": true,
+    "osm": "Hirschelgasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Egidienplatz 23, 90403 Nürnberg, Deutschland|Pellerhaus": {
+    "lat": 49.456897,
+    "lon": 11.080975,
+    "approx": false,
+    "osm": "23, Egidienplatz, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Bankgasse 3, 90402 Nürnberg, Deutschland|BASECOFFEE Nürnberg": {
+    "lat": 49.451766,
+    "lon": 11.078583,
+    "approx": false,
+    "osm": "Meissner Bolte & Partner GbR, 3, Bankgasse, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Marienstraße 15, 90402 Nürnberg, Deutschland|RainbowL – Superfood Café Nürnberg": {
+    "lat": 49.448405,
+    "lon": 11.087588,
+    "approx": false,
+    "osm": "15, Marienstraße, Marienvorstadt, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Augustinerhof 4, 90403 Nürnberg, Deutschland|Deutsches Museum Nürnberg – Das Zukunftsmuseum": {
+    "lat": 49.45369,
+    "lon": 11.074758,
+    "approx": false,
+    "osm": "Deutsches Museum Nürnberg, 4, Augustinerhof, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "CITY|de|Flossenbürg": {
+    "lat": 49.732988,
+    "lon": 12.349821
+  },
+  "Gaisweiher 1, 92696 Flossenbürg, Deutschland|Freizeit- und Campinganlage Gaisweiher": {
+    "lat": 49.744513,
+    "lon": 12.344321,
+    "approx": false,
+    "osm": "Cafe Restaurant Gaisweiher, 1, Gaisweiher, St. Ötzen, Altenhammer, Flossenbürg, Landkreis Neustadt an der Waldnaab, Bayern, 92696, Deutschland"
+  },
+  "CITY|de|Loifling": {
+    "lat": 49.169503,
+    "lon": 12.637359
+  },
+  "Churpfalzweg 6, 93455 Loifling (Traitsching), Deutschland|Churpfalzpark": {
+    "lat": 49.169737,
+    "lon": 12.642425,
+    "approx": false,
+    "osm": "Churpfalzpark Loifling, 6, Churpfalzweg, Loifling, Traitsching, Landkreis Cham, Bayern, 93455, Deutschland"
+  },
+  "CITY|de|Brunnthal": {
+    "lat": 48.007314,
+    "lon": 11.683456
+  },
+  "Eugen-Sänger-Ring 4, 85649 Brunnthal, Deutschland|Boulderwelt München Süd": {
+    "lat": 48.040339,
+    "lon": 11.663912,
+    "approx": false,
+    "osm": "4, Eugen-Sänger-Ring, Gewerbegebiet Brunnthal Nord I+II, Gudrunsiedlung, Kirchstockach, Brunnthal, Landkreis München, Bayern, 85649, Deutschland"
+  },
+  "CITY|de|Nabburg": {
+    "lat": 49.454378,
+    "lon": 12.180694
+  },
+  "Neusather Straße 26, 92507 Nabburg, Deutschland|Campingpark Nabburg": {
+    "lat": 49.466503,
+    "lon": 12.190952,
+    "approx": true,
+    "osm": "Neusather Straße, Haindorf, Perschen, Nabburg, Nabburg (VGem), Landkreis Schwandorf, Bayern, 92507, Deutschland"
+  },
+  "Peter-Vischer-Straße 21, 90403 Nürnberg, Deutschland|Café Katzentempel": {
+    "lat": 49.451046,
+    "lon": 11.08116,
+    "approx": false,
+    "osm": "21, Peter-Vischer-Straße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "CITY|cz|Praha": {
+    "lat": 50.087465,
+    "lon": 14.421254
+  },
+  "Palác Lucerna, Pasáž Lucerna, 110 00 Praha, Tschechien|Střecha Lucerny (Dachterrasse Palác Lucerna)": {
+    "lat": 50.081132,
+    "lon": 14.426039,
+    "approx": true,
+    "osm": "palác Lucerna, pasáž Lucerna, Neustadt, Stadtbezirk Prag 1, Prag, 115 20, Tschechien"
+  },
+  "CITY|cz|Praha 1": {
+    "lat": 50.085517,
+    "lon": 14.41067
+  },
+  "Úvoz 6, 118 00 Praha 1 (Malá Strana/Hradčany), Tschechien|Hospůdka U Tří Sekyrek": {
+    "lat": 50.08848,
+    "lon": 14.39607,
+    "approx": true,
+    "osm": "Hospůdka U Tří sekyrek, Hohler Weg, Prag, Tschechien"
+  },
+  "CITY|cz|Praha 1 - Staré Město": {
+    "lat": 50.084094,
+    "lon": 14.415969
+  },
+  "Valentinská 52/8, Praha 1 - Staré Město, Tschechien|Restaurace U Parlamentu": {
+    "lat": 50.088261,
+    "lon": 14.416589,
+    "approx": true,
+    "osm": "U Parlamentu, 52/8, Valentinsgasse, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 1 - Nové Město": {
+    "lat": 50.089427,
+    "lon": 14.429638
+  },
+  "Na Poříčí 1072/15, 110 00 Praha 1 - Nové Město, Tschechien|Café Imperial": {
+    "lat": 50.089844,
+    "lon": 14.432859,
+    "approx": false,
+    "osm": "1072/15, Porschitzer Straße, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 9 - Vysočany": {
+    "lat": 50.102679,
+    "lon": 14.5135
+  },
+  "Krátkého 1, 190 00 Praha 9 - Vysočany, Tschechien|Pepř a Sůl": {
+    "lat": 50.111421,
+    "lon": 14.5005,
+    "approx": false,
+    "osm": "143/1, Krátkého, Wissotschan, Prag 9, Stadtbezirk Prag 9, Prag, 190 00, Tschechien"
+  },
+  "Celetná 558/12, 110 00 Praha 1 - Staré Město, Tschechien|Coffee Room Celetná": {
+    "lat": 50.087133,
+    "lon": 14.42324,
+    "approx": false,
+    "osm": "Supermarket, 558/12, Celetná, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "V Kotcích / Havelská, Praha 1 - Staré Město, Tschechien|CAFE - THE DESIGN": {
+    "lat": 50.084172,
+    "lon": 14.420509,
+    "approx": true,
+    "osm": "V kotcích, Prag, Tschechien"
+  },
+  "CITY|cz|Praha 5": {
+    "lat": 50.051918,
+    "lon": 14.38393
+  },
+  "Smíchov, Praha 5, Tschechien|Kavárna Stará škola": {
+    "lat": 50.074946,
+    "lon": 14.404844,
+    "approx": true,
+    "osm": "Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 21, Tschechien"
+  },
+  "Ostrovní 132, 110 00 Praha 1 - Nové Město, Tschechien|Cafe KávOkno (Ostrovní)": {
+    "lat": 50.08085,
+    "lon": 14.418274,
+    "approx": false,
+    "osm": "Ostrov, 132/17, Inselgasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 1 - Malá Strana": {
+    "lat": 50.086643,
+    "lon": 14.390086
+  },
+  "Tržiště 12, Praha 1 - Malá Strana, Tschechien|Lžička café": {
+    "lat": 50.087289,
+    "lon": 14.40278,
+    "approx": true,
+    "osm": "262/12, Markt, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "CITY|cz|Praha 10": {
+    "lat": 50.067058,
+    "lon": 14.48194
+  },
+  "Hradešínská 1930/63, 101 00 Praha 10, Tschechien|Vila 63": {
+    "lat": 50.07417,
+    "lon": 14.460065,
+    "approx": false,
+    "osm": "Vila 63, 1930/63, Hradeschiner Straße, Werschowitz, Prag 10, Stadtbezirk Prag 10, Prag, 101 00, Tschechien"
+  },
+  "Vodičkova 37, 110 00 Praha 1 - Nové Město, Tschechien|Langhans - Café und Zentrum von Člověk v tísni (People in Need)": {
+    "lat": 50.08151,
+    "lon": 14.425034,
+    "approx": false,
+    "osm": "707/37, Wassergasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Klárov 5, 118 00 Praha 1 - Malá Strana, Tschechien|Kunsthalle Café": {
+    "lat": 50.092281,
+    "lon": 14.409566,
+    "approx": false,
+    "osm": "132/5, Klárov, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "V Celnici 6, 110 00 Praha 1 - Nové Město, Tschechien|Cukrář Skála": {
+    "lat": 50.088187,
+    "lon": 14.430805,
+    "approx": false,
+    "osm": "1034/6, V Celnici, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Celetná 589/27, 110 00 Praha 1 - Staré Město, Tschechien|Kolacherie": {
+    "lat": 50.08726,
+    "lon": 14.425809,
+    "approx": false,
+    "osm": "589/27, Zeltnergasse, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 1 - Hradčany": {
+    "lat": 50.086643,
+    "lon": 14.390086
+  },
+  "Hradčanské náměstí 57/15, Praha 1 - Hradčany, Tschechien|Café Šternberk - Mezi řádky": {
+    "lat": 50.090286,
+    "lon": 14.396695,
+    "approx": true,
+    "osm": "Nationalgalerie Prag - Palais Sternberg, 57/15, Hradschiner Platz, Hradschin, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "CITY|cz|Praha - Karlín": {
+    "lat": 50.090148,
+    "lon": 14.452064
+  },
+  "Thámova 401/2, Praha - Karlín, Tschechien|Kafé Garáž": {
+    "lat": 50.090575,
+    "lon": 14.453453,
+    "approx": true,
+    "osm": "401/2, Thámova, Karolinenthal, Prag 8, Stadtbezirk Prag 8, Prag, 186 00, Tschechien"
+  },
+  "Mostecká 20, 118 00 Praha 1 - Malá Strana, Tschechien|ROESEL - beer & food": {
+    "lat": 50.087471,
+    "lon": 14.405746,
+    "approx": false,
+    "osm": "45/20, Brückengasse, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Husova 231/12, 110 00 Praha 1, Tschechien|Crème de la Crème": {
+    "lat": 50.085706,
+    "lon": 14.418297,
+    "approx": false,
+    "osm": "Crème de la Crème, 231/12, Husgasse, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha - Vinohrady": {
+    "lat": 50.06852,
+    "lon": 14.436453
+  },
+  "Francouzská 585/1, 120 00 Praha - Vinohrady, Tschechien|Antonín's Bakery": {
+    "lat": 50.072496,
+    "lon": 14.443112,
+    "approx": true,
+    "osm": "Französische Straße, Weinberge, Prag 10, Stadtbezirk Prag 10, Prag, 120 09, Tschechien"
+  },
+  "CITY|cz|Praha 14": {
+    "lat": 50.099288,
+    "lon": 14.552493
+  },
+  "Lesopark Klánovice-Čihadla, Hügel Horka, Praha 14, Tschechien|Rozhledna Doubravka XIV": {
+    "lat": 50.099288,
+    "lon": 14.552493,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Staroměstské náměstí 4/1, 110 00 Praha 1, Tschechien|Skautský institut (Pfadfinderinstitut)": {
+    "lat": 50.086622,
+    "lon": 14.419869,
+    "approx": false,
+    "osm": "Skautský Institut, 4/1, Altstädter Ring, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Náměstí 14. října 14, Praha 5 (Smíchov), Tschechien|Českavárna Portheimka": {
+    "lat": 50.073715,
+    "lon": 14.404052,
+    "approx": true,
+    "osm": "68/14, náměstí 14. října, Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "CITY|cz|Praha 8": {
+    "lat": 50.119132,
+    "lon": 14.45516
+  },
+  "Pobřežní 20a, Praha 8 (Karlín), Tschechien|CAMP – Centrum architektury a městského plánování": {
+    "lat": 50.092973,
+    "lon": 14.443464,
+    "approx": true,
+    "osm": "636/20a, Pobřežní, Florenz, Karolinenthal, Prag 8, Stadtbezirk Prag 8, Prag, 186 00, Tschechien"
+  },
+  "CITY|cz|Praha 2": {
+    "lat": 50.073793,
+    "lon": 14.430601
+  },
+  "Náplavka, Rašínovo nábřeží (Výtoň), Praha 2, Tschechien|Kayak Beach Bar": {
+    "lat": 50.073859,
+    "lon": 14.413422,
+    "approx": true,
+    "osm": "Rašínovo nábřeží, Novoměstská náplavka, Prag, Tschechien"
+  },
+  "Nerudova 244/25, 118 00 Praha 1, Tschechien|Kafe & Hrnky": {
+    "lat": 50.088441,
+    "lon": 14.399031,
+    "approx": false,
+    "osm": "244/25, Nerudagasse, Hradschin, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Krakovská 15, 110 00 Praha 1, Tschechien|Parlour": {
+    "lat": 50.078715,
+    "lon": 14.428015,
+    "approx": false,
+    "osm": "1346/15, Krakauer Gasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Legerova 75/57, 110 00 Praha 1, Tschechien|Čestr": {
+    "lat": 50.077904,
+    "lon": 14.430774,
+    "approx": true,
+    "osm": "Legerova, Neustadt, Stadtbezirk Prag 1, Prag, 121 32, Tschechien"
+  },
+  "Hybernská 1034/5, 110 00 Praha 1, Tschechien|Restaurace Červený jelen": {
+    "lat": 50.087451,
+    "lon": 14.430824,
+    "approx": false,
+    "osm": "Červený jelen, 1034/5, Hibernergasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Fantova budova, Hauptbahnhof Praha hlavní nádraží, Praha 1, Tschechien|Fantova kavárna Praha": {
+    "lat": 50.083229,
+    "lon": 14.435339,
+    "approx": true,
+    "osm": "Prag Hauptbahnhof, Wilsonova, Prag, Tschechien"
+  },
+  "Dívčí hrady, Praha 5 (Jinonice/Radlice), Tschechien|Dívčí hrady": {
+    "lat": 50.053614,
+    "lon": 14.399196,
+    "approx": true,
+    "osm": "Dívčí hrady, Prag, Tschechien"
+  },
+  "CITY|cz|Dvůr Králové nad Labem": {
+    "lat": 50.431905,
+    "lon": 15.813995
+  },
+  "Štefánikova 1029, 544 01 Dvůr Králové nad Labem, Tschechien|Zoo Dvůr Králové": {
+    "lat": 50.434461,
+    "lon": 15.801659,
+    "approx": false,
+    "osm": "1029, Štefánikova, Königinhof an der Elbe, Bezirk Trautenau, Königgrätzer Region, 544 01, Tschechien"
+  },
+  "CITY|de|Rövershagen": {
+    "lat": 54.174997,
+    "lon": 12.239515
+  },
+  "Purkshof 2, 18182 Rövershagen, Deutschland|Karls Hotel Alles Paletti": {
+    "lat": 54.162759,
+    "lon": 12.230448,
+    "approx": false,
+    "osm": "2, Purkshof, Rövershagen, Rostocker Heide, Landkreis Rostock, Mecklenburg-Vorpommern, 18182, Deutschland"
+  },
+  "CITY|de|Westerstede": {
+    "lat": 53.25752,
+    "lon": 7.927337
+  },
+  "Bahnhofstraße 17, 26655 Westerstede, Deutschland|Das Schokoladenhotel": {
+    "lat": 53.256971,
+    "lon": 7.928433,
+    "approx": false,
+    "osm": "Hotel Voss - Das Schokoladenhotel, 17, Bahnhofstraße, Hössen, Fikensolt, Westerstede, Landkreis Ammerland, Niedersachsen, 26655, Deutschland"
+  },
+  "CITY|nl|GC Roermond": {
+    "lat": 51.19339,
+    "lon": 5.988265
+  },
+  "Pollartstraat 7, 6041 GC Roermond, Niederlande|Van der Valk Hotel Het Arresthuis": {
+    "lat": 51.194709,
+    "lon": 5.989393,
+    "approx": false,
+    "osm": "Van der Valk Hotel, 7, Pollartstraat, Binnenstad, Centrum, Roermond, Limburg, Niederlande, 6041 GC, Niederlande"
+  },
+  "CITY|de|Wierschem": {
+    "lat": 50.225785,
+    "lon": 7.351256
+  },
+  "Burg Eltz 1, 56294 Wierschem, Deutschland|Burg Eltz": {
+    "lat": 50.225417,
+    "lon": 7.35212,
+    "approx": false,
+    "osm": "1, Burg-Eltz-Straße, Wierschem, Maifeld, Landkreis Mayen-Koblenz, Rheinland-Pfalz, 56294, Deutschland"
+  },
+  "CITY|at|Schladming": {
+    "lat": 47.394042,
+    "lon": 13.686788
+  },
+  "Hauptplatz 10, 8970 Schladming, Österreich|JOHANN Schladming": {
+    "lat": 47.392247,
+    "lon": 13.689846,
+    "approx": false,
+    "osm": "10, Hauptplatz, Maistatt, Katastralgemeinde Schladming, Rohrmoos, Schladming, Politische Expositur Gröbming, Bezirk Liezen, Steiermark, 8970, Österreich"
+  },
+  "CITY|de|Büchenbach": {
+    "lat": 49.264576,
+    "lon": 11.032329
+  },
+  "Flugplatzstraße 17, 91186 Büchenbach, Deutschland|Flugplatz Schwabach-Büchenbach": {
+    "lat": 49.267893,
+    "lon": 11.008658,
+    "approx": true,
+    "osm": "Flugplatzstraße, Schopfhof, Gauchsdorf, Büchenbach, Landkreis Roth, Bayern, 91186, Deutschland"
+  },
+  "CITY|de|München": {
+    "lat": 48.137108,
+    "lon": 11.575382
+  },
+  "Sendlinger Straße 37, 80331 München, Deutschland|KARE City Studio München": {
+    "lat": 48.134439,
+    "lon": 11.568761,
+    "approx": false,
+    "osm": "Starbucks, 37, Sendlinger Straße, Hackenviertel, Altstadt-Lehel, München, Bayern, 80331, Deutschland"
+  },
+  "Drygalski-Allee 25, 81477 München, Deutschland|KARE Kraftwerk München": {
+    "lat": 48.094983,
+    "lon": 11.505463,
+    "approx": false,
+    "osm": "MaibornWolff GmbH, 25, Drygalski-Allee, Kreuzhof, Forstenried, Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln, München, Bayern, 81477, Deutschland"
+  },
+  "CITY|cz|Benešov": {
+    "lat": 49.78289,
+    "lon": 14.687593
+  },
+  "Kopec Kavčák (ehem. Militärgelände), Benešov, Tschechien|Paintball Benešov (PAINTBALLGAME)": {
+    "lat": 49.78289,
+    "lon": 14.687593,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|de|Reisbach": {
+    "lat": 48.568616,
+    "lon": 12.629889
+  },
+  "Fellbach 1, 94419 Reisbach, Deutschland|Bayern-Park": {
+    "lat": 48.530627,
+    "lon": 12.636074,
+    "approx": true,
+    "osm": "Fellbach, Failnbach, Reisbach, Landkreis Dingolfing-Landau, Bayern, 94419, Deutschland"
+  },
+  "CITY|de|Bad Wörishofen": {
+    "lat": 48.004819,
+    "lon": 10.592637
+  },
+  "Thermenallee 1, 86825 Bad Wörishofen, Deutschland|THERME Bad Wörishofen": {
+    "lat": 48.020603,
+    "lon": 10.590103,
+    "approx": false,
+    "osm": "1, Thermenallee, Gartenstadt, Kirchdorf, Bad Wörishofen, Landkreis Unterallgäu, Bayern, 86825, Deutschland"
+  },
+  "CITY|de|Singen": {
+    "lat": 47.761752,
+    "lon": 8.834871
+  },
+  "Robert-Bosch-Straße 5, 78224 Singen, Deutschland|Flipped Funpark": {
+    "lat": 47.75781,
+    "lon": 8.873747,
+    "approx": false,
+    "osm": "Flipped Funpark, 5, Robert-Bosch-Straße, Singen (Hohentwiel), VVG der Stadt Singen (Hohentwiel), Landkreis Konstanz, Baden-Württemberg, 78224, Deutschland"
+  },
+  "Malostranské náměstí 264/7, 118 00 Praha 1, Tschechien|Metro Comedy Club": {
+    "lat": 50.087651,
+    "lon": 14.403184,
+    "approx": false,
+    "osm": "264/7, Kleinseitner Ring, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "CITY|it|Pescantina": {
+    "lat": 45.490497,
+    "lon": 10.85626
+  },
+  "Via Valpolicella 63, 37026 Pescantina (VR), Italien|Aquardens": {
+    "lat": 45.506594,
+    "lon": 10.825997,
+    "approx": false,
+    "osm": "Aquardens, 63, Via Valpolicella, Santa Lucia, Pescantina, Verona, Venetien, 37026, Italien"
+  },
+  "CITY|it|Bussolengo": {
+    "lat": 45.474131,
+    "lon": 10.846248
+  },
+  "Località Quercia, 37012 Bussolengo (VR), Italien|Parco Natura Viva": {
+    "lat": 45.479924,
+    "lon": 10.799174,
+    "approx": true,
+    "osm": "Parco Natura Viva, Località Figara, Bussolengo, Italien"
+  },
+  "CITY|it|Castelnuovo del Garda": {
+    "lat": 45.439742,
+    "lon": 10.761581
+  },
+  "Via Derna 4, 37014 Castelnuovo del Garda (VR), Italien|Gardaland LEGOLAND Waterpark": {
+    "lat": 45.456081,
+    "lon": 10.713335,
+    "approx": false,
+    "osm": "Gardaland, 4, Via Derna, Staffalo, Cavalcaselle, Castelnuovo del Garda, Verona, Venetien, 37014, Italien"
+  },
+  "CITY|it|Lazise": {
+    "lat": 45.479051,
+    "lon": 10.708441
+  },
+  "Via Fossalta 58, 37017 Lazise (VR), Italien|Movieland Park": {
+    "lat": 45.477123,
+    "lon": 10.723416,
+    "approx": false,
+    "osm": "Movieland, 58, Via Fossalta, Pacengo, Lazise, Verona, Venetien, 37017, Italien"
+  },
+  "CITY|at|Kössen": {
+    "lat": 47.670302,
+    "lon": 12.405516
+  },
+  "Kranebittau 18, 6345 Kössen, Österreich|Eurocamp Wilder Kaiser Kössen": {
+    "lat": 47.65392,
+    "lon": 12.41475,
+    "approx": false,
+    "osm": "Euro-Camp Wilder Kaiser, 18, Kranebittau, Thurnbichl, Kössen, Bezirk Kitzbühel, Tirol, 6345, Österreich"
+  },
+  "CITY|de|Löwenstein": {
+    "lat": 49.095312,
+    "lon": 9.380949
+  },
+  "Breitenauer See 2, 74245 Löwenstein, Deutschland|5*-Campingpark Breitenauer See": {
+    "lat": 49.116976,
+    "lon": 9.383363,
+    "approx": false,
+    "osm": "Verwaltung Campingpark Breitenauer See, 2, Breitenauer See, Affaltrach, Löwenstein, VVG der Gemeinde Obersulm, Landkreis Heilbronn, Baden-Württemberg, 74245, Deutschland"
+  },
+  "CITY|de|Freiensteinau": {
+    "lat": 50.43972,
+    "lon": 9.39245
+  },
+  "Am Camping 1, 36399 Freiensteinau, Deutschland|Nieder-Mooser See": {
+    "lat": 50.466266,
+    "lon": 9.375354,
+    "approx": false,
+    "osm": "1, Am Camping, Nieder-Moos, Freiensteinau, Vogelsbergkreis, Hessen, 36399, Deutschland"
+  },
+  "CITY|de|Thalmässing": {
+    "lat": 49.101377,
+    "lon": 11.224445
+  },
+  "Landersdorf, 91177 Thalmässing, Deutschland|Lebendiges Geschichtsdorf Landersdorf": {
+    "lat": 49.065646,
+    "lon": 11.246995,
+    "approx": true,
+    "osm": "Landersdorf, Thalmässing, Landkreis Roth, Bayern, 91177, Deutschland"
+  },
+  "Eysölden G 7, 91177 Thalmässing, Deutschland|Schloßschänke Eysölden": {
+    "lat": 49.130675,
+    "lon": 11.213989,
+    "approx": false,
+    "osm": "Schloß Eysölden, 7, Eysölden G, Eysölden, Thalmässing, Landkreis Roth, Bayern, 91177, Deutschland"
+  },
+  "CITY|de|Hilpoltstein": {
+    "lat": 49.172223,
+    "lon": 11.23427
+  },
+  "Zum Bauernhof 3, 91161 Hilpoltstein, Deutschland|Erlebnisbauernhof Auhof (Rummelsberger Diakonie)": {
+    "lat": 49.193663,
+    "lon": 11.208001,
+    "approx": true,
+    "osm": "Zum Bauernhof, Altenhofen, Hilpoltstein, Landkreis Roth, Bayern, 91161, Deutschland"
+  },
+  "CITY|de|Roth": {
+    "lat": 49.195293,
+    "lon": 11.056652
+  },
+  "Obere Mühle 4, 91154 Roth, Deutschland|Fabrikmuseum der Leonischen Industrie Roth": {
+    "lat": 49.246804,
+    "lon": 11.09532,
+    "approx": false,
+    "osm": "4, Obere Mühle, Kauernhofen, Roth, Landkreis Roth, Bayern, 91154, Deutschland"
+  },
+  "Allersberger Straße 24, Roth, Deutschland|Chilli's Roth Mexican Restaurant y Bar": {
+    "lat": 49.197104,
+    "lon": 11.187756,
+    "approx": true,
+    "osm": "Buchstaller, 24, Allersberger Straße, Hilpoltstein, Landkreis Roth, Bayern, 91161, Deutschland"
+  },
+  "Stieberstraße 7, 91154 Roth, Deutschland|Kulturfabrik Roth": {
+    "lat": 49.24653,
+    "lon": 11.089482,
+    "approx": false,
+    "osm": "Kulturfabrik Roth, 7, Stieberstraße, Kauernhofen, Roth, Landkreis Roth, Bayern, 91154, Deutschland"
+  },
+  "CITY|de|Titisee-Neustadt": {
+    "lat": 47.917342,
+    "lon": 8.173516
+  },
+  "Am Badeparadies 1, 79822 Titisee-Neustadt, Deutschland|Badeparadies Schwarzwald": {
+    "lat": 47.906858,
+    "lon": 8.159966,
+    "approx": false,
+    "osm": "Badeparadies Schwarzwald, 1, Am Badeparadies, Titisee, Titisee-Neustadt, VVG der Stadt Titisee-Neustadt, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79822, Deutschland"
+  },
+  "CITY|de|Krausnick": {
+    "lat": 52.03383,
+    "lon": 13.833678
+  },
+  "Tropical-Islands-Allee 1, 15910 Krausnick, Deutschland|Tropical Islands": {
+    "lat": 52.030612,
+    "lon": 13.793439,
+    "approx": true,
+    "osm": "Tropical-Islands-Allee, Krausnick, Krausnick-Groß Wasserburg, Unterspreewald, Dahme-Spreewald, Brandenburg, 15910, Deutschland"
+  },
+  "CITY|cz|Praha-Stodůlky": {
+    "lat": 50.062174,
+    "lon": 14.34603
+  },
+  "Zázvorkova 1480/11, Praha-Stodůlky, Tschechien|Curry & Tikka Lužiny": {
+    "lat": 50.046437,
+    "lon": 14.335027,
+    "approx": true,
+    "osm": "Zázvorkova, Prag, Tschechien"
+  },
+  "CITY|de|Gemeinde Rohr": {
+    "lat": 48.489163,
+    "lon": 10.962907
+  },
+  "Gustenfelden, Gemeinde Rohr, Deutschland|Hofladen Gustenfelden": {
+    "lat": 48.489163,
+    "lon": 10.962907,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Gustenfelden, Gemeinde Rohr, Deutschland|Obstbau Winkler": {
+    "lat": 48.489163,
+    "lon": 10.962907,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|pl|32-020 Wieliczka": {
+    "lat": 49.973207,
+    "lon": 20.069412
+  },
+  "ul. Daniłowicza 10, 32-020 Wieliczka, Polen|Salzbergwerk Wieliczka": {
+    "lat": 49.983048,
+    "lon": 20.055708,
+    "approx": true,
+    "osm": "Kopalnia soli Wieliczka, Jana Mikołaja Daniłowicza, Groß Salze, Polen"
+  },
+  "CITY|de|Gunzenhausen": {
+    "lat": 49.116136,
+    "lon": 10.740685
+  },
+  "Altmühlsee, Gunzenhausen, Deutschland|Altmühlsee": {
+    "lat": 49.134675,
+    "lon": 10.721572,
+    "approx": true,
+    "osm": "Altmühlsee, Streudorf, Gunzenhausen, Landkreis Weißenburg-Gunzenhausen, Bayern, Deutschland"
+  },
+  "CITY|de|Grainau": {
+    "lat": 47.451676,
+    "lon": 11.010217
+  },
+  "Griesener Straße 9, 82491 Grainau, Deutschland|Campingplatz Zugspitz Resort": {
+    "lat": 47.477883,
+    "lon": 11.05428,
+    "approx": false,
+    "osm": "Camping Resort Zugspitze, 9, Griesener Straße, Schmölz, Grainau, Landkreis Garmisch-Partenkirchen, Bayern, 82491, Deutschland"
+  },
+  "Eibsee, 82491 Grainau, Deutschland|Eibsee": {
+    "lat": 47.456633,
+    "lon": 10.994047,
+    "approx": false,
+    "osm": "Eibsee, 1, Seefeldweg, Grainau, Landkreis Garmisch-Partenkirchen, Bayern, 82491, Deutschland"
+  },
+  "CITY|de|Pappenheim": {
+    "lat": 48.939557,
+    "lon": 11.004359
+  },
+  "Badweg 1, 91788 Pappenheim, Deutschland|Naturcamping Pappenheim": {
+    "lat": 48.934037,
+    "lon": 10.968312,
+    "approx": false,
+    "osm": "Naturcamping Pappenheim, 1, Badweg, Niederpappenheim, Pappenheim, Landkreis Weißenburg-Gunzenhausen, Bayern, 91788, Deutschland"
+  },
+  "CITY|de|Landkreis Regensburg": {
+    "lat": 48.994115,
+    "lon": 12.334698
+  },
+  "Guggenberger See, Neutraubling, Landkreis Regensburg, Deutschland|Guggenberger See": {
+    "lat": 48.977526,
+    "lon": 12.220503,
+    "approx": true,
+    "osm": "Guggenberger See, Oberheising, Neutraubling, Landkreis Regensburg, Bayern, 93073, Deutschland"
+  },
+  "CITY|de|Bad Gögging": {
+    "lat": 48.823331,
+    "lon": 11.782224
+  },
+  "Am Brunnenforum 1, 93333 Bad Gögging, Deutschland|Wohnmobil-Stellplatz Limes-Therme": {
+    "lat": 48.818762,
+    "lon": 11.788554,
+    "approx": false,
+    "osm": "Limestherme, 1, Am Brunnenforum, Heiligenstadt, Bad Gögging, Neustadt an der Donau, Landkreis Kelheim, Bayern, 93333, Deutschland"
+  },
+  "CITY|de|Landkreis Roth": {
+    "lat": 49.195293,
+    "lon": 11.056652
+  },
+  "Gauchsdorf, Büchenbach, Landkreis Roth, Deutschland|Baggerweiher Bechhofen/Gauchsdorf": {
+    "lat": 49.265425,
+    "lon": 11.004332,
+    "approx": true,
+    "osm": "Gauchsdorf, Büchenbach, Landkreis Roth, Bayern, 91186, Deutschland"
+  },
+  "Seezentrum Wald 4, 91710 Gunzenhausen, Deutschland|Seezentrum Wald (Altmühlsee)": {
+    "lat": 49.125375,
+    "lon": 10.716829,
+    "approx": false,
+    "osm": "4, Seezentrum Wald, Gunzenhausen, Landkreis Weißenburg-Gunzenhausen, Bayern, 91710, Deutschland"
+  },
+  "CITY|de|Pfofeld-Langlau": {
+    "lat": 49.119724,
+    "lon": 10.855906
+  },
+  "Seestraße 30, 91738 Pfofeld-Langlau, Deutschland|SeeCamping Langlau": {
+    "lat": 49.125798,
+    "lon": 10.866542,
+    "approx": false,
+    "osm": "See Camping Langlau, 30, Seestraße, Furthmühle, Langlau, Pfofeld, Gunzenhausen (VGem), Landkreis Weißenburg-Gunzenhausen, Bayern, 91738, Deutschland"
+  },
+  "CITY|de|Deining": {
+    "lat": 49.226217,
+    "lon": 11.539943
+  },
+  "Sippelmühle 1, 92364 Deining, Deutschland|Campingplatz Sippelmühle": {
+    "lat": 49.179882,
+    "lon": 11.536399,
+    "approx": false,
+    "osm": "Campingplatz Sippelmühle, 1, Sippelmühle, Sternberg, Waltersberg, Deining, Landkreis Neumarkt in der Oberpfalz, Bayern, 92364, Deutschland"
+  },
+  "Seestraße 12, 91710 Gunzenhausen, Deutschland|Altmühlsee Camping Herzog": {
+    "lat": 49.12772,
+    "lon": 10.743619,
+    "approx": false,
+    "osm": "Altmühlsee Camping Herzog, 12, Seestraße, Schlungenhof, Gunzenhausen, Landkreis Weißenburg-Gunzenhausen, Bayern, 91710, Deutschland"
+  },
+  "CITY|ie|Dublin 2": {
+    "lat": 53.338971,
+    "lon": -6.252679
+  },
+  "Temple Bar, Dublin 2, Irland|Temple Bar": {
+    "lat": 53.345496,
+    "lon": -6.263114,
+    "approx": true,
+    "osm": "Temple Bar, Royal Exchange A ED, Dublin, County Dublin, Leinster, Irland"
+  },
+  "CITY|ie|D08 FK79": {
+    "lat": 54.034975,
+    "lon": -7.293702
+  },
+  "St Patrick's Close, Dublin 8, D08 FK79, Irland|Marsh's Library": {
+    "lat": 54.034975,
+    "lon": -7.293702,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|ie|Dublin 1": {
+    "lat": 53.352488,
+    "lon": -6.256646
+  },
+  "Custom House Quay, Dublin 1, Irland|The Jeanie Johnston": {
+    "lat": 53.348191,
+    "lon": -6.250584,
+    "approx": true,
+    "osm": "Custom House Quay, North Dock C Ward 1986, Dublin, County Dublin, Leinster, Irland"
+  },
+  "CITY|ie|Dublin 8": {
+    "lat": 53.350342,
+    "lon": -6.320311
+  },
+  "Inchicore Road, Kilmainham, Dublin 8, Irland|Kilmainham Gaol": {
+    "lat": 53.341747,
+    "lon": -6.317731,
+    "approx": true,
+    "osm": "Inchicore Road, Kilmainham B ED, Dublin, County Dublin, Leinster, Irland"
+  },
+  "CITY|ie|D08 VF8H": {
+    "lat": 54.034975,
+    "lon": -7.293702
+  },
+  "St. James's Gate, Dublin 8, D08 VF8H, Irland|Guinness Storehouse": {
+    "lat": 54.034975,
+    "lon": -7.293702,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|ie|Dublin": {
+    "lat": 53.349379,
+    "lon": -6.260559
+  },
+  "The Phoenix Park, Dublin, Irland|Zoo Dublin": {
+    "lat": 53.348443,
+    "lon": -6.296493,
+    "approx": true,
+    "osm": "Flora in the Phoenix Park, Chesterfield Avenue, Islandbridge, Phoenix Park ED, Dublin, County Dublin, Leinster, Irland"
+  },
+  "CITY|ie|Dublin 7": {
+    "lat": 53.360532,
+    "lon": -6.284463
+  },
+  "Collins Barracks, Benburb Street, Dublin 7, Irland|National Museum of Ireland – Decorative Arts & History": {
+    "lat": 53.348857,
+    "lon": -6.286682,
+    "approx": true,
+    "osm": "National Museum of Ireland, Collins Barracks, Benburb Street, Islandbridge, The Liberties, Arran Quay C Ward 1986, Dublin, Dublin 7, Leinster, D13 XKV4, Irland"
+  },
+  "CITY|de|Köln": {
+    "lat": 50.938361,
+    "lon": 6.959974
+  },
+  "Köln, Deutschland|MyCurryWurst Cologne": {
+    "lat": 50.938361,
+    "lon": 6.959974,
+    "approx": true,
+    "osm": "Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "Severinstraße 107, 50678 Köln, Deutschland|Weltmeister - Currywurst & Pommes": {
+    "lat": 50.926542,
+    "lon": 6.957815,
+    "approx": false,
+    "osm": "107, Severinstraße, Severinsviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50678, Deutschland"
+  },
+  "CITY|de|Unna": {
+    "lat": 51.534883,
+    "lon": 7.689014
+  },
+  "Unna, Deutschland|Lasermaxx Unna - Lasertag, Virtual Reality": {
+    "lat": 51.534883,
+    "lon": 7.689014,
+    "approx": true,
+    "osm": "Unna, Kreis Unna, Nordrhein-Westfalen, Deutschland"
+  },
+  "CITY|nl|BL Arnhem": {
+    "lat": 51.984257,
+    "lon": 5.910857
+  },
+  "Cruquiusweg 3A, 6827 BL Arnhem, Niederlande|Monkey Town Arnhem": {
+    "lat": 51.977001,
+    "lon": 5.940517,
+    "approx": true,
+    "osm": "Monkey Town, Cruquiusweg, Arnheim, Niederlande"
+  },
+  "CITY|de|Ratingen": {
+    "lat": 51.297326,
+    "lon": 6.84935
+  },
+  "Am Rosenbaum 12, 40882 Ratingen, Deutschland|Funky Town": {
+    "lat": 51.298949,
+    "lon": 6.93156,
+    "approx": false,
+    "osm": "FunkyTown, 12, Am Rosenbaum, Homberg, Homberg/Schwarzbach, Ratingen, Kreis Mettmann, Nordrhein-Westfalen, 40882, Deutschland"
+  },
+  "CITY|de|Hagen-Hohenlimburg": {
+    "lat": 51.36826,
+    "lon": 7.553371
+  },
+  "Hagen-Hohenlimburg, Deutschland|Escape Room Hagen - QuestFabrik": {
+    "lat": 51.36826,
+    "lon": 7.553371,
+    "approx": true,
+    "osm": "Hagen-Hohenlimburg, A 46, Reh, Hohenlimburg, Hagen, Nordrhein-Westfalen, 58119, Deutschland"
+  },
+  "CITY|de|Freiburg": {
+    "lat": 47.99609,
+    "lon": 7.8494
+  },
+  "Karlsruher Straße 52, 79108 Freiburg, Deutschland|Escape Room Freiburg & Mind Arena": {
+    "lat": 48.01896,
+    "lon": 7.852639,
+    "approx": false,
+    "osm": "Gym 52, 52, Karlsruher Straße, Industriegebiet Nord, Brühl-Güterbahnhof, Brühl, Freiburg im Breisgau, Baden-Württemberg, 79108, Deutschland"
+  },
+  "CITY|de|Gelsenkirchen": {
+    "lat": 51.511032,
+    "lon": 7.096012
+  },
+  "Almastraße 39, 45886 Gelsenkirchen, Deutschland|Alma Park - Event- und Freizeitpark": {
+    "lat": 51.506773,
+    "lon": 7.116648,
+    "approx": false,
+    "osm": "Sportpark Gelsenkirchen, 39, Almastraße, Ückendorf, Gelsenkirchen-Süd, Gelsenkirchen, Nordrhein-Westfalen, 45886, Deutschland"
+  },
+  "CITY|de|Rieste": {
+    "lat": 52.483702,
+    "lon": 8.01124
+  },
+  "Barlager Straße 11, 49597 Rieste, Deutschland|Bullermeck-Alfsee Spielscheunen und Freizeitanlagen": {
+    "lat": 52.483174,
+    "lon": 7.995101,
+    "approx": false,
+    "osm": "Bullermeck Alfsee, 11, Barlager Straße, Rieste, Samtgemeinde Bersenbrück, Landkreis Osnabrück, Niedersachsen, 49597, Deutschland"
+  },
+  "CITY|de|Wuppertal": {
+    "lat": 51.264018,
+    "lon": 7.178037
+  },
+  "Carnaper Straße 103, 42283 Wuppertal, Deutschland|FUN FABRIK - Entertainment Center Wuppertal": {
+    "lat": 51.277349,
+    "lon": 7.18542,
+    "approx": false,
+    "osm": "103, Carnaper Straße, Sedansberg, Gemarkung Barmen, Barmen, Wuppertal, Nordrhein-Westfalen, 42283, Deutschland"
+  },
+  "CITY|de|Meppen-Hüntel": {
+    "lat": 52.754763,
+    "lon": 7.276856
+  },
+  "Meppen-Hüntel, Deutschland|Funpark Meppen": {
+    "lat": 52.754763,
+    "lon": 7.276856,
+    "approx": true,
+    "osm": "Ehemaliges Kraftwerk Meppen-Hüntel, Essener Straße, Hüntel, Meppen, Landkreis Emsland, Niedersachsen, 49716, Deutschland"
+  },
+  "CITY|de|Husum": {
+    "lat": 54.485414,
+    "lon": 9.053794
+  },
+  "Ostenfelder Straße 64, 25813 Husum, Deutschland|Fun Center Husum": {
+    "lat": 54.474771,
+    "lon": 9.075523,
+    "approx": true,
+    "osm": "Ostenfelder Straße, Dreimühlen, Husum, Kreis Nordfriesland, Schleswig-Holstein, 25813, Deutschland"
+  },
+  "CITY|de|Koblenz": {
+    "lat": 50.353328,
+    "lon": 7.594395
+  },
+  "Rudolf-Diesel-Straße 4, 56070 Koblenz, Deutschland|Lasertag-Center Koblenz": {
+    "lat": 50.388157,
+    "lon": 7.598305,
+    "approx": false,
+    "osm": "Lasertag-Center, 4, Rudolf-Diesel-Straße, Wallersheim, Koblenz, Rheinland-Pfalz, 56070, Deutschland"
+  },
+  "CITY|de|Wetzlar": {
+    "lat": 50.570561,
+    "lon": 8.531245
+  },
+  "Wetzlar, Deutschland|LaserTag Arena Wetzlar": {
+    "lat": 50.570561,
+    "lon": 8.531245,
+    "approx": true,
+    "osm": "Wetzlar, Lahn-Dill-Kreis, Hessen, Deutschland"
+  },
+  "CITY|de|Limburg an der Lahn": {
+    "lat": 50.388045,
+    "lon": 8.063531
+  },
+  "Elzer Straße 2-4, 65556 Limburg an der Lahn, Deutschland|LIMPARK Lasertag Limburg": {
+    "lat": 50.401828,
+    "lon": 8.049403,
+    "approx": false,
+    "osm": "2-4, Elzer Straße, Staffel, Limburg an der Lahn, Landkreis Limburg-Weilburg, Hessen, 65556, Deutschland"
+  },
+  "CITY|de|Eichenzell": {
+    "lat": 50.484723,
+    "lon": 9.70501
+  },
+  "Bürgermeister-Ebert-Straße 14a, 36124 Eichenzell, Deutschland|Cosmo Lasertag Eichenzell (Fulda spielt Lasertag)": {
+    "lat": 50.481917,
+    "lon": 9.729081,
+    "approx": false,
+    "osm": "Cosmo Lasertag, 14a, Bürgermeister-Ebert-Straße, Industriepark Rhön, Rönshausen, Welkers, Eichenzell, Landkreis Fulda, Hessen, 36124, Deutschland"
+  },
+  "CITY|de|Frankfurt am Main": {
+    "lat": 50.110644,
+    "lon": 8.682092
+  },
+  "Borsigallee 18, 60388 Frankfurt am Main, Deutschland|LaserZone LaserTag Frankfurt": {
+    "lat": 50.135107,
+    "lon": 8.74359,
+    "approx": false,
+    "osm": "Laserzone Frankfurt, 18, Borsigallee, Seckbach, Ost, Frankfurt am Main, Hessen, 60388, Deutschland"
+  },
+  "CITY|de|Aschaffenburg": {
+    "lat": 49.97067,
+    "lon": 9.138486
+  },
+  "Dieselstraße 2, 63741 Aschaffenburg, Deutschland|LaserZone LaserTag Aschaffenburg": {
+    "lat": 49.985322,
+    "lon": 9.109086,
+    "approx": false,
+    "osm": "2, Dieselstraße, Industriegebiet Strietwald, Strietwald, Aschaffenburg, Bayern, 63741, Deutschland"
+  },
+  "CITY|de|Schweinfurt": {
+    "lat": 50.045149,
+    "lon": 10.234065
+  },
+  "Schweinfurt, Deutschland|Laserplanet Schweinfurt": {
+    "lat": 50.045149,
+    "lon": 10.234065,
+    "approx": true,
+    "osm": "Schweinfurt, Bayern, Deutschland"
+  },
+  "CITY|de|Unterpleichfeld": {
+    "lat": 49.867647,
+    "lon": 10.045426
+  },
+  "An der Spielleite 22b, 97294 Unterpleichfeld, Deutschland|Infra-Red Game Würzburg GmbH": {
+    "lat": 49.865059,
+    "lon": 10.041228,
+    "approx": true,
+    "osm": "An der Spielleite, Gewerbegebiet Spielleite, Burggrumbach, Unterpleichfeld, Landkreis Würzburg, Bayern, 97294, Deutschland"
+  },
+  "CITY|de|Würzburg": {
+    "lat": 49.778036,
+    "lon": 9.943477
+  },
+  "Bahnhofplatz 2, 97070 Würzburg, Deutschland|LaserTag Würzburg": {
+    "lat": 49.801953,
+    "lon": 9.931613,
+    "approx": false,
+    "osm": "Posthalle, 2, Bahnhofplatz, Innenstadt, Würzburg Altstadt, Würzburg, Bayern, 97070, Deutschland"
+  },
+  "CITY|de|Bamberg": {
+    "lat": 49.891604,
+    "lon": 10.886848
+  },
+  "Bamberg, Deutschland|Lasertag Bamberg": {
+    "lat": 49.891604,
+    "lon": 10.886848,
+    "approx": true,
+    "osm": "Bamberg, Bayern, Deutschland"
+  },
+  "CITY|de|Forchheim": {
+    "lat": 49.712295,
+    "lon": 11.066429
+  },
+  "Daimlerstraße 30, 91301 Forchheim, Deutschland|Lasertag-Planet Forchheim": {
+    "lat": 49.700338,
+    "lon": 11.06566,
+    "approx": false,
+    "osm": "30, Daimlerstraße, Forchheim, Landkreis Forchheim, Bayern, 91301, Deutschland"
+  },
+  "Georg-Hager-Straße 7, 90439 Nürnberg, Deutschland|ActionPark Lasertag Nürnberg": {
+    "lat": 49.44645,
+    "lon": 11.049918,
+    "approx": false,
+    "osm": "Action Park, 7, Georg-Hager-Straße, Sündersbühl, Weiterer Innenstadtgürtel West/Nord/Ost, Nürnberg, Bayern, 90439, Deutschland"
+  },
+  "CITY|de|Ansbach": {
+    "lat": 49.288874,
+    "lon": 10.559769
+  },
+  "Draisstraße 20, 91522 Ansbach, Deutschland|Action Area Ansbach": {
+    "lat": 49.297288,
+    "lon": 10.584036,
+    "approx": false,
+    "osm": "Reifen Brandt, 20a, Draisstraße, Gewerbegebiet Draisstraße, Kammerforst, Ansbach, Bayern, 91522, Deutschland"
+  },
+  "CITY|de|Pleinfeld": {
+    "lat": 49.120377,
+    "lon": 11.000989
+  },
+  "Mackenmühle 29, 91785 Pleinfeld, Deutschland|Indoor Funpark Pleinfeld": {
+    "lat": 49.133996,
+    "lon": 11.008864,
+    "approx": false,
+    "osm": "Escape Rooms Pleinfeld, 29, Mackenmühle, Pleinfeld, Landkreis Weißenburg-Gunzenhausen, Bayern, 91785, Deutschland"
+  },
+  "CITY|de|Erlangen": {
+    "lat": 49.589157,
+    "lon": 10.981207
+  },
+  "Hartmannstraße 116, 91052 Erlangen, Deutschland|DAV Boulderzentrum Erlangen": {
+    "lat": 49.583918,
+    "lon": 11.02245,
+    "approx": false,
+    "osm": "116, Hartmannstraße, Sebaldussiedlung, Erlangen, Bayern, 91052, Deutschland"
+  },
+  "Hauptstr. 64, 91054 Erlangen, Deutschland|Escape Time Erlangen": {
+    "lat": 49.600147,
+    "lon": 11.003223,
+    "approx": false,
+    "osm": "64, Hauptstraße, Stadtrandsiedlung, Innenstadt, Erlangen, Bayern, 91054, Deutschland"
+  },
+  "Marienstraße 2, 90402 Nürnberg, Deutschland|TeamEscape Nürnberg": {
+    "lat": 49.449324,
+    "lon": 11.084112,
+    "approx": false,
+    "osm": "Elli Sawet Fotoatelier, 2, Marienstraße, Marienvorstadt, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Färberstraße 20, 90402 Nürnberg, Deutschland|Escape Empire Nürnberg": {
+    "lat": 49.449356,
+    "lon": 11.072389,
+    "approx": false,
+    "osm": "Dänisches Konsulat, 20, Färberstraße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Wölckernstraße 10, 90459 Nürnberg, Deutschland|Scavenger Escape Nürnberg": {
+    "lat": 49.440188,
+    "lon": 11.081525,
+    "approx": false,
+    "osm": "Scavenger Escape Rooms Nürnberg, 10, Wölckernstraße, Lichtenhof, Galgenhof, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90459, Deutschland"
+  },
+  "Nürnberg, Deutschland|Snap Lasertag Nürnberg": {
+    "lat": 49.453872,
+    "lon": 11.077298,
+    "approx": true,
+    "osm": "Nürnberg, Bayern, Deutschland"
+  },
+  "Národní 22, 110 00 Praha 1, Tschechien|Café Louvre": {
+    "lat": 50.082067,
+    "lon": 14.418731,
+    "approx": false,
+    "osm": "Louvre, 22, Nationalallee, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Egidienplatz 1 (Ecke Theresienplatz), 90403 Nürnberg, Deutschland|Cocoon Luxusbetten Nürnberg": {
+    "lat": 49.455982,
+    "lon": 11.080745,
+    "approx": true,
+    "osm": "Egidienplatz, Nürnberg, Deutschland"
+  },
+  "CITY|de|Metzingen": {
+    "lat": 48.539725,
+    "lon": 9.28312
+  },
+  "Reutlinger Straße 63, 72555 Metzingen, Deutschland|Outletcity Metzingen": {
+    "lat": 48.535583,
+    "lon": 9.280401,
+    "approx": false,
+    "osm": "63, Reutlinger Straße, Outletcity Metzingen, Metzingen, VVG der Stadt Metzingen, Landkreis Reutlingen, Baden-Württemberg, 72555, Deutschland"
+  },
+  "CITY|de|Wendelstein": {
+    "lat": 49.334599,
+    "lon": 11.187572
+  },
+  "Hauptstr. 22, 90530 Wendelstein, Deutschland|Park Central – Steakhaus und Grillrestaurant": {
+    "lat": 49.3554,
+    "lon": 11.143782,
+    "approx": false,
+    "osm": "22, Hauptstraße, Wendelstein, Landkreis Roth, Bayern, 90530, Deutschland"
+  },
+  "Am Schießhaus 1, 90530 Wendelstein, Deutschland|Das Schnitzelparadies": {
+    "lat": 49.35479,
+    "lon": 11.149061,
+    "approx": false,
+    "osm": "1, Am Schießhaus, Wendelstein, Landkreis Roth, Bayern, 90530, Deutschland"
+  },
+  "CITY|es|Benidorm": {
+    "lat": 38.540625,
+    "lon": -0.129093
+  },
+  "Partida de Cabut 25, 03503 Benidorm, Spanien|Camping Internacional Almafra": {
+    "lat": 38.564605,
+    "lon": -0.114087,
+    "approx": true,
+    "osm": "Partida el Marxasso (Cementeri), Assagador de Ricardo, Benidorm, Spanien"
+  },
+  "CITY|es|Mont-roig del Camp": {
+    "lat": 41.084673,
+    "lon": 0.961302
+  },
+  "Ctra. N-340, km 1136, 43300 Mont-roig del Camp, Spanien|Playa Montroig Camping Resort": {
+    "lat": 41.032353,
+    "lon": 0.970879,
+    "approx": true,
+    "osm": "Càmping Resort Playa Montroig, Carretera N-340 Km 1.136, Montroig del Camp, Spanien"
+  },
+  "CITY|es|Guardamar del Segura": {
+    "lat": 38.089999,
+    "lon": -0.65381
+  },
+  "Carretera N-332, km 73,4, 03140 Guardamar del Segura, Spanien|Marjal Guardamar Camping & Resort": {
+    "lat": 38.089999,
+    "lon": -0.65381,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|es|Valencia": {
+    "lat": 39.469707,
+    "lon": -0.376335
+  },
+  "Calle Poeta Querol 8, 46002 Valencia, Spanien|Valencia Bus Turistic": {
+    "lat": 39.471426,
+    "lon": -0.374388,
+    "approx": false,
+    "osm": "Plant Shack, 8, Carrer del Poeta Querol, Ciutat Vella, Altstadt, Valencia, Comarca de València, Valencia, Valencianische Gemeinschaft, 46002, Spanien"
+  },
+  "Av. del Professor López Piñero 7, 46013 Valencia, Spanien|Ciutat de les Arts i les Ciències": {
+    "lat": 39.455756,
+    "lon": -0.352552,
+    "approx": false,
+    "osm": "Ciutat de les Arts i les Ciències, 7, Avinguda del Professor López Piñero (Historiador de la Medicina), Ciutat de les Arts i de les Ciències, Quatre Carreres, Valencia, Comarca de València, Valencia, Valencianische Gemeinschaft, 46013, Spanien"
+  },
+  "Avenida Marqués de Sotelo 6, 46002 Valencia, Spanien|Hard Rock Cafe Valencia": {
+    "lat": 39.468775,
+    "lon": -0.377119,
+    "approx": false,
+    "osm": "6, Avinguda del Marqués de Sotelo, Ciutat Vella, Altstadt, Valencia, Comarca de València, Valencia, Valencianische Gemeinschaft, 46002, Spanien"
+  },
+  "Carrer d'Eduardo Primo Yúfera 1B, 46013 Valencia, Spanien|L'Oceanogràfic": {
+    "lat": 39.452974,
+    "lon": -0.350168,
+    "approx": true,
+    "osm": "Carrer d'Eduardo Primo Yúfera, Ciutat de les Arts i de les Ciències, Quatre Carreres, Valencia, Comarca de València, Valencia, Valencianische Gemeinschaft, 46013, Spanien"
+  },
+  "CITY|de|Bayreuth": {
+    "lat": 49.944634,
+    "lon": 11.574354
+  },
+  "Eremitage 4, 95448 Bayreuth, Deutschland|Eremitage Bayreuth": {
+    "lat": 49.948917,
+    "lon": 11.625016,
+    "approx": false,
+    "osm": "Altes Schloss Eremitage, 4, Eremitage, Eremitenhof, Sankt Johannis, Bayreuth, Bayern, 95448, Deutschland"
+  },
+  "Opernstraße 16, 95444 Bayreuth, Deutschland|Markgräfliches Opernhaus Bayreuth (UNESCO-Welterbe)": {
+    "lat": 49.944537,
+    "lon": 11.578295,
+    "approx": false,
+    "osm": "16, Opernstraße, Westliche Innenstadt, City, Bayreuth, Bayern, 95444, Deutschland"
+  },
+  "Ludwigstraße 21, 95444 Bayreuth, Deutschland|Neues Schloss Bayreuth": {
+    "lat": 49.941823,
+    "lon": 11.577352,
+    "approx": false,
+    "osm": "Neues Schloss, 21, Ludwigstraße, Südöstliche Innenstadt, City, Bayreuth, Bayern, 95444, Deutschland"
+  },
+  "CITY|cz|Černá v Pošumaví": {
+    "lat": 48.738047,
+    "lon": 14.110919
+  },
+  "Bližná 16, 382 26 Černá v Pošumaví, Tschechien|Kemp Villa Bohemia – Camping Lipno": {
+    "lat": 48.728106,
+    "lon": 14.086853,
+    "approx": false,
+    "osm": "16, Eggetschlag, Schwarzbach, Bezirk Krumau, Südböhmische Region, Südwesten, 382 26, Tschechien"
+  },
+  "CITY|cz|Brno": {
+    "lat": 49.192244,
+    "lon": 16.611338
+  },
+  "Náměstí Svobody, 602 00 Brno, Tschechien|Freiheitsplatz (Náměstí Svobody) Brünn": {
+    "lat": 49.194729,
+    "lon": 16.608434,
+    "approx": true,
+    "osm": "Freiheitsplatz, Brünn-Stadt, Brno-střed, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 662 26, Tschechien"
+  },
+  "CITY|cz|Veverská Bítýška": {
+    "lat": 49.275642,
+    "lon": 16.43701
+  },
+  "Hrad Veveří 1239/1, 664 71 Veverská Bítýška, Tschechien|Burg Veveří": {
+    "lat": 49.255465,
+    "lon": 16.454861,
+    "approx": true,
+    "osm": "kaple Nanebevzetí Panny Marie u hradu Veveří, Eichhorn Bittischka, Tschechien"
+  },
+  "CITY|cz|Region Blansko": {
+    "lat": 49.363649,
+    "lon": 16.644239
+  },
+  "Moravský kras, Region Blansko, Tschechien|Mährischer Karst (Moravský kras)": {
+    "lat": 49.354312,
+    "lon": 16.646786,
+    "approx": true,
+    "osm": "Správa CHKO Moravský kras, Svitavská, Klepatschow, Blanz, Bezirk Blanz, Südmährische Region, 678 01, Tschechien"
+  },
+  "Pisárecká 5, 602 00 Brno, Tschechien|Anthropos Pavilion": {
+    "lat": 49.192115,
+    "lon": 16.567164,
+    "approx": false,
+    "osm": "Anthropos - Pavillon, 5, Pisárecká, Schreibwald, Brno-střed, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 602 00, Tschechien"
+  },
+  "Brno, Tschechien|Botanischer Garten der Fakultät (Brünn)": {
+    "lat": 49.192244,
+    "lon": 16.611338,
+    "approx": true,
+    "osm": "Brünn, Bezirk Brünn-Stadt, Südmährische Region, Tschechien"
+  },
+  "Lužánky, 602 00 Brno, Tschechien|Lužánky-Park": {
+    "lat": 49.205374,
+    "lon": 16.611156,
+    "approx": false,
+    "osm": "Tenis Pub Lužánky, 1883/3, Augartengasse, Obrowitz, Brno-střed, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 602 00, Tschechien"
+  },
+  "Mendlovo náměstí 1a, 603 00 Brno, Tschechien|Mendel Museum der Masaryk-Universität": {
+    "lat": 49.192286,
+    "lon": 16.594268,
+    "approx": false,
+    "osm": "Penzion na Starém Brně, 1a, Mendlovo náměstí, Altbrünn, Brno-střed, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 603 00, Tschechien"
+  },
+  "Husova (gegenüber Nr. 12), 602 00 Brno, Tschechien|Luftschutzbunker 10-Z": {
+    "lat": 49.193838,
+    "lon": 16.605617,
+    "approx": true,
+    "osm": "Husova, Brünn, Tschechien"
+  },
+  "U Zoologické zahrady 46, 635 00 Brno, Tschechien|Brünner Zoo": {
+    "lat": 49.230115,
+    "lon": 16.533394,
+    "approx": false,
+    "osm": "147/46, U Zoologické zahrady, Bisterz, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 635 00, Tschechien"
+  },
+  "Křížkovského 12, 603 00 Brno, Tschechien|VIDA! science center": {
+    "lat": 49.186618,
+    "lon": 16.584427,
+    "approx": false,
+    "osm": "554/12, Křížkovského, Kamenná kolonie, Schreibwald, Brno-střed, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 603 00, Tschechien"
+  },
+  "CITY|cz|Blansko": {
+    "lat": 49.363649,
+    "lon": 16.644239
+  },
+  "Skalní Mlýn, Blansko, Tschechien|Punkevní-Höhlen (Punkevní jeskyně)": {
+    "lat": 49.363811,
+    "lon": 16.7077,
+    "approx": true,
+    "osm": "Felsenmühle, 37920, Laschanek, Tiechow, Blanz, Bezirk Blanz, Südmährische Region, 679 03, Tschechien"
+  },
+  "Purkyňova 105, 612 00 Brno, Tschechien|Technisches Museum Brünn": {
+    "lat": 49.228157,
+    "lon": 16.581438,
+    "approx": false,
+    "osm": "2950/105, Purkyňova, Königsfeld, Brno-Královo Pole, Brünn, Bezirk Brünn-Stadt, Südmährische Region, 612 00, Tschechien"
+  },
+  "CITY|cz|Koněprusy": {
+    "lat": 49.92089,
+    "lon": 14.065751
+  },
+  "Koněprusy 101, 266 01 Koněprusy, Tschechien|Koněprusy-Höhlen": {
+    "lat": 49.916127,
+    "lon": 14.068779,
+    "approx": true,
+    "osm": "Die Koněprusy Höhlen, Konieprus, Tschechien"
+  },
+  "CITY|cz|Křivoklát": {
+    "lat": 50.03785,
+    "lon": 13.870365
+  },
+  "Křivoklát 47, 270 23 Křivoklát, Tschechien|Burg Křivoklát": {
+    "lat": 50.037774,
+    "lon": 13.872314,
+    "approx": true,
+    "osm": "Burg Pürglitz, Pürglitz, Tschechien"
+  },
+  "CITY|cz|Svatý Jan pod Skalou": {
+    "lat": 49.969148,
+    "lon": 14.133775
+  },
+  "Svatý Jan pod Skalou, Tschechien|Svatojánská skalní stěna": {
+    "lat": 49.969148,
+    "lon": 14.133775,
+    "approx": true,
+    "osm": "Sankt Johann unter dem Felsen, Bezirk Beraun, Mittelböhmische Region, Tschechien"
+  },
+  "CITY|cz|Region Beroun": {
+    "lat": 49.964029,
+    "lon": 14.073391
+  },
+  "Chrustenice, Region Beroun, Tschechien|Chrustenice Mine": {
+    "lat": 50.00604,
+    "lon": 14.152217,
+    "approx": true,
+    "osm": "Unterholz, Bezirk Beraun, Mittelböhmische Region, Tschechien"
+  },
+  "CITY|cz|Zbýšov": {
+    "lat": 49.815178,
+    "lon": 15.352829
+  },
+  "Masarykova 248, 664 11 Zbýšov, Tschechien|Muzeum průmyslových železnic Zbýšov": {
+    "lat": 49.815178,
+    "lon": 15.352829,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|cz|Chodová Planá": {
+    "lat": 49.894462,
+    "lon": 12.729449
+  },
+  "Pivovarská 107, Chodová Planá, Tschechien|Restaurace Ve Skále": {
+    "lat": 49.894021,
+    "lon": 12.728948,
+    "approx": true,
+    "osm": "Beerrarium Stará Sladovna, 107, Pivovarská, Kuttenplan, Bezirk Tachau, Pilsner Region, Südwesten, 348 13, Tschechien"
+  },
+  "CITY|at|Salzkammergut": {
+    "lat": 47.791913,
+    "lon": 13.571929
+  },
+  "Salzkammergut, Österreich|Salzkammergut-Berge": {
+    "lat": 47.791913,
+    "lon": 13.571929,
+    "approx": true,
+    "osm": "Salzkammergut, Oberösterreich, Österreich"
+  },
+  "CITY|at|Bad Ischl": {
+    "lat": 47.71153,
+    "lon": 13.623933
+  },
+  "4820 Bad Ischl, Österreich|Bad Ischl": {
+    "lat": 47.723117,
+    "lon": 13.648074,
+    "approx": true,
+    "osm": "4820, Bad Ischl, Bezirk Gmunden, Oberösterreich, Österreich"
+  },
+  "CITY|hu|Budapest": {
+    "lat": 47.497879,
+    "lon": 19.040238
+  },
+  "Bajcsy-Zsilinszky út 15/b, 1065 Budapest, Ungarn|Meatology Budapest": {
+    "lat": 47.500915,
+    "lon": 19.055153,
+    "approx": false,
+    "osm": "Bazilika étterem, 15/B, Bajcsy-Zsilinszky út, Theresienstadt, VI. Bezirk, Budapest, 1065, Ungarn"
+  },
+  "Városliget, 1146 Budapest, Ungarn|Burg Vajdahunyad": {
+    "lat": 47.514868,
+    "lon": 19.084368,
+    "approx": true,
+    "osm": "Stadtwäldchen, XIV. Bezirk, Budapest, 1146, Ungarn"
+  },
+  "Eötvös utca 17-19, 1062 Budapest, Ungarn|Rabbit Hole Bar & Café": {
+    "lat": 47.509016,
+    "lon": 19.060469,
+    "approx": true,
+    "osm": "Eötvös utca, Theresienstadt, VI. Bezirk, Budapest, 1067, Ungarn"
+  },
+  "Podmaniczky utca 14, 1065 Budapest, Ungarn|Sir Lancelot Medieval Restaurant": {
+    "lat": 47.508301,
+    "lon": 19.056628,
+    "approx": false,
+    "osm": "14, Podmaniczky utca, Theresienstadt, VI. Bezirk, Budapest, 1065, Ungarn"
+  },
+  "Állatkerti körút 9-11, 1146 Budapest, Ungarn|Széchenyi-Heilbad": {
+    "lat": 47.518435,
+    "lon": 19.082522,
+    "approx": false,
+    "osm": "Széchenyi-Heilbad, 9-11, Állatkerti körút, Stadtwäldchen, XIV. Bezirk, Budapest, 1146, Ungarn"
+  },
+  "Hídfő utca 16, 1033 Budapest, Ungarn|Csalánosi Csárda Óbuda": {
+    "lat": 47.540993,
+    "lon": 19.044647,
+    "approx": false,
+    "osm": "Csalánosi Csárda, 16, Hídfő utca, Alt-Ofen Altstadt, Alt-Ofen, III. Bezirk, Budapest, 1033, Ungarn"
+  },
+  "CITY|de|Oberharz am Brocken OT Rübeland": {
+    "lat": 51.737545,
+    "lon": 10.850068
+  },
+  "Blankenburger Straße 35, 38889 Oberharz am Brocken OT Rübeland, Deutschland|Baumannshöhle Rübeland": {
+    "lat": 51.75481,
+    "lon": 10.843319,
+    "approx": true,
+    "osm": "Baumannshöhle, Blankenburger Straße, Oberharz am Brocken, Deutschland"
+  },
+  "CITY|de|Goslar": {
+    "lat": 51.905994,
+    "lon": 10.426628
+  },
+  "Hahnenklee-Bockswiese, 38644 Goslar, Deutschland|Liebesbankweg": {
+    "lat": 51.856253,
+    "lon": 10.340923,
+    "approx": true,
+    "osm": "Hahnenklee-Bockswiese, Liebesbankweg, Bockswiese, Goslar, Landkreis Goslar, Niedersachsen, Deutschland"
+  },
+  "Blankenburger Straße 35, 38889 Oberharz am Brocken OT Rübeland, Deutschland|Hermannshöhle Rübeland": {
+    "lat": 51.754774,
+    "lon": 10.843853,
+    "approx": true,
+    "osm": "Blankenburger Straße, Oberharz am Brocken, Deutschland"
+  },
+  "CITY|de|Wernigerode": {
+    "lat": 51.834417,
+    "lon": 10.786253
+  },
+  "Am Schloß 1, 38855 Wernigerode, Deutschland|Schloss Wernigerode": {
+    "lat": 51.83087,
+    "lon": 10.794908,
+    "approx": true,
+    "osm": "Am Schloß, Nöschenrode, Wernigerode, Landkreis Harz, Sachsen-Anhalt, 38855, Deutschland"
+  },
+  "CITY|de|Bad Harzburg": {
+    "lat": 51.879723,
+    "lon": 10.587533
+  },
+  "Nordhäuser Str. 4, 38667 Bad Harzburg, Deutschland|Baumwipfelpfad Harz": {
+    "lat": 51.870591,
+    "lon": 10.55979,
+    "approx": false,
+    "osm": "Tourist-Information, 4, Nordhäuser Straße, Bad Harzburg (Innenstadt), Bad Harzburg, Landkreis Goslar, Niedersachsen, 38667, Deutschland"
+  },
+  "Bergtal 19, 38640 Goslar, Deutschland|Weltkulturerbe Rammelsberg – Museum & Besucherbergwerk": {
+    "lat": 51.889571,
+    "lon": 10.419709,
+    "approx": false,
+    "osm": "Weltkulturerbe Rammelsberg Museum & Besucherbergwerk, 19, Bergtal, Altstadt, Goslar, Landkreis Goslar, Niedersachsen, 38640, Deutschland"
+  },
+  "CITY|de|Salzgitter": {
+    "lat": 52.150372,
+    "lon": 10.359315
+  },
+  "Museumstraße 34, 38229 Salzgitter, Deutschland|Städtisches Museum Schloss Salder": {
+    "lat": 52.135932,
+    "lon": 10.337712,
+    "approx": false,
+    "osm": "34, Museumstraße, Salder, Ortschaft Nord, Salzgitter, Niedersachsen, 38229, Deutschland"
+  },
+  "CITY|de|Einbeck": {
+    "lat": 51.822234,
+    "lon": 9.899142
+  },
+  "Tiedexer Tor 3, 37574 Einbeck, Deutschland|PS.SPEICHER": {
+    "lat": 51.819555,
+    "lon": 9.860072,
+    "approx": false,
+    "osm": "PS.SPEICHER, 3, Tiedexer Tor, Einbeck, Landkreis Northeim, Niedersachsen, 37574, Deutschland"
+  },
+  "CITY|de|Clausthal-Zellerfeld": {
+    "lat": 51.80704,
+    "lon": 10.336448
+  },
+  "Bornhardtstraße 16, 38678 Clausthal-Zellerfeld, Deutschland|Oberharzer Bergwerksmuseum": {
+    "lat": 51.817016,
+    "lon": 10.336104,
+    "approx": false,
+    "osm": "Oberharzer Bergwerksmuseum, 16, Bornhardtstraße, Zellerfeld, Clausthal-Zellerfeld, Landkreis Goslar, Niedersachsen, 38678, Deutschland"
+  },
+  "Gießerweg 1, 38855 Wernigerode, Deutschland|Luftfahrtmuseum Wernigerode": {
+    "lat": 51.839508,
+    "lon": 10.773062,
+    "approx": false,
+    "osm": "Luftfahrtmuseum Wernigerode, 1, Gießerweg, Harzblick, Wernigerode, Landkreis Harz, Sachsen-Anhalt, 38855, Deutschland"
+  },
+  "79822 Titisee-Neustadt, Deutschland|Titisee-Neustadt": {
+    "lat": 47.937951,
+    "lon": 8.189999,
+    "approx": true,
+    "osm": "79822, Langenordnach, Titisee-Neustadt, VVG der Stadt Titisee-Neustadt, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, Deutschland"
+  },
+  "Roztylská 2321/19, 148 00 Praha, Tschechien|Westfield Chodov": {
+    "lat": 50.032115,
+    "lon": 14.491034,
+    "approx": false,
+    "osm": "Cinema City - Praha chodov, 2321/19, Roztylská, Gängerhof, Prag 11, Stadtbezirk Prag 4, Prag, 148 00, Tschechien"
+  },
+  "CITY|ua|Odesa": {
+    "lat": 46.484302,
+    "lon": 30.732288
+  },
+  "Henerala Petrova Street 17, Odesa, Ukraine|Gorki-Park (Mark-Twain-Park) Odesa": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|de|Dresden": {
+    "lat": 51.049329,
+    "lon": 13.738144
+  },
+  "Neumarkt, 01067 Dresden, Deutschland|Frauenkirche Dresden": {
+    "lat": 51.05131,
+    "lon": 13.740711,
+    "approx": false,
+    "osm": "Neumarkt, Innere Altstadt, Altstadt, Dresden, Sachsen, 01067, Deutschland"
+  },
+  "Theaterplatz 2, 01067 Dresden, Deutschland|Semperoper Dresden": {
+    "lat": 51.05454,
+    "lon": 13.735226,
+    "approx": false,
+    "osm": "Semperoper, 2, Theaterplatz, Innere Altstadt, Altstadt, Dresden, Sachsen, 01067, Deutschland"
+  },
+  "Erlangen, Deutschland|Warriors Luck Erlangen": {
+    "lat": 49.589157,
+    "lon": 10.981207,
+    "approx": true,
+    "osm": "Erlangen, Bayern, Deutschland"
+  },
+  "Deribasivska Street 13, Odesa, Ukraine|Mick O'Neill's Irish Pub": {
+    "lat": 46.483593,
+    "lon": 30.739737,
+    "approx": true,
+    "osm": "13, Дерибасівська вулиця, Центр, Приморський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65026, Ukraine"
+  },
+  "Deribasivska-Straße 31, Odesa, Ukraine|Gambrinus (Hambrinus)": {
+    "lat": 46.484172,
+    "lon": 30.734483,
+    "approx": true,
+    "osm": "Гамбринус, Дерибасівська вулиця, Odessa, Ukraine"
+  },
+  "Uspenska-Straße 70, 65046 Odesa, Ukraine|Zirka Hotel": {
+    "lat": 46.4765,
+    "lon": 30.73055,
+    "approx": true,
+    "osm": "Зірка, Ковальська вулиця, Центр, Приморський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65045, Ukraine"
+  },
+  "Odesa, Ukraine|Katakomben von Odesa": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Odessa, Одеська міська громада, Одеський район, Oblast Odessa, Ukraine"
+  },
+  "CITY|ua|Oblast Odesa": {
+    "lat": 46.868717,
+    "lon": 32.214286
+  },
+  "Unterer Dnister, Oblast Odesa, Ukraine|Unterer-Dnister-Nationalpark (Lower Dniester National Park)": {
+    "lat": 46.868717,
+    "lon": 32.214286,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|ua|Oblast Mykolajiw": {
+    "lat": 47.388603,
+    "lon": 31.944233
+  },
+  "Koblewe, Oblast Mykolajiw, Ukraine|Water Park Koblewe": {
+    "lat": 47.388603,
+    "lon": 31.944233,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Bunina-Straße 15, Odesa, Ukraine|Philharmonie Odesa": {
+    "lat": 46.480428,
+    "lon": 30.743011,
+    "approx": true,
+    "osm": "Одеська обласна філармонія, вулиця Ніни Строкатої, Odessa, Ukraine"
+  },
+  "Novoshchepnyi Ryad 25, Odesa, Ukraine|Zoo Odesa": {
+    "lat": 46.465944,
+    "lon": 30.731898,
+    "approx": true,
+    "osm": "Одеський зоопарк, вулиця Новощіпний Ряд, Odessa, Ukraine"
+  },
+  "Havanna-Straße (vul. Havanna), Odesa, Ukraine|Kumanets": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|cz|Mährisch-Schlesische Beskiden": {
+    "lat": 49.527594,
+    "lon": 18.754136
+  },
+  "Lysá hora, Mährisch-Schlesische Beskiden, Tschechien|Lysá hora": {
+    "lat": 49.545978,
+    "lon": 18.44727,
+    "approx": true,
+    "osm": "Kahlberg, Krasna, Tschechien"
+  },
+  "Platnéřská 111/19, 110 00 Praha 1, Tschechien|George Prime Steak": {
+    "lat": 50.087577,
+    "lon": 14.418502,
+    "approx": false,
+    "osm": "111/19, Platnergasse, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 4": {
+    "lat": 50.04063,
+    "lon": 14.444959
+  },
+  "Pod Višňovkou 1663/19, 140 00 Praha 4, Tschechien|CrossFit Committed": {
+    "lat": 50.030655,
+    "lon": 14.451251,
+    "approx": false,
+    "osm": "1663/19, Pod Višňovkou, Business centrum Zálesí, Krtsch, Prag 4, Stadtbezirk Prag 4, Prag, 140 00, Tschechien"
+  },
+  "CITY|de|Steinberg am See": {
+    "lat": 49.276252,
+    "lon": 12.180142
+  },
+  "In der Oder 7, 92449 Steinberg am See, Deutschland|inMotion PARK Seenland (Erlebnisholzkugel)": {
+    "lat": 49.286535,
+    "lon": 12.154945,
+    "approx": false,
+    "osm": "inMotion PARK, 7, In der Oder, Oder, Steinberg am See, Wackersdorf (VGem), Landkreis Schwandorf, Bayern, 92449, Deutschland"
+  },
+  "CITY|it|Lido di Jesolo": {
+    "lat": 45.503303,
+    "lon": 12.632441
+  },
+  "Via Michelangelo Buonarroti 15/A, 30016 Lido di Jesolo (VE), Italien|Caribe Bay": {
+    "lat": 45.490837,
+    "lon": 12.607154,
+    "approx": true,
+    "osm": "Via Michelangelo Buonarroti, Ca' Crema, Lido di Jesolo, Jesolo, Venezia, Venetien, 30016, Italien"
+  },
+  "CITY|de|Landkreis Fürth": {
+    "lat": 49.466657,
+    "lon": 10.872621
+  },
+  "Langenzenn, Landkreis Fürth, Deutschland|ZennOase": {
+    "lat": 49.488835,
+    "lon": 10.781324,
+    "approx": true,
+    "osm": "Langenzenn, Landkreis Fürth, Bayern, 90579, Deutschland"
+  },
+  "Michalská 20, 110 00 Praha 1, Tschechien|Bistro Monk": {
+    "lat": 50.08594,
+    "lon": 14.420069,
+    "approx": false,
+    "osm": "Sanu Babu, 970/20, Michalská, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|de|Pommelsbrunn": {
+    "lat": 49.504638,
+    "lon": 11.507894
+  },
+  "Fischbrunn 16, 91224 Pommelsbrunn, Deutschland|Bärenbrot Fischbrunn": {
+    "lat": 49.543308,
+    "lon": 11.50664,
+    "approx": false,
+    "osm": "16, Fischbrunn, Pommelsbrunn, Landkreis Nürnberger Land, Bayern, 91224, Deutschland"
+  },
+  "CITY|cz|Praha 3 – Žižkov": {
+    "lat": 50.083238,
+    "lon": 14.478008
+  },
+  "Tachovské náměstí, Praha 3 – Žižkov, Tschechien|Planeta Žižkov": {
+    "lat": 50.087701,
+    "lon": 14.453156,
+    "approx": true,
+    "osm": "Tachovské náměstí, Zischkaberg, Stadtbezirk Prag 3, Prag, Tschechien"
+  },
+  "CITY|cz|Praha 10 – Vršovice": {
+    "lat": 50.064702,
+    "lon": 14.451368
+  },
+  "Lopuchová 58/6, 101 00 Praha 10 – Vršovice, Tschechien|Ankali": {
+    "lat": 50.063826,
+    "lon": 14.457093,
+    "approx": false,
+    "osm": "Ankali, 58/6, Lopuchová, Werschowitz, Prag 10, Stadtbezirk Prag 10, Prag, 101 00, Tschechien"
+  },
+  "CITY|cz|Praha 7 – Holešovice": {
+    "lat": 50.099828,
+    "lon": 14.422863
+  },
+  "Partyzánská 18/23, 170 00 Praha 7 – Holešovice, Tschechien|Altenburg 1964": {
+    "lat": 50.111502,
+    "lon": 14.438488,
+    "approx": false,
+    "osm": "18/23, Partisanenstraße, Holleschowitz, Prag 7, Stadtbezirk Prag 7, Prag, 170 00, Tschechien"
+  },
+  "Marientorgraben 8, 90402 Nürnberg, Deutschland|Naturhistorisches Museum Nürnberg": {
+    "lat": 49.451845,
+    "lon": 11.084756,
+    "approx": false,
+    "osm": "Naturhistorisches Museum, 8, Marientorgraben, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Luitpoldstraße 9, Nürnberg, Deutschland|Harlėm Bar": {
+    "lat": 49.448066,
+    "lon": 11.079346,
+    "approx": true,
+    "osm": "9, Luitpoldstraße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Weißgerbergasse 31, 90403 Nürnberg, Deutschland|Mata Hari Bar": {
+    "lat": 49.455017,
+    "lon": 11.072342,
+    "approx": false,
+    "osm": "Mata Hari Bar, 31, Weißgerbergasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Weinmarkt 16, 90403 Nürnberg, Deutschland|Die Blume von Hawaii": {
+    "lat": 49.455512,
+    "lon": 11.073787,
+    "approx": false,
+    "osm": "16, Weinmarkt, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Untere Wörthstraße 10, 90403 Nürnberg, Deutschland|Kon Tiki": {
+    "lat": 49.452571,
+    "lon": 11.073519,
+    "approx": false,
+    "osm": "10, Untere Wörthstraße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "CITY|de|Landkreis Forchheim": {
+    "lat": 49.731017,
+    "lon": 11.145086
+  },
+  "Kirchehrenbach, Landkreis Forchheim, Deutschland|Ehrenbürg (Walberla)": {
+    "lat": 49.733219,
+    "lon": 11.156971,
+    "approx": true,
+    "osm": "Kirchehrenbach, Kirchehrenbach (VGem), Landkreis Forchheim, Bayern, 91356, Deutschland"
+  },
+  "Trödelmarkt 30, 90403 Nürnberg, Deutschland|Trödelstuben – Wein- und Bierstube": {
+    "lat": 49.453278,
+    "lon": 11.074619,
+    "approx": false,
+    "osm": "30, Trödelmarkt, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Allersberger Straße 162, 90461 Nürnberg, Deutschland|next door coffee club": {
+    "lat": 49.43405,
+    "lon": 11.093978,
+    "approx": false,
+    "osm": "162, Allersberger Straße, Hummelstein, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90461, Deutschland"
+  },
+  "Allersberger Straße 185, 90461 Nürnberg, Deutschland|Café Ein Stück vom Glück": {
+    "lat": 49.433201,
+    "lon": 11.096225,
+    "approx": false,
+    "osm": "F, 185, Allersberger Straße, Nürbanum, Guntherstraße, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90461, Deutschland"
+  },
+  "Pirckheimerstraße 112, 90409 Nürnberg, Deutschland|SUNDAYS": {
+    "lat": 49.46127,
+    "lon": 11.088987,
+    "approx": false,
+    "osm": "112, Pirckheimerstraße, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90409, Deutschland"
+  },
+  "Provaznická 386/1, 110 00 Praha 1, Tschechien|The Alchemist Bar": {
+    "lat": 50.084557,
+    "lon": 14.423061,
+    "approx": false,
+    "osm": "386/1, Seilergasse, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "U Památníku 1900, Praha 3 – Žižkov, Tschechien|Café Vítkov": {
+    "lat": 50.088591,
+    "lon": 14.450366,
+    "approx": true,
+    "osm": "Cafe Bar Vítkov, 1900, U Památníku, Zischkaberg, Stadtbezirk Prag 3, Prag, 130 00, Tschechien"
+  },
+  "CITY|cz|Praha 1 – Malá Strana": {
+    "lat": 50.086643,
+    "lon": 14.390086
+  },
+  "Újezd 33, 118 00 Praha 1 – Malá Strana, Tschechien|Luka Lu": {
+    "lat": 50.083614,
+    "lon": 14.404207,
+    "approx": false,
+    "osm": "Luka Lu, 33, Aujest, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "CITY|cz|Praha 1 – Staré Město": {
+    "lat": 50.084094,
+    "lon": 14.415969
+  },
+  "Boršov 2/280, 110 00 Praha 1 – Staré Město, Tschechien|Lehká hlava – vegetarisches Restaurant": {
+    "lat": 50.084035,
+    "lon": 14.414803,
+    "approx": true,
+    "osm": "Boršov, Altstadt, Stadtbezirk Prag 1, Prag, 116 65, Tschechien"
+  },
+  "Pařížská 19, 110 00 Praha 1 – Staré Město, Tschechien|Les Moules": {
+    "lat": 50.088298,
+    "lon": 14.42011,
+    "approx": true,
+    "osm": "Pariser Straße, Josefstadt, Stadtbezirk Prag 1, Prag, 115 72, Tschechien"
+  },
+  "Alšovo nábřeží 10, 110 00 Praha 1 – Staré Město, Tschechien|Marina Ristorante": {
+    "lat": 50.089144,
+    "lon": 14.413805,
+    "approx": false,
+    "osm": "Marina ristorante, 10, Alšovo nábřeží, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Vlašská 358/7, 118 00 Praha 1 – Malá Strana, Tschechien|St. Martin": {
+    "lat": 50.087254,
+    "lon": 14.399914,
+    "approx": false,
+    "osm": "St. Martin, 358/7, Wälsche Spitalgasse, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Tržiště 369/7, 118 00 Praha 1 – Malá Strana, Tschechien|San Carlo Malá Strana": {
+    "lat": 50.087098,
+    "lon": 14.402803,
+    "approx": false,
+    "osm": "San Carlo Malá Strana, 369/7, Markt, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Perlová 412/1, 110 00 Praha 1 – Staré Město, Tschechien|La Piccola Perla": {
+    "lat": 50.083683,
+    "lon": 14.421184,
+    "approx": false,
+    "osm": "412/1, Perlgasse, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 5 – Smíchov": {
+    "lat": 50.075633,
+    "lon": 14.406201
+  },
+  "Pavla Švandy ze Semčic 388/16, 150 00 Praha 5 – Smíchov, Tschechien|The Bowls": {
+    "lat": 50.076982,
+    "lon": 14.406088,
+    "approx": false,
+    "osm": "388/16, Paul-Švanda-Gasse, Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "CITY|cz|Praha 2 – Nové Město": {
+    "lat": 50.092312,
+    "lon": 14.428601
+  },
+  "Ostrovní 127/28, 110 00 Praha 2 – Nové Město, Tschechien|BO District": {
+    "lat": 50.080687,
+    "lon": 14.4182,
+    "approx": true,
+    "osm": "Inselgasse, Prag, Tschechien"
+  },
+  "CITY|cz|Praha 1 – Nové Město": {
+    "lat": 50.089427,
+    "lon": 14.429638
+  },
+  "Palackého 717/11, 110 00 Praha 1 – Nové Město, Tschechien|Dim Sum Spot Palackého": {
+    "lat": 50.080962,
+    "lon": 14.423656,
+    "approx": false,
+    "osm": "717/11, Palacký-Gasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Spálená 98/31, 110 00 Praha 1, Tschechien|Prahaggogi": {
+    "lat": 50.080579,
+    "lon": 14.41967,
+    "approx": false,
+    "osm": "98/31, Brenntegasse, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Myslíkova, Nové Město, Praha 1, Tschechien|The Nest": {
+    "lat": 50.077581,
+    "lon": 14.416549,
+    "approx": true,
+    "osm": "Myslík-Gasse, Neustadt, Stadtbezirk Prag 1, Prag, 121 35, Tschechien"
+  },
+  "Národní 38, 110 00 Praha 1, Tschechien|Národní 38": {
+    "lat": 50.082392,
+    "lon": 14.421525,
+    "approx": false,
+    "osm": "Národní 38, 37/38, Nationalallee, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Lidická 653/25, 150 00 Praha 5, Tschechien|Dim Sum Spot & Pub Anděl": {
+    "lat": 50.07225,
+    "lon": 14.406664,
+    "approx": false,
+    "osm": "653/25, Lidická, Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "Mikulandská, 116 65 Praha 1, Tschechien|Imbus Café": {
+    "lat": 50.081397,
+    "lon": 14.41803,
+    "approx": false,
+    "osm": "Mikulandská, Altstadt, Stadtbezirk Prag 1, Prag, 116 65, Tschechien"
+  },
+  "Pod Karlovem (Eingang gegenüber Nr. 2), 120 00 Praha 2, Tschechien|Kryt Folimanka": {
+    "lat": 50.073793,
+    "lon": 14.430601,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Vodičkova 30, 110 00 Praha 1, Tschechien|Novak House (U Nováků)": {
+    "lat": 50.080889,
+    "lon": 14.424647,
+    "approx": false,
+    "osm": "Saint Tropez, 30, Wassergasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|cz|Praha 3": {
+    "lat": 50.087122,
+    "lon": 14.465708
+  },
+  "U Památníku 2, 130 00 Praha 3 (Žižkov), Tschechien|Vojenský historický ústav Praha (Military History Institute)": {
+    "lat": 50.087445,
+    "lon": 14.444708,
+    "approx": false,
+    "osm": "Armádní muzeum Žižkov, 1600/2, U Památníku, Zischkaberg, Stadtbezirk Prag 3, Prag, 130 00, Tschechien"
+  },
+  "Ke Karlovu 453/1, 120 00 Praha 2, Tschechien|Muzeum Policie ČR (Czech Police Museum)": {
+    "lat": 50.0689,
+    "lon": 14.428098,
+    "approx": false,
+    "osm": "Muzeum Policie ČR, 453/1, Karlshof, Prager Hochburg, Stadtbezirk Prag 2, Prag, 120 00, Tschechien"
+  },
+  "Na Pankráci 1724/129, 140 00 Praha 4, Tschechien|Brambory": {
+    "lat": 50.051182,
+    "lon": 14.440579,
+    "approx": false,
+    "osm": "VOK DAMS Eastern Europe S.R.O., 1724/129, Na Pankráci, Grüner Fuchs, Pankratz, Prag 4, Stadtbezirk Prag 4, Prag, 140 00, Tschechien"
+  },
+  "Masná 1051/3, 110 00 Praha 1, Tschechien|Yami Sushi House": {
+    "lat": 50.089476,
+    "lon": 14.423508,
+    "approx": false,
+    "osm": "YAMI™ Sushi House, 1051/3, Fleischmarktgasse, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "K Závěrce 2774/20, 150 00 Praha 5, Tschechien|Restaurace Na Kopci": {
+    "lat": 50.056664,
+    "lon": 14.402557,
+    "approx": false,
+    "osm": "2774/20, K Závěrce, Dívčí hrady, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "V Celnici 1034/6, 110 00 Praha 1, Tschechien|Sia Restaurant": {
+    "lat": 50.088186,
+    "lon": 14.430778,
+    "approx": false,
+    "osm": "Sia, 1034/6, V Celnici, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Vinohradská 47, 120 00 Praha 2, Tschechien|Levitate": {
+    "lat": 50.077469,
+    "lon": 14.440297,
+    "approx": false,
+    "osm": "1128/47, Weinberger Hauptstraße, Prager Hochburg, Stadtbezirk Prag 2, Prag, 120 00, Tschechien"
+  },
+  "Revoluční 655/1, 110 00 Praha 1, Tschechien|Pizza Nuova": {
+    "lat": 50.08953,
+    "lon": 14.427881,
+    "approx": false,
+    "osm": "655/1, Revoluční, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Rubešova 10, 120 00 Praha 2, Tschechien|Bílá kráva – steaky a francouzská vína": {
+    "lat": 50.07777,
+    "lon": 14.432675,
+    "approx": false,
+    "osm": "Bílá kráva, 83/10, Rubeš-Gasse, Prager Hochburg, Stadtbezirk Prag 2, Prag, 120 00, Tschechien"
+  },
+  "Táborská 49, 140 00 Praha 4 (Nusle), Tschechien|Restaurace U Bansethů": {
+    "lat": 50.062885,
+    "lon": 14.439998,
+    "approx": false,
+    "osm": "U Bansethů, 389/49, Táborská, Nussl, Prag 4, Stadtbezirk Prag 4, Prag, 140 00, Tschechien"
+  },
+  "Staroměstské náměstí 930/7, 110 00 Praha 1, Tschechien|Restaurace Mincovna": {
+    "lat": 50.088376,
+    "lon": 14.421295,
+    "approx": false,
+    "osm": "930/7, Altstädter Ring, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Hradčanské náměstí 1, 118 00 Praha 1, Tschechien|Kuchyň": {
+    "lat": 50.089193,
+    "lon": 14.397858,
+    "approx": false,
+    "osm": "186/1, Hradschiner Platz, Hradschin, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Vltavská 787/8, 150 00 Praha 5 (Smíchov), Tschechien|Restaurace U Kristiána": {
+    "lat": 50.070059,
+    "lon": 14.409488,
+    "approx": false,
+    "osm": "787/8, Moldaugasse, Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "Záhřebská 23/25, 120 00 Praha 2, Tschechien|GRAM.": {
+    "lat": 50.072908,
+    "lon": 14.439438,
+    "approx": true,
+    "osm": "Zagreber Straße, Prager Hochburg, Stadtbezirk Prag 2, Prag, 120 00, Tschechien"
+  },
+  "Korunní 86, 101 00 Praha 10 (Vinohrady), Tschechien|Spižírna 1902": {
+    "lat": 50.075364,
+    "lon": 14.453631,
+    "approx": true,
+    "osm": "Kronenstraße, Weinberge, Prag 10, Stadtbezirk Prag 10, Prag, 101 00, Tschechien"
+  },
+  "Letenská, 118 00 Praha 1 (Malá Strana), Tschechien|Café des Taxis": {
+    "lat": 50.088527,
+    "lon": 14.405345,
+    "approx": false,
+    "osm": "Letenská, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Novotného lávka 9, 110 00 Praha 1, Tschechien|Restaurant Mlýnec": {
+    "lat": 50.085405,
+    "lon": 14.413561,
+    "approx": false,
+    "osm": "199/9, Novotného lávka, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Lázeňská 282/19, 118 00 Praha 1, Tschechien|The Miners Coffee Charles Bridge": {
+    "lat": 50.087166,
+    "lon": 14.405996,
+    "approx": false,
+    "osm": "282/19, Badgasse, Kleinseite, Stadtbezirk Prag 1, Prag, 118 00, Tschechien"
+  },
+  "Sokolovská 444/118, 186 00 Praha 8, Tschechien|BA-LĂM Coffee": {
+    "lat": 50.094933,
+    "lon": 14.456051,
+    "approx": false,
+    "osm": "444/118, Sokolovská, Karolinenthal, Prag 8, Stadtbezirk Prag 8, Prag, 186 00, Tschechien"
+  },
+  "Riegrovy sady, Vinohrady, Praha, Tschechien|Riegrovy sady – Aussichtspunkt": {
+    "lat": 50.080179,
+    "lon": 14.439286,
+    "approx": true,
+    "osm": "Rieger-Park, Prag, Tschechien"
+  },
+  "V Pevnosti 2, 120 00 Praha 2 (Vyšehrad), Tschechien|Hospůdka Na Hradbách": {
+    "lat": 50.061709,
+    "lon": 14.424183,
+    "approx": true,
+    "osm": "V Pevnosti, Prager Hochburg, Stadtbezirk Prag 2, Prag, 128 00, Tschechien"
+  },
+  "Týnská ulička 628/2, 110 00 Praha 1, Tschechien|Střídačka (The Hockey Bench)": {
+    "lat": 50.088111,
+    "lon": 14.422607,
+    "approx": false,
+    "osm": "628/2, Teyngässchen, Josefstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Míšeňská 12, 110 00 Praha 1, Tschechien|Lokál U Bílé kuželky": {
+    "lat": 50.08771,
+    "lon": 14.408115,
+    "approx": true,
+    "osm": "Meissnergasse, Kleinseite, Stadtbezirk Prag 1, Prag, 118 01, Tschechien"
+  },
+  "Jungmannovo náměstí / Vodičkova, 110 00 Praha 1, Tschechien|Františkánská zahrada (Franziskanergarten)": {
+    "lat": 50.083227,
+    "lon": 14.422923,
+    "approx": true,
+    "osm": "Jungmannplatz, Prag, Tschechien"
+  },
+  "Belgická, Vinohrady, Praha 2, Tschechien|Dish Belgická": {
+    "lat": 50.072988,
+    "lon": 14.43617,
+    "approx": true,
+    "osm": "Dish {fine burger bistro}, Belgische Straße, Prag, Tschechien"
+  },
+  "CITY|cz|Praha 6": {
+    "lat": 50.106556,
+    "lon": 14.363724
+  },
+  "Patočkova 4, 162 00 Praha 6, Tschechien|Muzeum MHD – Vozovna Střešovice (Museum des öffentlichen Nahverkehrs)": {
+    "lat": 50.094198,
+    "lon": 14.389914,
+    "approx": false,
+    "osm": "460/4, Patočkova, Streschowitz, Prag 6, Stadtbezirk Prag 6, Prag, 162 00, Tschechien"
+  },
+  "Vodičkova 26, 110 00 Praha 1, Tschechien|Branická Formanka": {
+    "lat": 50.080251,
+    "lon": 14.423911,
+    "approx": false,
+    "osm": "Branická Formanka, 696/26, Wassergasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Politických vězňů 1511/5, 110 00 Praha 1, Tschechien|Kantýna": {
+    "lat": 50.083362,
+    "lon": 14.428729,
+    "approx": false,
+    "osm": "1511/5, Bredauer Gasse, Neustadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "Za Ženskými domovy 125/5, 150 00 Praha 5 (Smíchov), Tschechien|Radlická kulturní sportovna": {
+    "lat": 50.067741,
+    "lon": 14.402848,
+    "approx": false,
+    "osm": "125/5, Za Ženskými domovy, Smichow, Prag 5, Stadtbezirk Prag 5, Prag, 150 00, Tschechien"
+  },
+  "Národní 4, Praha 1, Tschechien|Café NONA": {
+    "lat": 50.081213,
+    "lon": 14.41455,
+    "approx": true,
+    "osm": "Nová scéna Národního Divadla, 4, Nationalallee, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|de|Aulendorf": {
+    "lat": 47.952816,
+    "lon": 9.640933
+  },
+  "Radgasse 1, 88326 Aulendorf, Deutschland|Hotel Arthus": {
+    "lat": 47.952728,
+    "lon": 9.638436,
+    "approx": false,
+    "osm": "1, Radgasse, Rugetsweiler, Aulendorf, Landkreis Ravensburg, Baden-Württemberg, 88326, Deutschland"
+  },
+  "CITY|de|Düsseldorf": {
+    "lat": 51.225402,
+    "lon": 6.776314
+  },
+  "Oststraße 115, 40210 Düsseldorf, Deutschland|Kaffeerösterei Röstzeit": {
+    "lat": 51.221908,
+    "lon": 6.785556,
+    "approx": false,
+    "osm": "115, Oststraße, Little Tokyo, Stadtmitte, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40210, Deutschland"
+  },
+  "CITY|tr|Istanbul": {
+    "lat": 41.006381,
+    "lon": 28.975872
+  },
+  "Muallim Naci Caddesi 58, Kuruçeşme, Beşiktaş, Istanbul, Türkei|Oligark İstanbul": {
+    "lat": 41.056075,
+    "lon": 29.035381,
+    "approx": true,
+    "osm": "Oligark İstanbul, 58, Muallim Naci Caddesi, Kuruçeşme Mahallesi, Beşiktaş, İstanbul, Marmararegion, 34345, Türkei"
+  },
+  "Muallim Naci Caddesi 56, 34345 Beşiktaş, Istanbul, Türkei|HuQQa Kuruçeşme": {
+    "lat": 41.055752,
+    "lon": 29.034807,
+    "approx": false,
+    "osm": "Huqqa, 56, Muallim Naci Caddesi, Kuruçeşme Mahallesi, Beşiktaş, İstanbul, Marmararegion, 34345, Türkei"
+  },
+  "Badstraße 37, 91154 Roth, Deutschland|Camping Waldsee": {
+    "lat": 49.188329,
+    "lon": 11.123938,
+    "approx": false,
+    "osm": "37, Badstraße, Wallesau, Roth, Landkreis Roth, Bayern, 91154, Deutschland"
+  },
+  "CITY|de|Trassenheide": {
+    "lat": 54.086249,
+    "lon": 13.864635
+  },
+  "Forststraße 9, 17449 Trassenheide, Deutschland|SEETELHOTEL Kinderresort Usedom (TUI SUNEO)": {
+    "lat": 54.086999,
+    "lon": 13.873708,
+    "approx": false,
+    "osm": "Familienresort Usedom, 9, Forststraße, Trassenmoor, Trassenheide, Usedom-Nord, Vorpommern-Greifswald, Mecklenburg-Vorpommern, 17449, Deutschland"
+  },
+  "Národní 26, Praha 1, Tschechien|Máj Národní": {
+    "lat": 50.082096,
+    "lon": 14.419699,
+    "approx": true,
+    "osm": "Máj Národní, 26, Nationalallee, Altstadt, Stadtbezirk Prag 1, Prag, 110 00, Tschechien"
+  },
+  "CITY|de|Schwabach": {
+    "lat": 49.334691,
+    "lon": 11.029414
+  },
+  "Nördliche Ringstraße 26, 91126 Schwabach, Deutschland|Beim Schorsch": {
+    "lat": 49.332325,
+    "lon": 11.019904,
+    "approx": false,
+    "osm": "26, Nördliche Ringstraße, Nasbach, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|de|Bayern": {
+    "lat": 48.946756,
+    "lon": 11.403872
+  },
+  "Hauptstraße 14, Rohr, Bayern, Deutschland|Gasthaus Bierlein": {
+    "lat": 49.339895,
+    "lon": 10.892383,
+    "approx": true,
+    "osm": "14, Hauptstraße, Rohr, Landkreis Roth, Bayern, 91189, Deutschland"
+  },
+  "CITY|de|Meinhard": {
+    "lat": 51.21404,
+    "lon": 10.061071
+  },
+  "Freizeitzentrum 2, 37276 Meinhard, Deutschland|Campingplatz Meinhardsee – Christoph Bergner": {
+    "lat": 51.206412,
+    "lon": 10.042061,
+    "approx": true,
+    "osm": "Werra-Meissner-Camping, Jestädter Straße, Grebendorf, Deutschland"
+  },
+  "CITY|at|Abersee": {
+    "lat": 47.74575,
+    "lon": 13.40335
+  },
+  "Schwand 19, 5342 Abersee (St. Gilgen), Österreich|Romantik-Camping Wolfgangsee Lindenstrand": {
+    "lat": 47.739858,
+    "lon": 13.40284,
+    "approx": true,
+    "osm": "Romantik-Camping Wolfgangsee Lindenstrand, Schwand, Sankt Gilgen, Österreich"
+  },
+  "CITY|cz|Doksy": {
+    "lat": 50.118382,
+    "lon": 14.046738
+  },
+  "Klůček, Máchovo jezero, 472 01 Doksy, Tschechien|Pláž Klůček": {
+    "lat": 50.118382,
+    "lon": 14.046738,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Služeb 3a, Praha 10, Tschechien|Klub Kotelna": {
+    "lat": 50.076261,
+    "lon": 14.52106,
+    "approx": true,
+    "osm": "3451/3a, Služeb, Maleschitz, Prag 10, Stadtbezirk Prag 10, Prag, 108 00, Tschechien"
+  },
+  "CITY|cz|Plzeň": {
+    "lat": 49.747741,
+    "lon": 13.377525
+  },
+  "Štefánikovo náměstí 2621/4, 301 00 Plzeň, Tschechien|GAME STATION muzeum her Cibien's Corner": {
+    "lat": 49.736008,
+    "lon": 13.377731,
+    "approx": false,
+    "osm": "2621/4, Štefánikovo náměstí, Südvorstadt, Plzeň 3, Pilsen, Bezirk Pilsen-Stadt, Pilsner Region, Südwesten, 301 00, Tschechien"
+  },
+  "Kaufhaus Kotva, náměstí Republiky, Praha 1, Tschechien|Skibi Kids OD Kotva": {
+    "lat": 50.088955,
+    "lon": 14.427094,
+    "approx": true,
+    "osm": "Kotva, Platz der Republik, Prag, Tschechien"
+  },
+  "CITY|pt|São Pedro do Estoril": {
+    "lat": 38.695372,
+    "lon": -9.371697
+  },
+  "Rua Nunes dos Santos, lote C, São Pedro do Estoril, Portugal|Compañia de Bebidas": {
+    "lat": 38.695262,
+    "lon": -9.37251,
+    "approx": true,
+    "osm": "Policlínica São Pedro do Estoril, Rua Nunes dos Santos, São Pedro do Estoril, Portugal"
+  },
+  "CITY|be|Koksijde": {
+    "lat": 51.118772,
+    "lon": 2.634928
+  },
+  "Ten Bogaerdelaan 10, 8670 Koksijde, Belgien|Mondieu": {
+    "lat": 51.091359,
+    "lon": 2.633118,
+    "approx": false,
+    "osm": "Ten Bogaerde, 10, Ten Bogaerdelaan, Koksijde, Veurne, Westflandern, Flandern, 8670, Belgien"
+  },
+  "CITY|pt|-337 Cascais": {
+    "lat": 38.696892,
+    "lon": -9.42045
+  },
+  "Av. Emídio Navarro 23 A, 2750-337 Cascais, Portugal|KAPPO Japanese Cuisine": {
+    "lat": 38.695366,
+    "lon": -9.426808,
+    "approx": true,
+    "osm": "Avenida Emídio Navarro, Bairro do Rosário, Cascais e Estoril, Cascais, Lissabon, 2750-433, Portugal"
+  },
+  "CITY|pt|Cascais": {
+    "lat": 38.696892,
+    "lon": -9.42045
+  },
+  "Casa da Guia, Cascais, Portugal|Palaphita Cascais": {
+    "lat": 38.695359,
+    "lon": -9.44395,
+    "approx": true,
+    "osm": "Casa da Guia, Guia, Cascais e Estoril, Cascais, Lissabon, Portugal"
+  },
+  "CITY|pt|-237 Lisboa": {
+    "lat": 38.707751,
+    "lon": -9.136592
+  },
+  "R. de São Pedro de Alcântara 35, 1250-237 Lisboa, Portugal|Lumi Rooftop": {
+    "lat": 38.715208,
+    "lon": -9.144685,
+    "approx": true,
+    "osm": "Rua de São Pedro de Alcântara, Oberstadt, Misericórdia, Lissabon, 1250-238, Portugal"
+  },
+  "Alte Dietersdorfer Straße 10, 91126 Schwabach, Deutschland|Restaurant Hufer": {
+    "lat": 49.368153,
+    "lon": 11.000364,
+    "approx": false,
+    "osm": "10, Alte Dietersdorfer Straße, Dietersdorf, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|be|Hasselt": {
+    "lat": 50.930374,
+    "lon": 5.337804
+  },
+  "Plaza'H, Gouverneur Verwilghensingel, Hasselt, Belgien|Sparkx Hasselt": {
+    "lat": 50.940122,
+    "lon": 5.345871,
+    "approx": true,
+    "osm": "Sparkx, Gouverneur Verwilghensingel, Hasselt, Belgien"
+  },
+  "CITY|de|Neunburg vorm Wald": {
+    "lat": 49.34869,
+    "lon": 12.409446
+  },
+  "Gütenland 16, 92431 Neunburg vorm Wald, Deutschland|Camping Haus Seeblick": {
+    "lat": 49.336343,
+    "lon": 12.44252,
+    "approx": false,
+    "osm": "Camping Haus Seeblick, 16, Gütenland, Eixendorf Ost, Gütenland, Neunburg vorm Wald, Landkreis Schwandorf, Bayern, 92431, Deutschland"
+  },
+  "CITY|de|Mulfingen-Hollenbach": {
+    "lat": 49.380647,
+    "lon": 9.814588
+  },
+  "Mönchswald 1, 74673 Mulfingen-Hollenbach, Deutschland|Waldcamping Hollenbacher See": {
+    "lat": 49.382977,
+    "lon": 9.830646,
+    "approx": true,
+    "osm": "Waldcamping Hollenbacher See, Mönchswald, Mulfingen, Deutschland"
+  },
+  "CITY|cz|Vysoký Újezd": {
+    "lat": 50.240177,
+    "lon": 16.018377
+  },
+  "Tyršova náves 1, 267 16 Vysoký Újezd, Tschechien|Restaurant Papilio": {
+    "lat": 50.240177,
+    "lon": 16.018377,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|cz|Praha 7": {
+    "lat": 50.104108,
+    "lon": 14.438108
+  },
+  "Trojská 171a, 171 00 Praha 7, Tschechien|Camping Sokol Troja": {
+    "lat": 50.117345,
+    "lon": 14.425229,
+    "approx": false,
+    "osm": "744/171a, Trojastraße, Praha-Troja, Stadtbezirk Prag 7, Prag, 171 00, Tschechien"
+  },
+  "CITY|cz|Praha 9": {
+    "lat": 50.108928,
+    "lon": 14.50657
+  },
+  "Dolní Počernice, 190 12 Praha 9, Tschechien|Dolní Počernice": {
+    "lat": 50.088844,
+    "lon": 14.577569,
+    "approx": false,
+    "osm": "Úřad městské části Praha-Dolní Počernice, 10, Stará obec, Unter Potschernitz, Stadtbezirk Prag 9, Prag, 190 12, Tschechien"
+  },
+  "Obere Glasschleife 1, 91154 Roth, Deutschland|Türkisches Restaurant Seerose": {
+    "lat": 49.258843,
+    "lon": 11.100618,
+    "approx": false,
+    "osm": "Restaurant Seerose, 1, Obere Glasschleife, Roth, Landkreis Roth, Bayern, 91154, Deutschland"
+  },
+  "CITY|de|Hessen": {
+    "lat": 50.608065,
+    "lon": 9.028465
+  },
+  "Idstein, Hessen, Deutschland|Idstein": {
+    "lat": 50.608065,
+    "lon": 9.028465,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|de|Stuttgart": {
+    "lat": 48.778449,
+    "lon": 9.180013
+  },
+  "Strohgäustraße 10, 70435 Stuttgart, Deutschland|Black Light Stuttgart": {
+    "lat": 48.836566,
+    "lon": 9.160054,
+    "approx": false,
+    "osm": "10, Strohgäustraße, Zuffenhausen-Schützenbühl, Zuffenhausen, Stuttgart, Baden-Württemberg, 70435, Deutschland"
+  },
+  "CITY|de|Bretzfeld": {
+    "lat": 49.177037,
+    "lon": 9.440163
+  },
+  "Otto-Lilienthal-Straße 3, 74626 Bretzfeld, Deutschland|HRZ Reisemobile GmbH": {
+    "lat": 49.186986,
+    "lon": 9.412904,
+    "approx": false,
+    "osm": "3, Otto-Lilienthal-Straße, Schwabbach, Bretzfeld, Hohenlohekreis, Baden-Württemberg, 74626, Deutschland"
+  },
+  "Porscheplatz 5, 70435 Stuttgart, Deutschland|Porsche Museum": {
+    "lat": 48.834299,
+    "lon": 9.152447,
+    "approx": false,
+    "osm": "Porsche Museum, 5, Porscheplatz, Zuffenhausen-Schützenbühl, Zuffenhausen, Stuttgart, Baden-Württemberg, 70435, Deutschland"
+  },
+  "Flurstraße 105, 91126 Schwabach, Deutschland|Hiro Schwabach": {
+    "lat": 49.332551,
+    "lon": 11.044544,
+    "approx": false,
+    "osm": "105, Flurstraße, Rößleinsmühle, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|de|Mittelfranken": {
+    "lat": 49.323274,
+    "lon": 10.690227
+  },
+  "Windsbach, Mittelfranken, Deutschland|Gasthaus Wiesingerhof": {
+    "lat": 49.323274,
+    "lon": 10.690227,
+    "approx": true,
+    "osm": "Mittelfranken, Deutschland"
+  },
+  "CITY|cz|Ořech-Jinočany": {
+    "lat": 50.032843,
+    "lon": 14.268536
+  },
+  "Baarovo nám. 20, 252 25 Ořech-Jinočany, Tschechien|Restaurant Rapír": {
+    "lat": 50.020914,
+    "lon": 14.296883,
+    "approx": true,
+    "osm": "Rapír, Baarovo náměstí, Worschech, Tschechien"
+  },
+  "CITY|de|Roth-Eckersmühlen": {
+    "lat": 49.214525,
+    "lon": 11.143129
+  },
+  "Eisenhammer 1, 91154 Roth-Eckersmühlen, Deutschland|Historischer Eisenhammer Eckersmühlen": {
+    "lat": 49.219951,
+    "lon": 11.133582,
+    "approx": false,
+    "osm": "Herrenhaus, 1, Eisenhammer, Eisenhammer an der Roth, Eckersmühlen, Roth, Landkreis Roth, Bayern, 91154, Deutschland"
+  },
+  "CITY|de|Georgensgmünd": {
+    "lat": 49.196212,
+    "lon": 11.014553
+  },
+  "Petersgmünd, 91166 Georgensgmünd, Deutschland|Petersgmünder Baggerweiher": {
+    "lat": 49.185644,
+    "lon": 11.025247,
+    "approx": true,
+    "osm": "Petersgmünd, Georgensgmünd, Landkreis Roth, Bayern, 91166, Deutschland"
+  },
+  "Penzendorfer Straße 50, 91126 Schwabach, Deutschland|Adria Restaurant": {
+    "lat": 49.329095,
+    "lon": 11.039546,
+    "approx": false,
+    "osm": "50, Penzendorfer Straße, Rößleinsmühle, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|de|Rednitzhembach": {
+    "lat": 49.295184,
+    "lon": 11.068003
+  },
+  "Pfaffenhofener Straße 11, 91126 Rednitzhembach, Deutschland|Final Quest Escape Games": {
+    "lat": 49.288981,
+    "lon": 11.082266,
+    "approx": false,
+    "osm": "11, Pfaffenhofener Straße, Rednitzhembach, Landkreis Roth, Bayern, 91126, Deutschland"
+  },
+  "Georgensgmünd, Landkreis Roth, Deutschland|Bike Park Georgensgmünd": {
+    "lat": 49.196212,
+    "lon": 11.014553,
+    "approx": true,
+    "osm": "Georgensgmünd, Landkreis Roth, Bayern, 91166, Deutschland"
+  },
+  "Schaftnacher Straße 20, 91126 Schwabach, Deutschland|Gaststätte Döllinger": {
+    "lat": 49.323286,
+    "lon": 11.079021,
+    "approx": false,
+    "osm": "20, Schaftnacher Straße, Schwarzach, Schaftnach, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|cz|Unhošť": {
+    "lat": 50.08499,
+    "lon": 14.131861
+  },
+  "Unhošť, Tschechien|Dědkův mlýn": {
+    "lat": 50.08499,
+    "lon": 14.131861,
+    "approx": true,
+    "osm": "Unhoscht, Bezirk Kladen, Mittelböhmische Region, 273 51, Tschechien"
+  },
+  "Kasernenareal Hájek bei Metro Zličín, Praha 5, Tschechien|Paintball Hájek (Kasernenareal)": {
+    "lat": 50.051918,
+    "lon": 14.38393,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Miltenberg, Bayern, Deutschland|Miltenberg": {
+    "lat": 48.946756,
+    "lon": 11.403872,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Schwabach, Deutschland|Mare e Monti": {
+    "lat": 49.334691,
+    "lon": 11.029414,
+    "approx": true,
+    "osm": "Schwabach, Bayern, 91126, Deutschland"
+  },
+  "CITY|de|Langenzenn": {
+    "lat": 49.488835,
+    "lon": 10.781324
+  },
+  "Eichensee 1, 90579 Langenzenn, Deutschland|Campingplatz Eichensee": {
+    "lat": 49.472867,
+    "lon": 10.762954,
+    "approx": false,
+    "osm": "Campingplatz Eichensee, 1, Eichensee, Keidenzell, Langenzenn, Landkreis Fürth, Bayern, 90579, Deutschland"
+  },
+  "CITY|de|Weißenburg": {
+    "lat": 49.030575,
+    "lon": 10.971897
+  },
+  "Eichstätter Landstraße 10, 91781 Weißenburg, Deutschland|Camping Am alten Badeweiher": {
+    "lat": 49.020098,
+    "lon": 10.996871,
+    "approx": false,
+    "osm": "Am alten Badeweiher, 10, Eichstätter Landstraße, Wülzburger Hang, Schleifer am Berg, Kehl, Weißenburg in Bayern, Landkreis Weißenburg-Gunzenhausen, Bayern, 91781, Deutschland"
+  },
+  "Seezentrum Wald 4, 91710 Gunzenhausen, Deutschland|Campingplatz zum Fischer-Michl": {
+    "lat": 49.125375,
+    "lon": 10.716829,
+    "approx": false,
+    "osm": "4, Seezentrum Wald, Gunzenhausen, Landkreis Weißenburg-Gunzenhausen, Bayern, 91710, Deutschland"
+  },
+  "Schnackenmühle 2-4, 91710 Gunzenhausen, Deutschland|Camping Reich am Schnackensee": {
+    "lat": 49.148389,
+    "lon": 10.766594,
+    "approx": true,
+    "osm": "Schnackenmühle, Büchelberg, Gunzenhausen, Landkreis Weißenburg-Gunzenhausen, Bayern, 91710, Deutschland"
+  },
+  "CITY|de|Mülheim an der Ruhr": {
+    "lat": 51.427293,
+    "lon": 6.882919
+  },
+  "Kölner Straße 35-37, 45481 Mülheim an der Ruhr, Deutschland|Hymer-Zentrum B1 Dhonau GmbH": {
+    "lat": 51.395756,
+    "lon": 6.87366,
+    "approx": true,
+    "osm": "Kölner Straße, Saarn, Linksruhr, Mülheim an der Ruhr, Nordrhein-Westfalen, 45481, Deutschland"
+  },
+  "Igensdorf, Landkreis Forchheim, Deutschland|Gasthaus Zum grünen Tal": {
+    "lat": 49.617864,
+    "lon": 11.227235,
+    "approx": true,
+    "osm": "Igensdorf, Landkreis Forchheim, Bayern, 91338, Deutschland"
+  },
+  "Rother Straße 20, 91186 Büchenbach, Deutschland|Gasthaus Heyder (Gasthaus Metzgerei Heyder)": {
+    "lat": 49.264306,
+    "lon": 11.052998,
+    "approx": false,
+    "osm": "Gasthaus Heyder, 20, Rother Straße, Büchenbach, Landkreis Roth, Bayern, 91186, Deutschland"
+  },
+  "CITY|de|Rudelsdorf": {
+    "lat": 49.279018,
+    "lon": 10.910253
+  },
+  "Heilsbronner Straße 3, 91126 Rudelsdorf (Kammerstein), Deutschland|Landgasthaus Zwick": {
+    "lat": 49.278476,
+    "lon": 10.911155,
+    "approx": false,
+    "osm": "Landgasthaus Zwick, 3, Heilsbronner Straße, Rudelsdorf, Barthelmesaurach, Kammerstein, Landkreis Roth, Bayern, 91126, Deutschland"
+  },
+  "CITY|nl|AA Amersfoort": {
+    "lat": 52.15625,
+    "lon": 5.389694
+  },
+  "Middelhoefseweg 10, 3819 AA Amersfoort, Niederlande|Superfun Amersfoort": {
+    "lat": 52.161806,
+    "lon": 5.346107,
+    "approx": false,
+    "osm": "Monkey Town, 10, Middelhoefseweg, Bosgebied, Amersfoort, Utrecht, Niederlande, 3819 AA, Niederlande"
+  },
+  "CITY|nl|XT Amstelveen": {
+    "lat": 52.281274,
+    "lon": 4.835014
+  },
+  "Langs de Werf 7, 1185 XT Amstelveen, Niederlande|Fun Center Amstelveen": {
+    "lat": 52.280878,
+    "lon": 4.83653,
+    "approx": false,
+    "osm": "Fun Center Amstelveen, 7, Langs de Werf, Legmeer, Westwijk, Amstelveen, Nordholland, Niederlande, 1185 XT, Niederlande"
+  },
+  "CITY|nl|HB Nuth": {
+    "lat": 50.917189,
+    "lon": 5.883825
+  },
+  "Thermiekstraat 12, 6361 HB Nuth, Niederlande|Unit 13 Outdoor Adventures": {
+    "lat": 50.924008,
+    "lon": 5.879559,
+    "approx": false,
+    "osm": "12, Thermiekstraat, De Horsel, Kamp, Vaesrade, Nuth, Beekdaelen, Limburg, Niederlande, 6361 HB, Niederlande"
+  },
+  "CITY|nl|AD Velden": {
+    "lat": 51.415593,
+    "lon": 6.163323
+  },
+  "Rijksweg 181, 5941 AD Velden, Niederlande|Taurus World of Adventure": {
+    "lat": 51.400053,
+    "lon": 6.171108,
+    "approx": false,
+    "osm": "Taurus, 181, Rijksweg, De Krosselt, Velden, Venlo, Limburg, Niederlande, 5941 AD, Niederlande"
+  },
+  "CITY|nl|Zwanenburg": {
+    "lat": 52.377929,
+    "lon": 4.74364
+  },
+  "Zwanenburg, Niederlande|Silverstone Partycenter (Karting, Lasergame & Bowling)": {
+    "lat": 52.377929,
+    "lon": 4.74364,
+    "approx": true,
+    "osm": "Zwanenburg, Haarlemmermeer, Nordholland, Niederlande"
+  },
+  "CITY|nl|CA Utrecht": {
+    "lat": 52.090701,
+    "lon": 5.121563
+  },
+  "Biltstraat 4, 3572 CA Utrecht, Niederlande|Lasergames Utrecht": {
+    "lat": 52.095711,
+    "lon": 5.127006,
+    "approx": false,
+    "osm": "O.Z.E.B.I., 4, Biltstraat, Wittevrouwen, Wittevrouwen, Zeeheldenbuurt, Noordoost, Utrecht, Niederlande, 3572 BA, Niederlande"
+  },
+  "CITY|nl|GM Rotterdam": {
+    "lat": 51.904665,
+    "lon": 4.46615
+  },
+  "Parkhaven 9, 3016 GM Rotterdam, Niederlande|Lasergame Rotterdam": {
+    "lat": 51.905461,
+    "lon": 4.465431,
+    "approx": false,
+    "osm": "9, Parkhaven, Scheepvaartkwartier, Centrum, Rotterdam, Südholland, Niederlande, 3016 GM, Niederlande"
+  },
+  "CITY|nl|DD Eindhoven": {
+    "lat": 51.439265,
+    "lon": 5.478633
+  },
+  "Oude Stadsgracht 15, 5611 DD Eindhoven, Niederlande|Laser Quest Eindhoven": {
+    "lat": 51.435853,
+    "lon": 5.482461,
+    "approx": false,
+    "osm": "15, Oude Stadsgracht, Binnenstad, Centrum, Eindhoven, Nordbrabant, Niederlande, 5611 DD, Niederlande"
+  },
+  "CITY|de|Herne": {
+    "lat": 51.538039,
+    "lon": 7.219985
+  },
+  "Bahnhofstraße 162-168, 44629 Herne, Deutschland|BLAZE LaserTag Herne": {
+    "lat": 51.558767,
+    "lon": 7.208842,
+    "approx": true,
+    "osm": "Bahnhofstraße, Baukau, Baukau-Ost, Herne-Mitte, Herne, Nordrhein-Westfalen, 44629, Deutschland"
+  },
+  "CITY|de|Essen": {
+    "lat": 51.458224,
+    "lon": 7.015817
+  },
+  "Wüstenhöferstraße 234, 45355 Essen, Deutschland|LaserZone LaserTag Essen West (Borbeck)": {
+    "lat": 51.473349,
+    "lon": 6.950573,
+    "approx": false,
+    "osm": "234, Wüstenhöferstraße, Borbeck-Mitte, Stadtbezirk IV, Essen, Nordrhein-Westfalen, 45355, Deutschland"
+  },
+  "Am Zehnthof 194, 45307 Essen, Deutschland|LaserZone LaserTag Essen Ost (Kray)": {
+    "lat": 51.458005,
+    "lon": 7.072928,
+    "approx": false,
+    "osm": "LaserZone Essen-Kray, 194, Am Zehnthof, Kray, Stadtbezirk VII, Essen, Nordrhein-Westfalen, 45307, Deutschland"
+  },
+  "CITY|de|Bochum": {
+    "lat": 51.481811,
+    "lon": 7.219664
+  },
+  "Bochum, Deutschland|BoTag Lasertag Bochum (Ruhr Lasertag)": {
+    "lat": 51.481811,
+    "lon": 7.219664,
+    "approx": true,
+    "osm": "Bochum, Nordrhein-Westfalen, Deutschland"
+  },
+  "CITY|de|Duisburg": {
+    "lat": 51.434999,
+    "lon": 6.759562
+  },
+  "Ruhrorter Straße 100, 47059 Duisburg, Deutschland|LaserZone LaserTag Duisburg": {
+    "lat": 51.442582,
+    "lon": 6.748864,
+    "approx": false,
+    "osm": "FitX, 100, Ruhrorter Straße, Kaßlerfeld, Duisburg-Mitte, Duisburg, Nordrhein-Westfalen, 47059, Deutschland"
+  },
+  "CITY|de|Mönchengladbach": {
+    "lat": 51.194713,
+    "lon": 6.435379
+  },
+  "Korschenbroicher Straße 172, 41065 Mönchengladbach, Deutschland|LaserZone LaserTag Mönchengladbach": {
+    "lat": 51.19627,
+    "lon": 6.460287,
+    "approx": false,
+    "osm": "LaserZone, 172, Korschenbroicher Straße, Hardterbroich-Pesch, Ost, Mönchengladbach, Nordrhein-Westfalen, 41065, Deutschland"
+  },
+  "Ubierstraße 18, 40223 Düsseldorf, Deutschland|LaserTag Evolution Düsseldorf": {
+    "lat": 51.197709,
+    "lon": 6.771835,
+    "approx": false,
+    "osm": "18, Ubierstraße, Bilk, Stadtbezirk 3, Düsseldorf, Nordrhein-Westfalen, 40223, Deutschland"
+  },
+  "Kölner Landstraße 30, 40591 Düsseldorf, Deutschland|LASERPLEX - LaserTag Arena Düsseldorf": {
+    "lat": 51.196497,
+    "lon": 6.813217,
+    "approx": false,
+    "osm": "30, Kölner Landstraße, Wersten, Stadtbezirk 9, Düsseldorf, Nordrhein-Westfalen, 40591, Deutschland"
+  },
+  "Diepenstraße 83, 40625 Düsseldorf, Deutschland|LaserZone LaserTag Düsseldorf": {
+    "lat": 51.233906,
+    "lon": 6.842277,
+    "approx": false,
+    "osm": "83, Diepenstraße, Gerresheim, Stadtbezirk 7, Düsseldorf, Nordrhein-Westfalen, 40625, Deutschland"
+  },
+  "Carnaper Straße 103, 42283 Wuppertal, Deutschland|LASERPLEX - LaserTag Arena Wuppertal": {
+    "lat": 51.277349,
+    "lon": 7.18542,
+    "approx": false,
+    "osm": "103, Carnaper Straße, Sedansberg, Gemarkung Barmen, Barmen, Wuppertal, Nordrhein-Westfalen, 42283, Deutschland"
+  },
+  "CITY|de|Bedburg": {
+    "lat": 50.997216,
+    "lon": 6.576765
+  },
+  "Sankt-Rochus-Straße 30, 50181 Bedburg, Deutschland|Lasertag Bedburg": {
+    "lat": 51.007126,
+    "lon": 6.55392,
+    "approx": true,
+    "osm": "Merzenich, St.-Rochus-Straße, Bedburg, Deutschland"
+  },
+  "Wilhelm-Mauser-Straße 14-16, 50827 Köln, Deutschland|LaserTag Köln": {
+    "lat": 50.958033,
+    "lon": 6.895615,
+    "approx": false,
+    "osm": "LaserTag Köln, 14-16, Wilhelm-Mauser-Straße, Bickendorf, Ehrenfeld, Köln, Nordrhein-Westfalen, 50827, Deutschland"
+  },
+  "CITY|de|Troisdorf": {
+    "lat": 50.815307,
+    "lon": 7.159327
+  },
+  "Max-Planck-Straße 2A, 53842 Troisdorf, Deutschland|FunSports Area Troisdorf": {
+    "lat": 50.817281,
+    "lon": 7.125468,
+    "approx": false,
+    "osm": "FunSports Area Troisdorf, 2a, Max-Planck-Straße, Oberlar, Troisdorf-Oberlar, Troisdorf, Rhein-Sieg-Kreis, Nordrhein-Westfalen, 53842, Deutschland"
+  },
+  "CITY|de|Bonn": {
+    "lat": 50.735262,
+    "lon": 7.102463
+  },
+  "Beuel, Bonn, Deutschland|Lasertag Arena Bonn": {
+    "lat": 50.738662,
+    "lon": 7.124513,
+    "approx": true,
+    "osm": "Bonn-Beuel, Bonn, Nordrhein-Westfalen, Deutschland"
+  },
+  "Erlangen, Deutschland|Lasertag Planet": {
+    "lat": 49.589157,
+    "lon": 10.981207,
+    "approx": true,
+    "osm": "Erlangen, Bayern, Deutschland"
+  },
+  "Klingenhofstraße 70, 90411 Nürnberg, Deutschland|AIRTIME Trampolinpark Nürnberg": {
+    "lat": 49.475714,
+    "lon": 11.113781,
+    "approx": false,
+    "osm": "Fränkische Museums-Eisenbahn e.V. Nürnberg, 70, Klingenhofstraße, Schafhof, Nordöstliche Außenstadt, Nürnberg, Bayern, 90411, Deutschland"
+  },
+  "Tafelfeldstraße 40, 90443 Nürnberg, Deutschland|Snap Escape Rooms": {
+    "lat": 49.440745,
+    "lon": 11.076064,
+    "approx": false,
+    "osm": "40, Tafelfeldstraße, Lichtenhof, Galgenhof, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90443, Deutschland"
+  },
+  "Tropical-Islands-Allee 1, 15910 Krausnick, Deutschland|Tropical Islands (Krausnick)": {
+    "lat": 52.030612,
+    "lon": 13.793439,
+    "approx": true,
+    "osm": "Tropical-Islands-Allee, Krausnick, Krausnick-Groß Wasserburg, Unterspreewald, Dahme-Spreewald, Brandenburg, 15910, Deutschland"
+  },
+  "Wiesbadener Straße 47, Nürnberg, Deutschland|FRIEDRICH Living": {
+    "lat": 49.523427,
+    "lon": 11.006823,
+    "approx": true,
+    "osm": "Friedrich Living, 47, Wiesbadener Straße, Großgründlach, Nordwestliche Außenstadt, Nürnberg, Bayern, 90427, Deutschland"
+  },
+  "Limbacher Straße 19, 91126 Schwabach, Deutschland|Sangam India – Indisches Restaurant": {
+    "lat": 49.332475,
+    "lon": 11.027733,
+    "approx": false,
+    "osm": "19, Limbacher Straße, Nasbach, Schwabach, Bayern, 91126, Deutschland"
+  },
+  "Obersendling, München, Deutschland|Die Küche im Kraftwerk": {
+    "lat": 48.098233,
+    "lon": 11.535934,
+    "approx": true,
+    "osm": "Obersendling, August-Zeune-Weg, Thalkirchen, Thalkirchen-Obersendling-Forstenried-Fürstenried-Solln, München, Bayern, 81379, Deutschland"
+  },
+  "CITY|de|Nürnberg-Kornburg": {
+    "lat": 49.357538,
+    "lon": 11.098453
+  },
+  "Flockenstraße 2, 90455 Nürnberg-Kornburg, Deutschland|Gasthof Weißes Lamm": {
+    "lat": 49.356273,
+    "lon": 11.099759,
+    "approx": false,
+    "osm": "2, Flockenstraße, Kornburg, Worzeldorf, Südliche Außenstadt, Kornburg, Nürnberg, Bayern, 90455, Deutschland"
+  },
+  "CITY|es|Katalonien": {
+    "lat": 41.852309,
+    "lon": 1.574504
+  },
+  "Blanes (Costa Brava), Girona, Katalonien, Spanien|Càmping La Masia": {
+    "lat": 41.852309,
+    "lon": 1.574504,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "CITY|cz|Südböhmen": {
+    "lat": 49.086455,
+    "lon": 14.600173
+  },
+  "Jenišov, Horní Planá (Lipno-See), Südböhmen, Tschechien|Autocamp Jenišov": {
+    "lat": 48.751477,
+    "lon": 14.035701,
+    "approx": true,
+    "osm": "EA Hotelu Lipno u Černé v Pošumaví, Jenišov, Oberplan, Tschechien"
+  },
+  "Černá v Pošumaví (Lipno-See), Südböhmen, Tschechien|Camping Olšina": {
+    "lat": 48.746289,
+    "lon": 14.116802,
+    "approx": true,
+    "osm": "Camping Olšina, Schwarzbach, Tschechien"
+  },
+  "Koterovská 2059/130, Plzeň, Tschechien|Ramala – Jízdní kola Plzeň": {
+    "lat": 49.730772,
+    "lon": 13.405304,
+    "approx": true,
+    "osm": "2059/130, Koterovská, Světovar, Slovany, Plzeň 2-Slovany, Pilsen, Bezirk Pilsen-Stadt, Pilsner Region, Südwesten, 326 00, Tschechien"
+  },
+  "Clark Ádám tér 1, Budapest, Ungarn|Leo Rooftop Bar & Restaurant (Hotel Clark)": {
+    "lat": 47.498763,
+    "lon": 19.040173,
+    "approx": true,
+    "osm": "Leo Rooftop, 1, Adam-Clark-Platz, Ofen, Wasserstadt, I. Bezirk, Budapest, 1013, Ungarn"
+  },
+  "Sas utca 18, 1051 Budapest, Ungarn|Prime Steak & Wine Étterem": {
+    "lat": 47.50156,
+    "lon": 19.051543,
+    "approx": false,
+    "osm": "18, Sas utca, Leopoldstadt, V. Bezirk, Budapest, 1051, Ungarn"
+  },
+  "Thomasstraße 2, 38640 Goslar, Deutschland|Museum und Ferienwohnungen Burg im Zwinger": {
+    "lat": 51.902824,
+    "lon": 10.431313,
+    "approx": true,
+    "osm": "Thomasstraße, Altstadt, Goslar, Landkreis Goslar, Niedersachsen, 38640, Deutschland"
+  },
+  "CITY|de|Benneckenstein": {
+    "lat": 51.667492,
+    "lon": 10.717143
+  },
+  "Wernigeröder Straße 10, Benneckenstein (Harz), Deutschland|Ostdeutsches Fahrzeugmuseum Benneckenstein": {
+    "lat": 51.674941,
+    "lon": 10.716771,
+    "approx": true,
+    "osm": "Ostdeutsches Fahrzeugmuseum Mario Tänzer, 10, Wernigeröder Straße, Benneckenstein, Sorge, Oberharz am Brocken, Landkreis Harz, Sachsen-Anhalt, 38877, Deutschland"
+  },
+  "CITY|de|Lutter am Barenberge": {
+    "lat": 51.988138,
+    "lon": 10.269195
+  },
+  "Bahnhofstraße 2, 38729 Lutter am Barenberge, Deutschland|Heimatmuseum Lutter": {
+    "lat": 51.989341,
+    "lon": 10.269992,
+    "approx": false,
+    "osm": "Heimatmuseum Lutter, 2, Bahnhofstraße, Lutter am Barenberge (Kernort), Lutter am Barenberge, Langelsheim, Landkreis Goslar, Niedersachsen, 38729, Deutschland"
+  },
+  "Lichtenegg (Birgland), Oberpfalz, Bayern, Deutschland|Zauberwald-Orchideen-Weg": {
+    "lat": 49.462225,
+    "lon": 11.595922,
+    "approx": true,
+    "osm": "Högenbachtal, Lichtenegg, Beselberg mit westlichem Birgland, Birgland, Deutschland"
+  },
+  "CITY|ua|Charkiw": {
+    "lat": 49.992318,
+    "lon": 36.231015
+  },
+  "Sumska-Straße 19, 61000 Charkiw, Ukraine|Moskvich Bar": {
+    "lat": 49.992318,
+    "lon": 36.231015,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Jaroslaw-Mudryj-Straße 20/1, Charkiw, Ukraine|BIANI Champagneria": {
+    "lat": 49.806122,
+    "lon": 36.066429,
+    "approx": true,
+    "osm": "Jarosslawa-Mudroho-Straße, Merefa, Ukraine"
+  },
+  "Kosmichna-Straße 21, Charkiw, Ukraine|Fat Goose English Pub": {
+    "lat": 50.014677,
+    "lon": 36.219975,
+    "approx": true,
+    "osm": "Fat Goose Pub, Космічна вулиця, Charkiw, Ukraine"
+  },
+  "Charkiw, Ukraine|Zhivot": {
+    "lat": 49.992318,
+    "lon": 36.231015,
+    "approx": true,
+    "osm": "Charkiw, Харківська міська громада, Rajon Charkiw, Oblast Charkiw, Ukraine"
+  },
+  "Європейська вулиця 6 (Katerynynska), 65026 Odesa, Ukraine|LOU LOU (Лулу)": {
+    "lat": 46.486102,
+    "lon": 30.738921,
+    "approx": true,
+    "osm": "Lou Lou, Європейська вулиця, Odessa, Ukraine"
+  },
+  "Приморський бульвар 12, 65000 Odesa, Ukraine|Dvor 12": {
+    "lat": 46.487857,
+    "lon": 30.741318,
+    "approx": true,
+    "osm": "Приморський бульвар, Центр, Приморський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65026, Ukraine"
+  },
+  "Єврейська вулиця 58, Odesa, Ukraine|Vegetus": {
+    "lat": 46.478897,
+    "lon": 30.732347,
+    "approx": true,
+    "osm": "58, Єврейська вулиця, Центр, Приморський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65045, Ukraine"
+  },
+  "Oleksandrivskyi prospekt 22 (Ecke Troitska), Odesa, Ukraine|Atelier. Coffee & Crafts": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Preobrazhenska-Straße 9A, Odesa, Ukraine|Atelier. Design & Coffee": {
+    "lat": 46.48823,
+    "lon": 30.732943,
+    "approx": true,
+    "osm": "Ательє. Дизайн і кава, Преображенська вулиця, Odessa, Ukraine"
+  },
+  "Katerynynska-Platz 5, 65000 Odesa, Ukraine|Dizyngoff": {
+    "lat": 46.467765,
+    "lon": 30.740083,
+    "approx": true,
+    "osm": "Укрпошта №65010, Pryvokzalna-Platz, Odessa, Ukraine"
+  },
+  "Krasnova 3, Odesa, Ukraine|Velotrofi": {
+    "lat": 46.434697,
+    "lon": 30.730741,
+    "approx": true,
+    "osm": "3, вулиця Краснова, 2-й квартал, Суднобудівне селище, Київський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65059, Ukraine"
+  },
+  "Staroportofrankivska-Straße 22/1, Odesa, Ukraine|Plays": {
+    "lat": 46.483872,
+    "lon": 30.72005,
+    "approx": true,
+    "osm": "Старопортофранківська вулиця, Odessa, Ukraine"
+  },
+  "Odesa, Ukraine|Pyvnyy Sad (Пивний Сад)": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Odessa, Одеська міська громада, Одеський район, Oblast Odessa, Ukraine"
+  },
+  "Preobrazhenska-Straße 40, Odesa, Ukraine|Salsa Studio Soul Dance": {
+    "lat": 46.48234,
+    "lon": 30.732667,
+    "approx": true,
+    "osm": "Bucuria, Преображенська вулиця, Odessa, Ukraine"
+  },
+  "Deribasivska-Straße 14, 65026 Odesa, Ukraine|Schokoladenmuseum Odesa": {
+    "lat": 46.484262,
+    "lon": 30.739195,
+    "approx": true,
+    "osm": "Дерибасівська вулиця, Odessa, Ukraine"
+  },
+  "Dacha Kovalevskoho 150, 65038 Odesa, Ukraine|Museum der heroischen Verteidigung Odesas (Gedenkkomplex 411. Küstenbatterie)": {
+    "lat": 46.388251,
+    "lon": 30.746398,
+    "approx": true,
+    "osm": "вулиця Дача Ковалевського, Золотий берег, Великий Фонтан, Київський район, Odessa, Одеська міська громада, Одеський район, Oblast Odessa, 65038, Ukraine"
+  },
+  "Rishelievska-Straße 4, 65026 Odesa, Ukraine|Wachsfigurenmuseum „U Baby Uti“": {
+    "lat": 46.484417,
+    "lon": 30.740667,
+    "approx": true,
+    "osm": "РАГС Приморського району, Рішельєвська вулиця, Odessa, Ukraine"
+  },
+  "Melnytska-Straße 13, Odesa, Ukraine|Shustov-Museum der Cognac-Herstellung": {
+    "lat": 46.460353,
+    "lon": 30.704382,
+    "approx": true,
+    "osm": "Мельницька вулиця, Odessa, Ukraine"
+  },
+  "Tyraspolske Schose 22Zh, 65000 Odesa, Ukraine|Biopark Odesa": {
+    "lat": 46.484302,
+    "lon": 30.732288,
+    "approx": true,
+    "osm": "Stadtmitte (Adresse nicht auffindbar)"
+  },
+  "Grasersgasse 15, 90403 Nürnberg, Deutschland|Goldener Pudel – Steaks, Seafood und mehr": {
+    "lat": 49.448146,
+    "lon": 11.077218,
+    "approx": true,
+    "osm": "Grasersgasse, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "U Výstaviště 11, Praha 7, Tschechien|Boulder Bar": {
+    "lat": 50.105843,
+    "lon": 14.43459,
+    "approx": true,
+    "osm": "230/11, Am Messegelände, Holleschowitz, Prag 7, Stadtbezirk Prag 7, Prag, 170 00, Tschechien"
+  },
+  "Na Maninách 1590/29, 170 00 Praha 7 – Holešovice, Tschechien|BodyBody Praha Holešovice": {
+    "lat": 50.105907,
+    "lon": 14.452125,
+    "approx": false,
+    "osm": "1590/29, Schwemmau, Holleschowitz, Prag 7, Stadtbezirk Prag 7, Prag, 170 00, Tschechien"
+  },
+  "CITY|cz|Praha 9 – Vysočany": {
+    "lat": 50.102679,
+    "lon": 14.5135
+  },
+  "Malletova 2350/6, 190 00 Praha 9 – Vysočany, Tschechien|Infinit Step (Infinit Wellness)": {
+    "lat": 50.101492,
+    "lon": 14.483383,
+    "approx": false,
+    "osm": "2350/6, Malletova, Balabenka, Kehlen, Prag 9, Stadtbezirk Prag 9, Prag, 190 00, Tschechien"
   }
 }
