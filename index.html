@@ -183,7 +183,6 @@
   }
   .row-card:hover { background: #f2f5f1; }
   .row-card.selected { background: #e3ede3; }
-  .row-card.visited .card-name { color: var(--text-muted); }
   .card-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
   .card-name { font-weight: 600; font-size: 14px; }
   .card-meta { margin-top: 4px; font-size: 12.5px; }
@@ -220,14 +219,14 @@
   .d4-link.route input:checked + span { color: #1971c2; background: #e7f0fb; font-weight: 600; }
   .d4-link.del input:checked + span { color: #c92a2a; background: #fdecec; font-weight: 600; }
   .d4-link.disabled { opacity: .4; cursor: not-allowed; }
-  .d4-vis { margin-left: auto; font-size: 12px; color: #2f9e44; }
+  .visit-badge { display: inline-block; font-size: 11.5px; font-weight: 700; color: #1f7a37; background: #e6f5ea; border-radius: 10px; padding: 1px 8px; margin-left: 2px; white-space: nowrap; vertical-align: 1px; }
+  .view-seg .vc { opacity: .75; margin-left: 2px; }
   .card-facts { display: flex; flex-wrap: wrap; gap: 4px; margin: 5px 0 0 32px; }
   .fact-pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); color: var(--text); background: var(--panel); }
   .card-special { margin-top: 5px; font-size: 12px; font-style: italic; color: var(--text-muted); }
   .web-btn { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; font-size: 12.5px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 5px 10px; text-decoration: none; white-space: nowrap; background: var(--panel); }
   .web-btn:hover { background: #eef1ec; }
   .web-btn.maps { color: #1971c2; border-color: #1971c2; }
-  .d4-vis ~ .web-btn { margin-left: 8px; }
   .cuisine-line { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 6px 0 0 32px; }
   .cuisine-badge { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; font-size: 13.5px; padding: 2px 10px; border-radius: 12px; background: #eef0ec; color: var(--text); }
   .cuisine-badge.g-restaurant { background: #fdecec; color: #a61e1e; }
@@ -358,6 +357,11 @@
       <input id="aiSearch" class="ai-box" type="text" placeholder="🔎 Was suchst du? z.B. „Restaurant in der Nähe“" />
       <input id="search" class="search-box" type="text" placeholder="…oder Name durchsuchen" />
       <div id="chips"></div>
+      <span class="view-seg" id="visitSeg" title="Nach Besuchsstatus filtern">
+        <button type="button" data-visit="all" class="on">Alle</button>
+        <button type="button" data-visit="visited">✓ Besucht <span class="vc"></span></button>
+        <button type="button" data-visit="open">Noch nicht besucht <span class="vc"></span></button>
+      </span>
       <label class="chip" id="mapBoundsLabel" for="mapBoundsToggle" title="Liste auf den aktuell sichtbaren Kartenausschnitt beschränken">
         <input type="checkbox" id="mapBoundsToggle" style="margin-right:5px; vertical-align:middle;" />🗺️ Nur Kartenausschnitt
       </label>
@@ -400,6 +404,7 @@
         Sortieren:
         <button class="sort-btn" data-key="name">Name</button>
         <button class="sort-btn" data-key="rating">Bewertung</button>
+        <button class="sort-btn" data-key="myRating">Meine Wertung</button>
         <button class="sort-btn" data-key="driveMin">Fahrzeit</button>
         <button class="sort-btn" data-key="addr">Ort</button>
       </div>
@@ -463,6 +468,9 @@ function loadUserData() {
 }
 function saveUserData() { try { localStorage.setItem(USERDATA_KEY, JSON.stringify(userData)); } catch (e) { /* localStorage unavailable (e.g. private mode) - keep working in-memory */ } }
 let userData = loadUserData();
+// Wertung zählt als besucht: ältere Einträge mit Sternen, aber ohne Haken, werden einmalig auf besucht gesetzt
+(() => { let changed = false; Object.keys(userData).forEach(n => { const u = userData[n]; if (u && u.myRating != null && !u.visited) { u.visited = true; changed = true; } }); if (changed) saveUserData(); })();
+function isVisited(name) { return !!getUserEntry(name).visited; }
 function getUserEntry(name) { return userData[name] || { visited: false, myNote: '', myRating: null }; }
 function setUserEntry(name, patch) {
   userData[name] = Object.assign({}, getUserEntry(name), patch);
@@ -498,6 +506,7 @@ let aiParsed = null; // result of parseAIQuery(), or null when empty
 let routeSelection = []; // ordered array of DATA indices, for route planning
 let deleteSelection = []; // ordered array of DATA indices, marked for deletion
 let externalAiNames = null; // Set of DATA names returned by the real-AI query, or null when inactive
+let visitFilter = 'all'; // 'all' | 'visited' | 'open'
 let mapBoundsFilterActive = false; // when true, list is restricted to markers within the current map viewport
 
 function parseAIQuery(raw) {
@@ -612,7 +621,7 @@ document.getElementById('filterToggle').addEventListener('click', () => {
 });
 function updateFilterToggle() {
   const open = document.querySelector('header').classList.contains('open');
-  const n = (activeGroups.size < Object.keys(GROUPS).length ? 1 : 0) + (searchTerm ? 1 : 0) + (aiParsed ? 1 : 0) + (externalAiNames ? 1 : 0);
+  const n = (activeGroups.size < Object.keys(GROUPS).length ? 1 : 0) + (searchTerm ? 1 : 0) + (aiParsed ? 1 : 0) + (externalAiNames ? 1 : 0) + (visitFilter !== 'all' ? 1 : 0);
   document.getElementById('filterToggleInfo').textContent = (n ? n + ' aktiv ' : '') + (open ? '▴' : '▾');
 }
 const toTopBtn = document.getElementById('toTop');
@@ -709,7 +718,13 @@ Object.keys(GROUPS).forEach(g => {
   });
   chipsEl.appendChild(chip);
 });
+function setVisitFilter(v) {
+  visitFilter = v;
+  document.querySelectorAll('#visitSeg button').forEach(b => b.classList.toggle('on', b.dataset.visit === v));
+}
+document.querySelectorAll('#visitSeg button').forEach(b => b.addEventListener('click', () => { setVisitFilter(b.dataset.visit); render(); }));
 document.getElementById('resetFilters').addEventListener('click', () => {
+  setVisitFilter('all');
   activeGroups = new Set(Object.keys(GROUPS));
   document.querySelectorAll('.chip[data-group]').forEach(c => c.classList.remove('ai-highlight'));
   syncChipVisuals();
@@ -916,7 +931,7 @@ document.getElementById('clearDeleteBtn').addEventListener('click', () => {
 document.querySelectorAll('.sort-btn[data-key]').forEach(btn => {
   btn.addEventListener('click', () => {
     const key = btn.dataset.key;
-    if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+    if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = key === 'myRating' ? -1 : 1; } // eigene Wertung: beste zuerst
     render();
   });
 });
@@ -924,6 +939,7 @@ document.querySelectorAll('.sort-btn[data-key]').forEach(btn => {
 // ---------- Filtering / rendering ----------
 function matchesFilter(p) {
   if (deletedNames.has(p.name)) return false;
+  if (visitFilter !== 'all' && isVisited(p.name) !== (visitFilter === 'visited')) return false;
   if (mapBoundsFilterActive && viewMode === 'both') {
     if (p.lat == null || p.lon == null) return false;
     if (!map.getBounds().contains([p.lat, p.lon])) return false;
@@ -950,11 +966,12 @@ function matchesFilter(p) {
 }
 
 function cmp(a, b, effKey, effDir) {
-  let va = a[effKey], vb = b[effKey];
+  let va = effKey === 'myRating' ? getUserEntry(a.name).myRating : a[effKey];
+  let vb = effKey === 'myRating' ? getUserEntry(b.name).myRating : b[effKey];
   if (effKey === 'driveMin' || effKey === 'driveKm') {
     va = va == null ? Infinity : va;
     vb = vb == null ? Infinity : vb;
-  } else if (effKey === 'rating') {
+  } else if (effKey === 'rating' || effKey === 'myRating') {
     va = va == null ? -1 : va;
     vb = vb == null ? -1 : vb;
   } else {
@@ -1014,7 +1031,8 @@ cardList.addEventListener('click', e => {
   if (!star) return;
   const p = DATA[Number(star.dataset.idx)];
   const v = Number(star.dataset.n) * 2;
-  setUserEntry(p.name, { myRating: getUserEntry(p.name).myRating === v ? null : v });
+  const clear = getUserEntry(p.name).myRating === v;
+  setUserEntry(p.name, clear ? { myRating: null } : { myRating: v, visited: true });
   render();
 });
 
@@ -1098,7 +1116,7 @@ function render() {
       <div class="d4-top">
         <label class="d4-check" title="Besucht"><input type="checkbox" class="visited-checkbox" data-idx="${i}" ${u.visited ? 'checked' : ''}><span class="box">✓</span></label>
         <div class="d4-main">
-          <span class="card-name">${escapeHtml(p.name)}</span>
+          <span class="card-name">${escapeHtml(p.name)}</span>${u.visited ? `<span class="visit-badge" title="Besucht">✓ Besucht${u.myRating != null ? ' · ' + u.myRating + '/10' : ''}</span>` : ''}
           ${food ? '' : `<span class="type-tag">${escapeHtml(p.type)}</span>`}
           <div class="card-meta">${ratingTxt} &nbsp;·&nbsp; ${driveTxt}</div>
           <div class="card-addr">${locTxt}</div>
@@ -1112,7 +1130,6 @@ function render() {
       <div class="d4-foot">
         <label class="d4-link route${p.lat == null ? ' disabled' : ''}" title="Für Routenplanung auswählen"><input type="checkbox" class="route-checkbox" data-idx="${i}" ${routeSelection.includes(i) ? 'checked' : ''} ${p.lat == null ? 'disabled' : ''}><span>🧭 Zur Route</span></label>
         <label class="d4-link del" title="Zum Löschen markieren"><input type="checkbox" class="delete-checkbox" data-idx="${i}" ${deleteSelection.includes(i) ? 'checked' : ''}><span>🗑 Löschen</span></label>
-        ${u.visited ? '<span class="d4-vis">✓ Besucht</span>' : ''}
         ${webHtml}
       </div>
     `;
@@ -1127,6 +1144,9 @@ function render() {
   document.getElementById('visibleCount').textContent = `${indexed.length} / ${activeTotal} Orte`;
 
   const visitedCount = DATA.filter(p => !deletedNames.has(p.name) && getUserEntry(p.name).visited).length;
+  const vcs = document.querySelectorAll('#visitSeg .vc');
+  vcs[0].textContent = '(' + visitedCount + ')';
+  vcs[1].textContent = '(' + (activeTotal - visitedCount) + ')';
   document.getElementById('statsBar').textContent =
     `· 📍 ${activeTotal} Orte gesamt · ✅ ${visitedCount} besucht · ⬜ ${activeTotal - visitedCount} noch nicht besucht`;
 
