@@ -1,0 +1,821 @@
+{
+  "found": [
+    {
+      "pdfNr": null,
+      "listNr": 64,
+      "name": "Arthur's",
+      "mapsName": "Arthur's Pub",
+      "type": "Pub",
+      "group": "Restaurant",
+      "addr": "Křižíkova 27, 186 00 Praha 8-Karlín, Tschechien",
+      "lat": 50.0909617,
+      "lon": 14.4435667,
+      "rating": 4.5,
+      "reviews": 805,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/Arthur%27s+Pub/@50.0909617,14.4435667,17z",
+      "details": {
+        "c1": "Pub / Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Einziger Treffer für 'Arthur's' im Raum Prag (Karlín). Name in der Liste ohne Zusatz und ohne Rating; Nachbarn in der Liste (Irrlandia, JUMP Family Zličín) liegen in Prag.",
+        "src": "https://www.google.com/maps/place/Arthur%27s+Pub/@50.0909617,14.4435667,17z",
+        "web": "https://arthurspub.cz/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 75,
+      "name": "Brezen Kolb Café",
+      "mapsName": "Brezen Kolb Café",
+      "type": "Brezelgeschäft / Café mit Drive-in",
+      "group": "Café & Bar",
+      "addr": "Ostendstraße 138, 90482 Nürnberg, Deutschland",
+      "lat": 49.4559664,
+      "lon": 11.1212961,
+      "rating": 4.4,
+      "reviews": 3185,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Brezen+Kolb+Caf%C3%A9/@49.4559664,11.1212961,17z",
+      "details": {
+        "c1": "Brezelgeschäft, Café, Drive-in",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Helles Café mit Terrasse und Drive-in, süße und herzhafte Snacks aus Laugenteig (laut Google-Beschreibung). Es gibt weitere Brezen-Kolb-Filialen (Sebald, Hauptbahnhof); Name 'Café' passt zur Filiale Ostendstraße.",
+        "src": "https://www.google.com/maps/place/Brezen+Kolb+Caf%C3%A9/@49.4559664,11.1212961,17z",
+        "web": "http://www.brezen-kolb.de/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 84,
+      "name": "Himmelsgarten",
+      "mapsName": "Himmelsgarten",
+      "type": "Park",
+      "group": "Natur & Wandern",
+      "addr": "Himmelsgarten 6, 73527 Schwäbisch Gmünd, Deutschland",
+      "lat": 48.8140036,
+      "lon": 9.7743371,
+      "rating": 4.7,
+      "reviews": 1255,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/Himmelsgarten/@48.8140036,9.7743371,17z",
+      "details": {
+        "c1": "Park",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Park bei Schwäbisch Gmünd, rund um die Uhr geöffnet. Daneben liegt die XXL-Waldkugelbahn Himmelsgarten (4,6 / 211). Name eindeutig, Region nicht anhand der PDF-Nachbarn bestätigt (Nachbarn: Boulderwelt München Süd, Campingpark Nabburg).",
+        "src": "https://www.google.com/maps/place/Himmelsgarten/@48.8140036,9.7743371,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 309,
+      "name": "SPORT BAR HOMOLKA",
+      "mapsName": "SPORT BAR HOMOLKA",
+      "type": "Sportbar",
+      "group": "Café & Bar",
+      "addr": "tř. Míru 1462, 266 01 Beroun-Město, Tschechien",
+      "lat": 49.9589268,
+      "lon": 14.0548764,
+      "rating": 3.9,
+      "reviews": 13,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/SPORT+BAR+HOMOLKA/@49.9589268,14.0548764,17z",
+      "details": {
+        "c1": "Bar",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Einziger Treffer mit exaktem Namen (Beroun). Region nicht direkt belegt; andere Orte der Liste liegen im Raum Beroun (Elce Pelce Beroun, Králův Dvůr).",
+        "src": "https://www.google.com/maps/place/SPORT+BAR+HOMOLKA/@49.9589268,14.0548764,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 311,
+      "name": "Zanz Bar",
+      "mapsName": "Zanz Bar",
+      "type": "Bar",
+      "group": "Café & Bar",
+      "addr": "Kostelní, 266 01 Beroun 1, Tschechien",
+      "lat": 49.963385,
+      "lon": 14.0711567,
+      "rating": 4.4,
+      "reviews": 44,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/Zanz+Bar/@49.963385,14.0711567,17z",
+      "details": {
+        "c1": "Bar",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Einziger Treffer mit exaktem Namen (Beroun, Straße ohne Hausnummer). Region nicht direkt belegt; andere Orte der Liste liegen im Raum Beroun. Nicht verwechseln mit Kavárna Zanzibar (Prag-Nové Město) oder Zanzibar LÁDVÍ (Prag).",
+        "src": "https://www.google.com/maps/place/Zanz+Bar/@49.963385,14.0711567,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 314,
+      "name": "Camping SOKOL Praha",
+      "mapsName": "Camping SOKOL Praha",
+      "type": "Campingplatz",
+      "group": "Hotel",
+      "addr": "Nár. hrdinů 290, 190 12 Praha-Dolní Počernice, Tschechien",
+      "lat": 50.0883077,
+      "lon": 14.583441,
+      "rating": 4.4,
+      "reviews": 1167,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Camping+SOKOL+Praha/@50.0883077,14.583441,17z",
+      "details": {
+        "c1": "Campingplatz",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Campingplatz in Prag-Dolní Počernice; passt zum Nachbarn 'Dolní Počernice' in der Liste. Nicht identisch mit 'Camping Sokol Troja' (Praha 7), der bereits in entries.json steht.",
+        "src": "https://www.google.com/maps/place/Camping+SOKOL+Praha/@50.0883077,14.583441,17z",
+        "web": "http://www.campingsokol.cz/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 341,
+      "name": "Blumen Rosenrot Sonja Bachhuber",
+      "mapsName": "Blumen Rosenrot Sonja Bachhuber",
+      "type": "Blumengeschäft",
+      "group": "Sonstiges",
+      "addr": "Stadtparkstraße 15, 91126 Schwabach, Deutschland",
+      "lat": 49.3272247,
+      "lon": 11.0245543,
+      "rating": 4.9,
+      "reviews": 27,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Blumen+Rosenrot+Sonja+Bachhuber/@49.3272247,11.0245543,17z",
+      "details": {
+        "c1": "Blumengeschäft",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name exakt; Nachbarn in der Liste liegen in Schwabach. Ähnlich benannt: Blumen Rosenrot Inh. Sabine Harrer (Oberbayern) ist ein anderer Betrieb.",
+        "src": "https://www.google.com/maps/place/Blumen+Rosenrot+Sonja+Bachhuber/@49.3272247,11.0245543,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 357,
+      "name": "Eselhof Harm - tiergestützte Interv…",
+      "mapsName": "Eselhof Harm - tiergestützte Intervention",
+      "type": "Eselhof / tiergestützte Intervention",
+      "group": "Sonstiges",
+      "addr": "Harm 17, 90596 Schwanstetten-Harm, Deutschland",
+      "lat": 49.3152945,
+      "lon": 11.1051982,
+      "rating": 5.0,
+      "reviews": 6,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Eselhof+Harm+-+tiergest%C3%BCtzte+Intervention/@49.3152945,11.1051982,17z",
+      "details": {
+        "c1": "Tiergestützte Intervention (Google-Kategorie: Gesundheitsberater)",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name passt (Liste kürzt ab). Nur 6 Bewertungen. Region Schwabach/Roth passt zu den Nachbarn.",
+        "src": "https://www.google.com/maps/place/Eselhof+Harm+-+tiergest%C3%BCtzte+Intervention/@49.3152945,11.1051982,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 366,
+      "name": "BLAUES HAUS KAFFEE - Rösterei",
+      "mapsName": "BLAUES HAUS KAFFEE - Rösterei",
+      "type": "Kaffeerösterei",
+      "group": "Café & Bar",
+      "addr": "Friedrichstraße 6, 91126 Schwabach, Deutschland",
+      "lat": 49.33076,
+      "lon": 11.02158,
+      "rating": 4.8,
+      "reviews": 85,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/BLAUES+HAUS+KAFFEE+-+R%C3%B6sterei/@49.33076,11.02158,17z",
+      "details": {
+        "c1": "Kaffeerösterei",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name exakt; Region Schwabach passt zu den Nachbarn der Liste.",
+        "src": "https://www.google.com/maps/place/BLAUES+HAUS+KAFFEE+-+R%C3%B6sterei/@49.33076,11.02158,17z",
+        "web": "https://blaueshauskaffee.de/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 405,
+      "name": "Hosa-Gärtla - Spezialitäten",
+      "mapsName": "Hosa-Gärtla Asiatische Restaurant",
+      "type": "Asiatisches Restaurant",
+      "group": "Restaurant",
+      "addr": "Auf d. Reit 3, 91126 Schwabach-Eichwasen, Deutschland",
+      "lat": 49.3393944,
+      "lon": 11.0115583,
+      "rating": 4.6,
+      "reviews": 449,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/Hosa-G%C3%A4rtla+Asiatische+Restaurant/@49.3393944,11.0115583,17z",
+      "details": {
+        "c1": "Asiatisch",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name 'Hosa-Gärtla' passt, Region Schwabach passt zu den Nachbarn. Der Zusatz 'Spezialitäten' aus der Liste ist bei Google nicht belegt.",
+        "src": "https://www.google.com/maps/place/Hosa-G%C3%A4rtla+Asiatische+Restaurant/@49.3393944,11.0115583,17z",
+        "web": "https://hosa-gaertla.de/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 424,
+      "name": "WORLD OF FUN Freizeitpark",
+      "mapsName": "WORLD OF FUN Freizeitpark GmbH",
+      "type": "Freizeitzentrum",
+      "group": "Sport & Aktiv",
+      "addr": "Europa Allee 11, 66482 Zweibrücken, Deutschland",
+      "lat": 49.2298644,
+      "lon": 7.4016931,
+      "rating": 4.4,
+      "reviews": 1244,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/WORLD+OF+FUN+Freizeitpark+GmbH/@49.2298644,7.4016931,17z",
+      "details": {
+        "c1": "Freizeitzentrum (Kinderspielbereich, Eisbahn, Bowling, Minigolf, Gastronomie)",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name exakt, einziger Treffer. Region nicht anhand der PDF-Nachbarn bestätigt (Nachbarn: Superfun, Fun Center Amstelveen, überwiegend Niederlande).",
+        "src": "https://www.google.com/maps/place/WORLD+OF+FUN+Freizeitpark+GmbH/@49.2298644,7.4016931,17z",
+        "web": "https://www.wof-zw.de/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 612,
+      "name": "BJJ Odesa",
+      "mapsName": "BJJODESA",
+      "type": "Fitnessstudio (Brazilian Jiu-Jitsu)",
+      "group": "Sport & Aktiv",
+      "addr": "Dzhevetskoho Ln, 2, Odesa, Odesa Oblast, Ukraine, 65014",
+      "lat": 46.4716422,
+      "lon": 30.7551986,
+      "rating": 5.0,
+      "reviews": 46,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/BJJODESA/@46.4716422,30.7551986,17z",
+      "details": {
+        "c1": "Kampfsport / Fitness",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name bis auf Schreibweise identisch; Odesa passt zu den Nachbarn.",
+        "src": "https://www.google.com/maps/place/BJJODESA/@46.4716422,30.7551986,17z",
+        "web": "https://bjj.od.ua/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 634,
+      "name": "Vykhid",
+      "mapsName": "Vykhid",
+      "type": "Bar",
+      "group": "Café & Bar",
+      "addr": "Niny Strokatoi St, 24, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.4812732,
+      "lon": 30.739412,
+      "rating": 4.2,
+      "reviews": 615,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Vykhid/@46.4812732,30.739412,17z",
+      "details": {
+        "c1": "Bar",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name exakt; Odesa passt zu den Nachbarn. Nicht verwechseln mit Merezha Kvest-Kimnat 'Vykhid' (Escape Room).",
+        "src": "https://www.google.com/maps/place/Vykhid/@46.4812732,30.739412,17z",
+        "web": "https://www.instagram.com/exit.art.club/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 637,
+      "name": "Corvin",
+      "mapsName": "Corvin",
+      "type": "Kneipe",
+      "group": "Café & Bar",
+      "addr": "Lanzheronivs'ka St, 17, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.4850425,
+      "lon": 30.7375088,
+      "rating": 4.6,
+      "reviews": 2790,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Corvin/@46.4850425,30.7375088,17z",
+      "details": {
+        "c1": "Kneipe",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Name exakt; Odesa passt zu den Nachbarn (u. a. Hambrinus). Von A/B als 'kein Treffer' geführt, Maps-Suche mit Odesa-Kartenausschnitt liefert ihn an erster Stelle.",
+        "src": "https://www.google.com/maps/place/Corvin/@46.4850425,30.7375088,17z",
+        "web": "http://www.corvin.ua/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 641,
+      "name": "CrossFit Sea Energy",
+      "mapsName": "Cross Training Sea Energy",
+      "type": "Sportanlage / Crosstraining",
+      "group": "Sport & Aktiv",
+      "addr": "Lyustdorfs'ka Rd, 172/1, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.3950603,
+      "lon": 30.7305676,
+      "rating": 4.2,
+      "reviews": 6,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/Cross+Training+Sea+Energy/@46.3950603,30.7305676,17z",
+      "details": {
+        "c1": "Crosstraining",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Maps führt den Eintrag als 'Cross Training Sea Energy' (nicht 'CrossFit'); sonst kein Treffer mit 'Sea Energy' in Odesa. Nur 6 Bewertungen.",
+        "src": "https://www.google.com/maps/place/Cross+Training+Sea+Energy/@46.3950603,30.7305676,17z",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 648,
+      "name": "Makharadzh Yoha Klub",
+      "mapsName": "Makharadzh",
+      "type": "Yoga-Studio",
+      "group": "Sport & Aktiv",
+      "addr": "Hetmana Sahaidachnoho Blvd, 3, Odesa, Odesa Oblast, Ukraine, 65123",
+      "lat": 46.4752403,
+      "lon": 30.7607012,
+      "rating": 4.6,
+      "reviews": 119,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Makharadzh/@46.4752403,30.7607012,17z",
+      "details": {
+        "c1": "Yoga",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Maps-Eintrag 'Makharadzh (Махарадж)'; Website maharadj-yoga.club passt zu 'Makharadzh Yoga Club'.",
+        "src": "https://www.google.com/maps/place/Makharadzh/@46.4752403,30.7607012,17z",
+        "web": "https://maharadj-yoga.club/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 654,
+      "name": "Waterpark Odessa",
+      "mapsName": "Waterpark Odesa",
+      "type": "Erlebnisbad / Wasserpark",
+      "group": "Sport & Aktiv",
+      "addr": "Ovidiopol's'ka Rd, Avanhard, Odesa Oblast, Ukraine, 67806",
+      "lat": 46.4442518,
+      "lon": 30.6208969,
+      "rating": 4.2,
+      "reviews": 8039,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/place/Waterpark+Odesa/@46.4442518,30.6208969,17z",
+      "details": {
+        "c1": "Aquapark",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Aquapark Odesa (Аквапарк Одеса). Der Nachbar 'Water Park Kobleve' ist ein anderer Park.",
+        "src": "https://www.google.com/maps/place/Waterpark+Odesa/@46.4442518,30.6208969,17z",
+        "web": "http://aquaparkodessa.com.ua/"
+      }
+    },
+    {
+      "pdfNr": null,
+      "listNr": 681,
+      "name": "FITINN Fitnessstudio",
+      "mapsName": "FITINN",
+      "type": "Fitnessstudio",
+      "group": "Sport & Aktiv",
+      "addr": "Veletržní 24, 170 00 Praha 7-Holešovice, Tschechien",
+      "lat": 50.101815,
+      "lon": 14.4301579,
+      "rating": 3.5,
+      "reviews": 691,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/place/FITINN/@50.101815,14.4301579,17z",
+      "details": {
+        "c1": "Fitnessstudio",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "Kette mit mehreren Standorten in Prag (u. a. Budějovická 64, 50.0440339,14.4486877, 4,1 / 580). Gewählt wurde Veletržní 24 (Centrum Stromovka, Holešovice), weil die Nachbarn Underground Fitness und BodyBody Holešovice ebenfalls in Prag-Holešovice liegen.",
+        "src": "https://www.google.com/maps/place/FITINN/@50.101815,14.4301579,17z",
+        "web": "https://fitinn.cz/nase-studia/praha-centrum-stromovka/"
+      }
+    }
+  ],
+  "notFound": [
+    {
+      "pdfNr": null,
+      "listNr": 251,
+      "name": "Moses Kleine Kneipe",
+      "reason": "Kein Ergebnis in Google Maps (Suche mit Prag-Kartenausschnitt und ohne Ortsangabe)."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 307,
+      "name": "Code bar",
+      "reason": "Name mehrdeutig: zwei Bars in Prag ähnlichen Namens, keiner durch die Nachbarn belegbar.",
+      "candidates": [
+        {
+          "mapsName": "Code bar",
+          "addr": "11, Nevanova 1050, Prag (Řepy)",
+          "why": "50.064903, 14.315572; Bar, 4,2 (227); bei Abfrage vorübergehend geschlossen"
+        },
+        {
+          "mapsName": "Code bar 2",
+          "addr": "Vašátkova 1, Prag",
+          "why": "50.1020107, 14.5668215; Bar, 4,0 (208)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 329,
+      "name": "\"Die Nugget-Schmiede\" by Mieten-…",
+      "reason": "Nur ein Wohnmobilhändler 'Nugget-Schmiede' gefunden; der Zusatz 'by Mieten-…' (abgeschnitten) ist nicht belegt, Region (Oberbayern) passt nicht erkennbar zu den Nachbarn (Tropical Islands).",
+      "candidates": [
+        {
+          "mapsName": "Nugget-Schmiede",
+          "addr": "Am Schwaigbach 6, 82431 Kochel am See, Deutschland",
+          "why": "47.6851416, 11.4017696; Wohnmobilhändler, 4,7 (79); Website nugget-schmiede.de"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 360,
+      "name": "Restaurace Srub",
+      "reason": "Name mehrdeutig, zwei gleichnamige Restaurants in Tschechien, Zuordnung zu den Nachbarn (Dědkův mlýn, Paintball Hájek) nicht belegbar.",
+      "candidates": [
+        {
+          "mapsName": "Restaurace Srub",
+          "addr": "Podkozí 398, Tschechien",
+          "why": "50.0476108, 14.1112971; Restaurant, 4,5 (867)"
+        },
+        {
+          "mapsName": "Restaurace Srub",
+          "addr": "U Remízku 949, Tschechien (Raum Plzeň)",
+          "why": "49.8396009, 13.9062097; Kneipe, 4,6 (247)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 363,
+      "name": "VirtualGame",
+      "reason": "Kein Treffer mit diesem Namen; Maps liefert nur andere VR-Anbieter in München (VAONS, Zero Latency, Sandbox VR u. a.)."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 369,
+      "name": "KONSEPTI",
+      "reason": "Gefunden wurde nur ein Möbelgeschäft (drei Filialen), kein Ausflugsziel, Zuordnung unklar.",
+      "candidates": [
+        {
+          "mapsName": "KONSEPTI",
+          "addr": "Komunardů 894/32, Prag",
+          "why": "50.1039881, 14.4502131; Möbelgeschäft, 4,7 (29)"
+        },
+        {
+          "mapsName": "KONSEPTI",
+          "addr": "Čestlice 289, Tschechien",
+          "why": "49.99062, 14.589318; Möbelgeschäft, 4,6 (25)"
+        },
+        {
+          "mapsName": "KONSEPTI",
+          "addr": "Zochova 10, Bratislava",
+          "why": "48.14604, 17.102289; Möbelgeschäft, 4,3 (6)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 383,
+      "name": "B ř ez ň ák",
+      "reason": "Kein Ort 'Březňák' in Google Maps; nur Pivovar Velké Březno und 'Breznak Pivnice U Páji' (1 Bewertung), Namensbezug nicht belegt.",
+      "candidates": [
+        {
+          "mapsName": "Breznak Pivnice U Páji",
+          "addr": "Raum Ústí nad Labem",
+          "why": "50.6074866, 13.9519158; keine Kategorie, 1 Bewertung"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 426,
+      "name": "Fun & Entertainment Center",
+      "reason": "Generischer Name, kein exakter Treffer. Die Suche liefert nur 'FEC Sevenum' (Niederlande), deren Name nicht übereinstimmt.",
+      "candidates": [
+        {
+          "mapsName": "FEC Sevenum",
+          "addr": "Midden Peelweg 7, 5975 MZ Sevenum, Niederlande",
+          "why": "51.3821297, 5.9812904; Freizeitzentrum, 4,4 (470); Nachbarn der Liste liegen in den Niederlanden, Namensgleichheit aber nicht belegt"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 586,
+      "name": "Night Club Bolero",
+      "reason": "Kein Treffer in Odesa. Einziger gleichnamiger Eintrag ist ein Nachtclub in Charkiw (dauerhaft geschlossen).",
+      "candidates": [
+        {
+          "mapsName": "Night Club Bolero",
+          "addr": "Yuvileinyi Ave, 56, Charkiw",
+          "why": "49.9957579, 36.3382645; Nachtclub, 4,0 (921); dauerhaft geschlossen"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 591,
+      "name": "Культура  звука  Studiya",
+      "reason": "Kein Treffer mit diesem Namen in Odesa; nur Tonstudios und Musikschulen anderer Namen."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 593,
+      "name": "Manhattan bar",
+      "reason": "Kein Treffer in Odesa; einziger gleichnamiger Eintrag ist die Manhattan Bar in Konstanz."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 595,
+      "name": "Ynzhyr",
+      "reason": "Kein Treffer in Odesa (auch nicht unter der ukrainischen Schreibweise 'Інжир').",
+      "candidates": [
+        {
+          "mapsName": "INЖИР",
+          "addr": "вулиця студентська, Набережна, 2В, Uschhorod",
+          "why": "48.623505, 22.2850222; georgisches Restaurant, 4,2 (294); liegt nicht in Odesa, Namensbezug nicht belegt"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 605,
+      "name": "Чао  Янь",
+      "reason": "Kein Treffer mit diesem Namen in Odesa; nur erotische Massagebetriebe mit ähnlichem Namen ('Чао', dauerhaft geschlossen)."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 614,
+      "name": "Voilà Vinos",
+      "reason": "Kein Ergebnis in Google Maps (Suche mit Odesa-Kartenausschnitt und ohne Ortsangabe)."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 623,
+      "name": "Backyard Cafe",
+      "reason": "Mehrdeutig und kein Treffer in Odesa; gleichnamiges Café in der Türkei, Zuordnung nicht belegbar.",
+      "candidates": [
+        {
+          "mapsName": "Backyard Cafe",
+          "addr": "Atatürk Cd. No:31, Türkei",
+          "why": "36.597857, 30.5628958; Café, 4,9 (231)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 626,
+      "name": "Loggerhead",
+      "reason": "Einziger Treffer ist eine Cocktailbar in Kyjiw; kein Eintrag in Odesa, Zuordnung zu den Odesa-Nachbarn nicht belegt.",
+      "candidates": [
+        {
+          "mapsName": "Loggerhead",
+          "addr": "Tarasa Shevchenko Blvd, 1, Kyjiw 01004",
+          "why": "50.4421726, 30.5194076; Cocktailbar, 4,4 (1.775)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 632,
+      "name": "Bar Mushly а",
+      "reason": "Einziger Treffer 'Bar Mushly' liegt in Lwiw; ein Standort in Odesa ist in Maps nicht auffindbar.",
+      "candidates": [
+        {
+          "mapsName": "Bar Mushly (Бар Мушлі)",
+          "addr": "Rynok Square, 35, Lwiw",
+          "why": "49.8423105, 24.0308081; Restaurant, 4,7 (2.711); Website barmushly.com.ua"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 643,
+      "name": "Yogahot",
+      "reason": "Einziger Treffer ist ein Yoga-Studio in Kyjiw; in Odesa kein Eintrag.",
+      "candidates": [
+        {
+          "mapsName": "Yogahot",
+          "addr": "Obolonska naberezhna, 1К2, Kyjiw",
+          "why": "50.4913253, 30.5275707; Yoga-Studio, 4,6 (64)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 674,
+      "name": "Farmers Market",
+      "reason": "Name generisch; allein in Prag mindestens sechs Bauernmärkte, keine Zuordnung zu den Nachbarn (Lysá hora, Ocean Supercenter) möglich.",
+      "candidates": [
+        {
+          "mapsName": "Bauernmarkt Náplavka",
+          "addr": "Rašínovo nábřeží, Prag",
+          "why": "50.0706661, 14.4140813; 4,5 (5.819)"
+        },
+        {
+          "mapsName": "Farmers' Market, Jiřího z Poděbrad",
+          "addr": "nám. J. z Poděbrad 1659, Prag",
+          "why": "50.0782502, 14.449262; 4,4 (3.247)"
+        }
+      ]
+    },
+    {
+      "pdfNr": null,
+      "listNr": 686,
+      "name": "Vai Piano Ristorante",
+      "reason": "Kein Eintrag 'Vai Piano'; Maps liefert nur Vapiano-Filialen. Nachbarn der Liste liegen in Kolumbien."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 694,
+      "name": "North Park",
+      "reason": "Name generisch; Treffer nur in den USA (Pittsburgh, Dallas) und Deutschland, keine Zuordnung zu den Nachbarn (Kolumbien) möglich."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 705,
+      "name": "Venice Kanäle Laufweg",
+      "reason": "Nicht eindeutig: 'Venice Canals' (Los Angeles) oder Venedig, kein Bezug zu den Nachbarn (Asien/Kolumbien) belegbar.",
+      "candidates": [
+        {
+          "mapsName": "Venice Canals",
+          "addr": "Venice, Los Angeles",
+          "why": "33.9833582, -118.4675949; nur ein Kandidat, Zuordnung nicht belegt"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pdfNr": null,
+      "listNr": 70,
+      "name": "next door coffee club - Richter + H…",
+      "reason": "Bereits in tools/entries.json als 'next door coffee club' (Allersberger Straße 162, 90461 Nürnberg). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 97,
+      "name": "Lehká hlava - vegetarian restaurant",
+      "reason": "Bereits in tools/entries.json als 'Lehká hlava – vegetarisches Restaurant' (Boršov 2/280, 110 00 Praha 1). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 113,
+      "name": "Novak House",
+      "reason": "Bereits in tools/entries.json als 'Novak House (U Nováků)' (Vodičkova 30, 110 00 Praha 1). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 115,
+      "name": "Czech Police Museum",
+      "reason": "Bereits in tools/entries.json als 'Muzeum Policie ČR (Czech Police Museum)' (Ke Karlovu 453/1, 120 00 Praha 2). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 349,
+      "name": "Historischer Eisenhammer",
+      "reason": "Bereits in tools/entries.json als 'Historischer Eisenhammer Eckersmühlen' (Eisenhammer 1, 91154 Roth-Eckersmühlen). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 386,
+      "name": "Hotel & Camping Reich am Schnack…",
+      "reason": "Bereits in tools/entries.json als 'Camping Reich am Schnackensee' (Schnackenmühle 2-4, 91710 Gunzenhausen). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 407,
+      "name": "Gasthaus Heyder",
+      "reason": "Bereits in tools/entries.json als 'Gasthaus Heyder (Gasthaus Metzgerei Heyder)' (Rother Straße 20, 91186 Büchenbach). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 683,
+      "name": "BodyBody Hole š ovice",
+      "reason": "Bereits in tools/entries.json als 'BodyBody Praha Holešovice' (Na Maninách 1590/29, 170 00 Praha 7). Nicht erneut gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 397,
+      "name": "HAPPY MASSAGE",
+      "reason": "Umfeld Lateinamerika/Kolumbien: direkte Nachbarn [396] Piedras Blancas Ecological Park und [398] Colosal Restaurante stehen in der Ausschlussliste (Lateinamerika). Nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 616,
+      "name": "Barbaro cocina primitiva sede pobl…",
+      "reason": "Vermutlich Kolumbien (Medellín): 'sede poblado' verweist auf den Stadtteil El Poblado; Nachbar [617] ist die Hauptfiliale von Bárbaro Cocina Primitiva. Kolumbien ist ausgeschlossen, nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 618,
+      "name": "Betty's Bowls",
+      "reason": "Kolumbien: einziger Treffer ist Betty's Bowls in Medellín, El Poblado (Cra. 32d #7a-77; lat 6.207229, lon -75.5640138; 4,7 / 901). Kolumbien ist ausgeschlossen."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 669,
+      "name": "Tal Cual",
+      "reason": "Umfeld Kolumbien (Medellín): direkter Nachbar [670] Chef Burger Poblado und Koordinaten bei Medellín. Kolumbien ist ausgeschlossen, nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 689,
+      "name": "Quebracho Parilla Agentina",
+      "reason": "Vermutlich Kolumbien (Nachbarn: La Diva Centro Cartagena, Parques del Río Medellín). Kolumbien ist ausgeschlossen, nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 603,
+      "name": "Salon Ehoyist",
+      "reason": "Erotikbetrieb: Maps führt 'Salon Ehoyist' (Salon Egoist) als 'Erotische Massagen', Baltymorska St, 10, Odesa (lat 46.428573, lon 30.757012; 3,7 / 33). Nicht für die Karte geeignet."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 607,
+      "name": "CHI by Decadence House",
+      "reason": "Dauerhaft geschlossen laut Google Maps (Restaurant in Kyjiw, Parkova Rd, 16; lat 50.4496045, lon 30.5408634; 4,3 / 1.185). Nicht für die Karte geeignet."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 609,
+      "name": "Полезные  белки",
+      "reason": "Dauerhaft geschlossen laut Google Maps (vegetarisches Restaurant, Sofiivs'ka St, 28, Odesa; lat 46.4894555, lon 30.7318156; 4,2 / 89). Nicht für die Karte geeignet."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 629,
+      "name": "Shkaff",
+      "reason": "Dauerhaft geschlossen laut Google Maps (Kneipe, Hrets'ka St, 32, Odesa; lat 46.4827728, lon 30.7391605; 4,3 / 2.172). Nicht für die Karte geeignet."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 645,
+      "name": "Velyka Arnauts'ka St, 61, 7",
+      "reason": "Nur Straßenadresse (Wohnung 7 im Gebäude Velyka Arnauts'ka St, 61); das Gebäude steht als Nr. [644] bereits in entries.json. Nutzung unbekannt, nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 650,
+      "name": "Gesetzte Markierung",
+      "reason": "Nur eine gesetzte Markierung (Pin) ohne Ortsnamen in der Quelldatei, nicht identifizierbar."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 700,
+      "name": "Asia Entertainment City",
+      "reason": "Asien (in der Quelldatei 'vermutlich Asien'; Nachbarn United Living Mall, Brolly Sky Bar Mandalay). Asien ist ausgeschlossen, nicht gesucht."
+    },
+    {
+      "pdfNr": null,
+      "listNr": 702,
+      "name": "United Living Mall",
+      "reason": "Asien (in der Quelldatei 'vermutlich Asien'; Nachbar Brolly Sky Bar Mandalay). Asien ist ausgeschlossen, nicht gesucht."
+    }
+  ]
+}
