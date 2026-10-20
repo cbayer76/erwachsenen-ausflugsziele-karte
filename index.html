@@ -221,10 +221,18 @@
   .d4-link.del input:checked + span { color: #c92a2a; background: #fdecec; font-weight: 600; }
   .d4-link.disabled { opacity: .4; cursor: not-allowed; }
   .d4-vis { margin-left: auto; font-size: 12px; color: #2f9e44; }
-  .card-facts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+  .card-facts { display: flex; flex-wrap: wrap; gap: 4px; margin: 5px 0 0 32px; }
   .fact-pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); color: var(--text); background: var(--panel); }
   .card-special { margin-top: 5px; font-size: 12px; font-style: italic; color: var(--text-muted); }
-  .d4-link.web { text-decoration: none; }
+  .web-btn { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; font-size: 12.5px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 5px 10px; text-decoration: none; white-space: nowrap; background: var(--panel); }
+  .web-btn:hover { background: #eef1ec; }
+  .web-btn.maps { color: #1971c2; border-color: #1971c2; }
+  .d4-vis ~ .web-btn { margin-left: 8px; }
+  .cuisine-line { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 6px 0 0 32px; }
+  .cuisine-badge { display: inline-flex; align-items: center; gap: 5px; font-weight: 700; font-size: 13.5px; padding: 2px 10px; border-radius: 12px; background: #eef0ec; color: var(--text); }
+  .cuisine-badge.g-restaurant { background: #fdecec; color: #a61e1e; }
+  .cuisine-badge.g-cafe { background: #fff0e6; color: #b34700; }
+  .cuisine-price { font-weight: 700; font-size: 13.5px; }
   .type-tag {
     display: inline-block;
     font-size: 11px;
@@ -292,8 +300,11 @@
     .d4-star { font-size: 26px; padding: 2px 1px; }
     .d4-link span { min-height: 44px; padding: 0 12px; font-size: 14px; }
     .fact-pill { font-size: 13px; padding: 2px 9px; }
+    .cuisine-badge, .cuisine-price { font-size: 15px; }
+    .cuisine-line, .card-facts { margin-left: 0; }
+    .web-btn { min-height: 44px; padding: 0 12px; font-size: 14px; border-radius: 10px; }
     .card-special { font-size: 13px; }
-    .d4-foot { gap: 4px; margin-top: 4px; padding-top: 2px; }
+    .d4-foot { gap: 4px; margin-top: 4px; padding-top: 2px; flex-wrap: wrap; }
     .my-note-input { font-size: 14px; padding: 8px; }
     .to-top { position: absolute; left: 10px; bottom: 14px; width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--accent); color: #fff; font-size: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.3); z-index: 500; cursor: pointer; }
     .to-top.show { display: block; }
@@ -1051,22 +1062,35 @@ function render() {
       <input class="my-note-input" data-idx="${i}" placeholder="Eigene Notiz…" value="${escapeHtml(u.myNote)}">
     </div>`;
 
-    // Fakten-Zeile, Besonderheit und Website-Link: nur wenn Recherchedaten (DETAILS) vorhanden sind
+    // Fakten, Besonderheit, Küchen-Badge: nur wenn Recherchedaten (DETAILS) vorhanden sind.
+    // Direktlink: immer. Website des Lokals, sonst Google Maps.
     const det = DETAILS[p.name];
-    let factsHtml = '', specialHtml = '', webHtml = '';
+    const food = !!det && (p.group === 'Restaurant' || p.group === 'Café & Bar');
+    let factsHtml = '', specialHtml = '', cuisineHtml = '';
     if (det) {
       const labels = TABLE_COLS[p.group] || [];
       const pills = [];
+      let price = '';
       labels.slice(0, -1).forEach((l, k) => {
         const v = det['c' + (k + 1)];
         if (v == null || String(v).trim() === '') return;
+        if (l === 'Öffnungszeiten') return; // steht nur in der Tabelle
+        if (food && l === 'Preisniveau') { price = String(v).trim(); return; }
+        if (food && (l === 'Küche' || l === 'Angebot')) return; // Art steht im Badge
         pills.push(`<span class="fact-pill">${l === 'Preisniveau' ? '' : escapeHtml(l) + ': '}${escapeHtml(v)}</span>`);
       });
       if (pills.length) factsHtml = `<div class="card-facts">${pills.join('')}</div>`;
       const sp = labels.length ? det['c' + labels.length] : null;
       if (sp != null && String(sp).trim() !== '') specialHtml = `<div class="card-special">${escapeHtml(sp)}</div>`;
-      if (det.web && /^https?:\/\//.test(det.web)) webHtml = `<a class="d4-link web" href="${escapeHtml(det.web)}" target="_blank" rel="noopener" title="Website des Lokals"><span>🌐 Website</span></a>`;
+      if (food) {
+        const cls = p.group === 'Restaurant' ? 'g-restaurant' : 'g-cafe';
+        cuisineHtml = `<div class="cuisine-line"><span class="cuisine-badge ${cls}">${GROUPS[p.group].emoji} ${escapeHtml(p.type)}</span>${price ? `<span class="cuisine-price">${escapeHtml(price)}</span>` : ''}</div>`;
+      }
     }
+    const hasWeb = !!(det && det.web && /^https?:\/\//.test(det.web));
+    const webHtml = hasWeb
+      ? `<a class="web-btn" href="${escapeHtml(det.web)}" target="_blank" rel="noopener" title="Website des Lokals">🌐 Website ↗</a>`
+      : `<a class="web-btn maps" href="${gmapsLink(p)}" target="_blank" rel="noopener" title="Im Google-Maps-Eintrag öffnen">📍 Google Maps ↗</a>`;
 
     const starsFilled = u.myRating != null ? Math.ceil(u.myRating / 2) : 0;
     const starsHtml = [1, 2, 3, 4, 5].map(n => `<span class="d4-star${n <= starsFilled ? ' f' : ''}" data-idx="${i}" data-n="${n}">★</span>`).join('');
@@ -1075,20 +1099,21 @@ function render() {
         <label class="d4-check" title="Besucht"><input type="checkbox" class="visited-checkbox" data-idx="${i}" ${u.visited ? 'checked' : ''}><span class="box">✓</span></label>
         <div class="d4-main">
           <span class="card-name">${escapeHtml(p.name)}</span>
-          <span class="type-tag">${escapeHtml(p.type)}</span>
+          ${food ? '' : `<span class="type-tag">${escapeHtml(p.type)}</span>`}
           <div class="card-meta">${ratingTxt} &nbsp;·&nbsp; ${driveTxt}</div>
           <div class="card-addr">${locTxt}</div>
         </div>
         <span class="d4-stars" title="${u.myRating != null ? 'Meine Wertung: ' + u.myRating + '/10' : 'Eigene Wertung vergeben'}">${starsHtml}</span>
       </div>
+      ${cuisineHtml}
       ${factsHtml}
       ${specialHtml}
       <div class="card-note">${noteHtml}</div>
       <div class="d4-foot">
         <label class="d4-link route${p.lat == null ? ' disabled' : ''}" title="Für Routenplanung auswählen"><input type="checkbox" class="route-checkbox" data-idx="${i}" ${routeSelection.includes(i) ? 'checked' : ''} ${p.lat == null ? 'disabled' : ''}><span>🧭 Zur Route</span></label>
         <label class="d4-link del" title="Zum Löschen markieren"><input type="checkbox" class="delete-checkbox" data-idx="${i}" ${deleteSelection.includes(i) ? 'checked' : ''}><span>🗑 Löschen</span></label>
-        ${webHtml}
         ${u.visited ? '<span class="d4-vis">✓ Besucht</span>' : ''}
+        ${webHtml}
       </div>
     `;
     card.addEventListener('click', e => {
