@@ -58,5 +58,11 @@
     "lon": 11.082626,
     "approx": false,
     "osm": "22, Innere Laufer Gasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Schustergasse 10, 90403 Nürnberg|Einzimmer Küche Bar": {
+    "lat": 49.454744,
+    "lon": 11.074847,
+    "approx": false,
+    "osm": "Einzimmer Küche Bar, 10, Schustergasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
   }
 }

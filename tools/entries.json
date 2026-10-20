@@ -208,5 +208,26 @@
       "src": "https://restaurantguru.com/El-Mexicano-Nuremberg",
       "web": ""
     }
+  },
+  {
+    "name": "Einzimmer Küche Bar",
+    "type": "Modern-regional (Gault&Millau)",
+    "group": "Restaurant",
+    "addr": "Schustergasse 10, 90403 Nürnberg",
+    "addrNote": "",
+    "approx": false,
+    "rating": 4.7,
+    "reviews": 290,
+    "ratingDate": "2026-10-20",
+    "note": "Google-Maps-Eintrag \"Einzimmer Küche Bar Restaurant\", Preisstufe laut Google: mehr als 100 € pro Person.",
+    "details": {
+      "c1": "Modern-regional, saisonal, viel Vegetarisches",
+      "c2": "€€€€",
+      "c3": "",
+      "c4": "Mo, Di, Do–Sa 12–14 und 18–22, Mi/So vermutlich Ruhetag",
+      "c5": "Wechselndes Mittagsmenü, Do–Sa 8-Gänge-Menü abends; 2022 eine schwarze Kochmütze von Gault&Millau",
+      "src": "https://einzimmerkuechebar.de/",
+      "web": "https://einzimmerkuechebar.de/"
+    }
   }
 ]
