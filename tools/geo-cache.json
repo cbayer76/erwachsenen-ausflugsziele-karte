@@ -1,0 +1,62 @@
+{
+  "Schweiggerstraße 19, 90478 Nürnberg|Schäufelewärtschaft": {
+    "lat": 49.442173,
+    "lon": 11.091669,
+    "approx": false,
+    "osm": "Schäufelewärtschaft, 19, Schweiggerstraße, Bleiweißviertel, Glockenhof, Weiterer Innenstadtgürtel Süd, Nürnberg, Bayern, 90478, Deutschland"
+  },
+  "Weißgerbergasse 38, 90403 Nürnberg|Café Rösterei Bergbrand": {
+    "lat": 49.454913,
+    "lon": 11.071763,
+    "approx": false,
+    "osm": "Bergbrand, 38, Weißgerbergasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Färberstraße 48, 90402 Nürnberg|Eggla": {
+    "lat": 49.448074,
+    "lon": 11.071863,
+    "approx": false,
+    "osm": "48, Färberstraße, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Augustinerhof 1, 90403 Nürnberg|Brasserie Nitz": {
+    "lat": 49.453674,
+    "lon": 11.075737,
+    "approx": false,
+    "osm": "Karl August, 1, Augustinerhof, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Hauptmarkt, 90403 Nürnberg|3 im Weggla": {
+    "lat": 49.453684,
+    "lon": 11.07727,
+    "approx": false,
+    "osm": "Hauptmarkt, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  },
+  "Gostenhofer Hauptstraße 19, 90443 Nürnberg|Slemani Grill Restaurant": {
+    "lat": 49.447159,
+    "lon": 11.065484,
+    "approx": false,
+    "osm": "19, Gostenhofer Hauptstraße, Gostenhof, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90443, Deutschland"
+  },
+  "Frauentorgraben 7, 90443 Nürnberg|Lebkuchen Schmidt": {
+    "lat": 49.447226,
+    "lon": 11.068977,
+    "approx": true,
+    "osm": "Frauentorgraben, Tafelhof, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90443, Deutschland"
+  },
+  "Bucher Straße 43, 90419 Nürnberg|Schababs Gemüse Kebab": {
+    "lat": 49.462015,
+    "lon": 11.071463,
+    "approx": false,
+    "osm": "Shabab's Gemüsekebab, 43, Bucher Straße, St. Johannis, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90419, Deutschland"
+  },
+  "Johannesgasse 35, 90402 Nürnberg|Chias": {
+    "lat": 49.449283,
+    "lon": 11.080123,
+    "approx": true,
+    "osm": "Johannesgasse, Altstadt, St. Lorenz, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90402, Deutschland"
+  },
+  "Innere Laufer Gasse 22, 90403 Nürnberg|El Mexicano Nürnberg": {
+    "lat": 49.455757,
+    "lon": 11.082626,
+    "approx": false,
+    "osm": "22, Innere Laufer Gasse, Altstadt, St. Sebald, Altstadt und engere Innenstadt, Nürnberg, Bayern, 90403, Deutschland"
+  }
+}

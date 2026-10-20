@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Eggla",
+    "type": "Imbiss (Egg-Drop-Sandwich)",
+    "group": "Restaurant",
+    "addr": "Färberstraße 48, 90402 Nürnberg",
+    "addrNote": "",
+    "approx": false,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl)",
+    "details": {
+      "c1": "Korean Egg Drop Sandwiches",
+      "c2": "€",
+      "c3": "",
+      "c4": "Mo, Mi, Do 10–20, Fr 10–21, Sa 9–21, So 9–18, Di Ruhetag",
+      "c5": "Kleiner Laden mit Sandwiches aus Shokupan-Toast und Rührei, überwiegend zum Mitnehmen",
+      "src": "https://coolibri.de/restaurant/egg-la-nurnberg/",
+      "web": "https://www.instagram.com/eggla_nuernberg"
+    }
+  },
+  {
+    "name": "Café Rösterei Bergbrand",
+    "type": "Café / Rösterei",
+    "group": "Café & Bar",
+    "addr": "Weißgerbergasse 38, 90403 Nürnberg",
+    "addrNote": "Abweichung: Instagram nennt Jakobstraße 7, 90402; laut Tourismus Nürnberg und Restaurant Guru liegt Bergbrand in der Weißgerbergasse 38, 90403.",
+    "approx": false,
+    "rating": 4.5,
+    "reviews": 1120,
+    "ratingDate": "2026-10-20",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Adresse weicht von der Instagram-Liste ab, hier die offizielle.",
+    "details": {
+      "c1": "Kaffee, Sandwiches, Kuchen, Croissants",
+      "c2": "€",
+      "c3": "Mo–Sa ab 8, So ab 10 Uhr (bis ca. 18/19 Uhr)",
+      "c4": "ja",
+      "c5": "Eigene Rösterei mit traditioneller Trommelröstung, Bio- und Fairtrade-Kaffee",
+      "src": "https://tourismus.nuernberg.de/en/food-drink/restaurants/cafes/location/bergbrand/",
+      "web": "https://bergbrand.eu/"
+    }
+  },
+  {
+    "name": "Brasserie Nitz",
+    "type": "Brasserie",
+    "group": "Restaurant",
+    "addr": "Augustinerhof 1, 90403 Nürnberg",
+    "addrNote": "",
+    "approx": false,
+    "rating": 4.2,
+    "reviews": 623,
+    "ratingDate": "2026-10-20",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl)",
+    "details": {
+      "c1": "Französisch (Brasserie)",
+      "c2": "€€€",
+      "c3": "online möglich",
+      "c4": "Mo–Fr 6:30–24, Sa 7–24, So 7–22; warme Küche 12–21 Uhr",
+      "c5": "Im Hotel Karl August direkt an der Pegnitz, mit Austern, Sonnenterrasse und Afternoon Tea",
+      "src": "https://brasserie-nitz.de",
+      "web": "https://brasserie-nitz.de"
+    }
+  },
+  {
+    "name": "3 im Weggla",
+    "type": "Imbiss (Bratwurst)",
+    "group": "Restaurant",
+    "addr": "Hauptmarkt, 90403 Nürnberg",
+    "addrNote": "Kein einzelner Stand mit diesem Namen belegbar; 3 im Weggla wird an Bratwurstständen rund um den Hauptmarkt verkauft. Standort daher ungefähr.",
+    "approx": true,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Standort ungefähr: Bratwurststände rund um den Hauptmarkt.",
+    "details": {
+      "c1": "Nürnberger Rostbratwürste im Brötchen",
+      "c2": "",
+      "c3": "",
+      "c4": "",
+      "c5": "Drei kleine Nürnberger Bratwürste im Weggla, meist mit Senf",
+      "src": "https://tourismus.nuernberg.de/en/food-drink/nurembergs-specialties/nuremberg-sausages/3-im-weggla/",
+      "web": ""
+    }
+  },
+  {
+    "name": "Slemani Grill Restaurant",
+    "type": "Grill (kurdisch)",
+    "group": "Restaurant",
+    "addr": "Gostenhofer Hauptstraße 19, 90443 Nürnberg",
+    "addrNote": "Adresse nicht bestätigt: Für Gostenhofer Hauptstraße 19 fand sich kein Eintrag. Das einzige belegbare Slemani-Lokal in Nürnberg (Slemani Restaurant Nürnberg) liegt am Hummelsteiner Weg 50, 90459. Adresse prüfen.",
+    "approx": true,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Adresse unbestätigt, bitte prüfen.",
+    "details": {
+      "c1": "Kurdisch-irakisch, Grillspezialitäten",
+      "c2": "",
+      "c3": "",
+      "c4": "",
+      "c5": "",
+      "src": "https://restaurantguru.com/Slemani-Restaurant-Nurnberg-Nuremberg",
+      "web": ""
+    }
+  },
+  {
+    "name": "Lebkuchen Schmidt",
+    "type": "Lebkuchen-Laden",
+    "group": "Café & Bar",
+    "addr": "Frauentorgraben 7, 90443 Nürnberg",
+    "addrNote": "Adresse nicht bestätigt: Die Filialliste von Lebkuchen-Schmidt nennt in Nürnberg Plobenhofstr. 6 (Altstadt), Königstr. 38, Zollhausstr. 30 und Ostendstr. 227, aber nichts am Frauentorgraben. Ein Café ist nirgends belegt.",
+    "approx": true,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Adresse unbestätigt, bitte prüfen.",
+    "details": {
+      "c1": "Nürnberger Lebkuchen und Gebäck",
+      "c2": "",
+      "c3": "",
+      "c4": "",
+      "c5": "",
+      "src": "https://www.lebkuchen-schmidt.com/filialen/",
+      "web": "https://www.lebkuchen-schmidt.com/"
+    }
+  },
+  {
+    "name": "Schababs Gemüse Kebab",
+    "type": "Imbiss (Kebab)",
+    "group": "Restaurant",
+    "addr": "Bucher Straße 43, 90419 Nürnberg",
+    "addrNote": "Abweichung: Instagram nennt Gostenhofer Hauptstraße 22, 90443; Speisekarte.de, Creditreform und Restaurant Guru führen den Laden (Shabab's Gemüsekebab) in der Bucher Straße 43, 90419.",
+    "approx": false,
+    "rating": 4.5,
+    "reviews": 946,
+    "ratingDate": "2026-10-20",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Adresse weicht von der Instagram-Liste ab, hier die offizielle.",
+    "details": {
+      "c1": "Gemüsekebab, Döner, Falafel",
+      "c2": "€",
+      "c3": "nicht möglich",
+      "c4": "täglich ca. 11–22 Uhr (So teils ab 12)",
+      "c5": "Spezialisiert auf Gemüsekebab, auch Hähnchenspieße, Falafel und vegane Variante",
+      "src": "https://restaurantguru.com/Shababs-Gemusekebab-Nuremberg",
+      "web": ""
+    }
+  },
+  {
+    "name": "Chias",
+    "type": "Restaurant",
+    "group": "Restaurant",
+    "addr": "Johannesgasse 35, 90402 Nürnberg",
+    "addrNote": "Nicht belegt: Zu Chias fanden sich weder Küche noch Öffnungszeiten noch Bewertungen. Die Adresse stammt nur aus einer Foodspot-Liste auf TikTok.",
+    "approx": true,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl). Adresse unbestätigt, sonst nichts belegt, bitte prüfen.",
+    "details": {
+      "c1": "",
+      "c2": "",
+      "c3": "",
+      "c4": "",
+      "c5": "",
+      "src": "",
+      "web": ""
+    }
+  },
+  {
+    "name": "Schäufelewärtschaft",
+    "type": "Fränkisch",
+    "group": "Restaurant",
+    "addr": "Schweiggerstraße 19, 90478 Nürnberg",
+    "addrNote": "",
+    "approx": false,
+    "rating": 4.4,
+    "reviews": 2518,
+    "ratingDate": "2026-10-20",
+    "note": "Tipp: Instagram Food-Tour Nürnberg (randygmbl)",
+    "details": {
+      "c1": "Fränkisch",
+      "c2": "€€",
+      "c3": "empfohlen",
+      "c4": "Mo–Sa 12–14 und 17–22, So/Feiertag 11–22",
+      "c5": "Fränkische Küche mit Schäufele als Spezialität (ca. 400 pro Woche), Biergarten, nur Barzahlung",
+      "src": "https://www.schaeufele.de/",
+      "web": "https://www.schaeufele.de/"
+    }
+  },
+  {
+    "name": "El Mexicano Nürnberg",
+    "type": "Mexikanisch",
+    "group": "Restaurant",
+    "addr": "Innere Laufer Gasse 22, 90403 Nürnberg",
+    "addrNote": "Nicht bestätigt: Die Adresse stammt nur aus einer TikTok-Liste. Alle Branchenportale führen El Mexicano am Rennweg 26, 90489 Nürnberg; Restaurant Guru und Speisekarte.de markieren es als dauerhaft geschlossen. Auf Innere Laufer Gasse 22 verweist foodle.pro dagegen auf ein Lokal namens Delphi. Adresse und Betrieb prüfen.",
+    "approx": true,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Laut Branchenportalen dauerhaft geschlossen (dort Rennweg 26). Adresse aus der Instagram-Liste unbestätigt, bitte prüfen.",
+    "details": {
+      "c1": "Mexikanisch (Tacos)",
+      "c2": "",
+      "c3": "",
+      "c4": "",
+      "c5": "",
+      "src": "https://restaurantguru.com/El-Mexicano-Nuremberg",
+      "web": ""
+    }
+  }
+]
