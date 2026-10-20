@@ -1,0 +1,1633 @@
+{
+  "found": [
+    {
+      "pdfNr": 2,
+      "listNr": 5,
+      "name": "KIN Café",
+      "mapsName": "KIN Café",
+      "type": "Coffeeshop",
+      "group": "Café & Bar",
+      "addr": "Neutorstraße 14, 90403 Nürnberg, Deutschland",
+      "lat": 49.4563225,
+      "lon": 11.0719365,
+      "rating": 4.6,
+      "reviews": 68,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KIN%20Caf%C3%A9&query_place_id=ChIJ4fRnYwBXn0cRhUEMHQ6fUIA",
+      "details": {
+        "c1": "Coffeeshop",
+        "c2": "",
+        "c3": "Mo–Sa 10–18; So geschlossen",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=KIN%20Caf%C3%A9&query_place_id=ChIJ4fRnYwBXn0cRhUEMHQ6fUIA",
+        "web": "https://www.instagram.com/kin__forms?igsh=cDJ2NTkxa3B2a3Q0"
+      }
+    },
+    {
+      "pdfNr": 4,
+      "listNr": 10,
+      "name": "Rutschenweg",
+      "mapsName": "Rutschenweg",
+      "type": "Spielplatz / Rutschenweg (Wildkogel-Arena)",
+      "group": "Sport & Aktiv",
+      "addr": "Sonnberg 527/1, 5741 Neukirchen am Großvenediger, Österreich",
+      "lat": 47.2697055,
+      "lon": 12.279541799999999,
+      "rating": 4.3,
+      "reviews": 88,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rutschenweg&query_place_id=ChIJMVqqfHSxd0cRyu6tcXx3TEE",
+      "details": {
+        "c1": "",
+        "c2": "Spielplatz",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Rutschenweg&query_place_id=ChIJMVqqfHSxd0cRyu6tcXx3TEE",
+        "web": "https://www.wildkogel-arena.at/bergbahnen/panorama-und-rutschenweg/"
+      }
+    },
+    {
+      "pdfNr": 6,
+      "listNr": 34,
+      "name": "Salzlounge im Energie & Atemzentr…",
+      "mapsName": "Salzlounge im Energie & Atemzentrum Nürnberg",
+      "type": "Salzlounge / Wellnesszentrum",
+      "group": "Wellness & Therme",
+      "addr": "Moritzbergstraße 42, 90482 Nürnberg-Ost, Deutschland",
+      "lat": 49.466172099999994,
+      "lon": 11.162027799999999,
+      "rating": 4.7,
+      "reviews": 30,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Salzlounge%20im%20Energie%20%26%20Atemzentrum%20N%C3%BCrnberg&query_place_id=ChIJvam8n29Yn0cRiV7D0JhIunU",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo 09–12, 15–18; Di geschlossen; Mi 15–19; Do–So geschlossen",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Salzlounge%20im%20Energie%20%26%20Atemzentrum%20N%C3%BCrnberg&query_place_id=ChIJvam8n29Yn0cRiV7D0JhIunU",
+        "web": "http://www.eazn.de/"
+      }
+    },
+    {
+      "pdfNr": 8,
+      "listNr": 47,
+      "name": "Sportfachgeschäft - Nika Sport",
+      "mapsName": "Sportfachgeschäft - Nika Sport",
+      "type": "Sportfachgeschäft, Skiverleih",
+      "group": "Sonstiges",
+      "addr": "Radmeisterstraße 2, 90455 Nürnberg, Deutschland",
+      "lat": 49.3711321,
+      "lon": 11.0775361,
+      "rating": 4.8,
+      "reviews": 118,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sportfachgesch%C3%A4ft%20-%20Nika%20Sport&query_place_id=ChIJNST2b4RQn0cRdljFaUZr-WA",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Sportfachgesch%C3%A4ft%20-%20Nika%20Sport&query_place_id=ChIJNST2b4RQn0cRdljFaUZr-WA",
+        "web": "http://www.nikasport.de/"
+      }
+    },
+    {
+      "pdfNr": 14,
+      "listNr": 69,
+      "name": "Jumania Kids Play Coffee",
+      "mapsName": "Jumania Coffee + Kids Play Lounge",
+      "type": "Kindercafé / Indoorspielplatz",
+      "group": "Café & Bar",
+      "addr": "Wermbachstraße 6, 63739 Aschaffenburg, Deutschland",
+      "lat": 49.974210899999996,
+      "lon": 9.1468629,
+      "rating": 4.8,
+      "reviews": 103,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jumania%20Coffee%20%2B%20Kids%20Play%20Lounge&query_place_id=ChIJiVtzHLJHvUcRplEWSpo1Cfo",
+      "details": {
+        "c1": "Café, Bistro, Frühstückslokal",
+        "c2": "",
+        "c3": "Mo geschlossen; Di–So 10–18",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Jumania%20Coffee%20%2B%20Kids%20Play%20Lounge&query_place_id=ChIJiVtzHLJHvUcRplEWSpo1Cfo",
+        "web": "https://jumania.de/"
+      }
+    },
+    {
+      "pdfNr": 16,
+      "listNr": 72,
+      "name": "Balū",
+      "mapsName": "Balū • Breakfast & Brunch",
+      "type": "Brunch-Café",
+      "group": "Café & Bar",
+      "addr": "Vordere Sterngasse 4-6, 90402 Nürnberg, Deutschland",
+      "lat": 49.448356999999994,
+      "lon": 11.078099,
+      "rating": 4.7,
+      "reviews": 222,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bal%C5%AB%20%E2%80%A2%20Breakfast%20%26%20Brunch&query_place_id=ChIJq9TFFXlXn0cRxqXVlyE6KiA",
+      "details": {
+        "c1": "Brunch-Restaurant, Frühstückslokal",
+        "c2": "",
+        "c3": "Mo–Sa 09–16; So 09–15",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Bal%C5%AB%20%E2%80%A2%20Breakfast%20%26%20Brunch&query_place_id=ChIJq9TFFXlXn0cRxqXVlyE6KiA",
+        "web": "https://www.instagram.com/balu.nuernberg"
+      }
+    },
+    {
+      "pdfNr": 18,
+      "listNr": 80,
+      "name": "Café Brasserie Sebald",
+      "mapsName": "Café Brasserie Sebald",
+      "type": "Café / Brasserie",
+      "group": "Café & Bar",
+      "addr": "Äußerer Laufer Pl. 25, 90403 Nürnberg, Deutschland",
+      "lat": 49.457641699999996,
+      "lon": 11.0875259,
+      "rating": 4.9,
+      "reviews": 524,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Brasserie%20Sebald&query_place_id=ChIJ725LsxpXn0cRpK0JOURUrOc",
+      "details": {
+        "c1": "Café, Bäckerei, Bar",
+        "c2": "",
+        "c3": "Mo–Fr 08:30–18; Sa geschlossen; So 09:30–18",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Brasserie%20Sebald&query_place_id=ChIJ725LsxpXn0cRpK0JOURUrOc",
+        "web": "https://brasseriesebald.com/"
+      }
+    },
+    {
+      "pdfNr": 22,
+      "listNr": 108,
+      "name": "Vietnam SH fast food (Anděl)",
+      "mapsName": "Vietnam SH - Anděl",
+      "type": "Vietnamesisches Restaurant",
+      "group": "Restaurant",
+      "addr": "Na Bělidle 302/27, 150 00 Praha 5-Smíchov, Tschechien",
+      "lat": 50.0715459,
+      "lon": 14.405707099999999,
+      "rating": 4.6,
+      "reviews": 458,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vietnam%20SH%20-%20And%C4%9Bl&query_place_id=ChIJPd5qGWCVC0cR_odSm-cSU5s",
+      "details": {
+        "c1": "Vietnamesisches Restaurant, Sushi-Restaurant, Thailändisches Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo–Fr 10:30–21:30; Sa 11–21:30; So geschlossen",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Vietnam%20SH%20-%20And%C4%9Bl&query_place_id=ChIJPd5qGWCVC0cR_odSm-cSU5s",
+        "web": "http://www.vietnamsh.cz/"
+      }
+    },
+    {
+      "pdfNr": 24,
+      "listNr": 114,
+      "name": "Military History Institute in Prague: …",
+      "mapsName": "Militärhistorisches Institut Prag: Das Armeemuseum Žižkov",
+      "type": "Armeemuseum (Militärmuseum)",
+      "group": "Museum & Kultur",
+      "addr": "U Památníku 1600/2, 130 00 Praha 3-Žižkov, Tschechien",
+      "lat": 50.087570799999995,
+      "lon": 14.444667599999999,
+      "rating": 4.9,
+      "reviews": 4169,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Milit%C3%A4rhistorisches%20Institut%20Prag%3A%20Das%20Armeemuseum%20%C5%BDi%C5%BEkov&query_place_id=ChIJA-MeHpiUC0cR4Wgcnqy9fh4",
+      "details": {
+        "c1": "",
+        "c2": "Mo geschlossen; Di–So 10–18",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Milit%C3%A4rhistorisches%20Institut%20Prag%3A%20Das%20Armeemuseum%20%C5%BDi%C5%BEkov&query_place_id=ChIJA-MeHpiUC0cR4Wgcnqy9fh4",
+        "web": "http://www.vhu.cz/muzea/zakladni-informace-o-am-zizkov/"
+      }
+    },
+    {
+      "pdfNr": 28,
+      "listNr": 134,
+      "name": "Cafe Academia",
+      "mapsName": "Cafe Academia",
+      "type": "Café",
+      "group": "Café & Bar",
+      "addr": "Václavské nám. 792/34, 110 00 Nové Město, Tschechien",
+      "lat": 50.0819706,
+      "lon": 14.426015099999999,
+      "rating": 4.4,
+      "reviews": 312,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Academia&query_place_id=ChIJC5tiDXeVC0cRZgWpj_ATpUo",
+      "details": {
+        "c1": "Coffeeshop",
+        "c2": "",
+        "c3": "Mo–Fr 09–19:30; Sa 10–18:30; So 10–17:30",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Cafe%20Academia&query_place_id=ChIJC5tiDXeVC0cRZgWpj_ATpUo",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 32,
+      "listNr": 153,
+      "name": "Riegrovy Sady View",
+      "mapsName": "Riegrovy Sady View",
+      "type": "Aussichtspunkt im Park",
+      "group": "Sehenswürdigkeit",
+      "addr": "Riegrovy sady 120 00, 120 00 Praha 2-Vinohrady, Tschechien",
+      "lat": 50.0796954,
+      "lon": 14.440230099999999,
+      "rating": 4.9,
+      "reviews": 522,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Riegrovy%20Sady%20View&query_place_id=ChIJ-49zLkWVC0cRQvGGqlNgHa4",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Riegrovy%20Sady%20View&query_place_id=ChIJ-49zLkWVC0cRQvGGqlNgHa4",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 34,
+      "listNr": 157,
+      "name": "9ÍTKA",
+      "mapsName": "9ÍTKA",
+      "type": "Bar / Kunstgalerie an der Moldau-Promenade",
+      "group": "Café & Bar",
+      "addr": "Hořejší nábř Smíchovská náplavka Kobka č. 9, Smíchov, 150 00 Praha 5, Tschechien",
+      "lat": 50.0697834,
+      "lon": 14.4112367,
+      "rating": 4.3,
+      "reviews": 537,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=9%C3%8DTKA&query_place_id=ChIJJ8eDtKGVC0cRLThq6tM0SGQ",
+      "details": {
+        "c1": "Bar, Kunstgalerie, Bar & Grillrestaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=9%C3%8DTKA&query_place_id=ChIJJ8eDtKGVC0cRLThq6tM0SGQ",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 36,
+      "listNr": 160,
+      "name": "Museum des öffentlichen Personen…",
+      "mapsName": "Museum des öffentlichen Personennahverkehrs Prag",
+      "type": "Museum (ÖPNV-Museum)",
+      "group": "Museum & Kultur",
+      "addr": "Patočkova 132/2, 162 00 Praha 6-Střešovice, Tschechien",
+      "lat": 50.0938722,
+      "lon": 14.3891797,
+      "rating": 4.6,
+      "reviews": 2493,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20des%20%C3%B6ffentlichen%20Personennahverkehrs%20Prag&query_place_id=ChIJ6Y8qHhiVC0cRubVfS7Y1s_8",
+      "details": {
+        "c1": "",
+        "c2": "Mo–Fr geschlossen; Sa–So 09–17",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Museum%20des%20%C3%B6ffentlichen%20Personennahverkehrs%20Prag&query_place_id=ChIJ6Y8qHhiVC0cRubVfS7Y1s_8",
+        "web": "http://muzeum.dpp.cz/"
+      }
+    },
+    {
+      "pdfNr": 38,
+      "listNr": 166,
+      "name": "420",
+      "mapsName": "420 Restaurant",
+      "type": "Restaurant",
+      "group": "Restaurant",
+      "addr": "Staroměstské nám. 480/24/110 00, 110 00 Staré Město, Tschechien",
+      "lat": 50.0867929,
+      "lon": 14.421004499999999,
+      "rating": 4.4,
+      "reviews": 1719,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=420%20Restaurant&query_place_id=ChIJk1eLxhuVC0cRj_OcjFRHcgY",
+      "details": {
+        "c1": "Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo–So 11:30–22:30",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=420%20Restaurant&query_place_id=ChIJk1eLxhuVC0cRj_OcjFRHcgY",
+        "web": "https://www.420restaurant.cz/"
+      }
+    },
+    {
+      "pdfNr": 50,
+      "listNr": 223,
+      "name": "Galerie Gaswerk GmbH",
+      "mapsName": "Galerie Gaswerk GmbH",
+      "type": "Galerie / Veranstaltungsort (Theater)",
+      "group": "Museum & Kultur",
+      "addr": "Nördliche Ringstraße 9, 91126 Schwabach, Deutschland",
+      "lat": 49.3315086,
+      "lon": 11.0233821,
+      "rating": 4.5,
+      "reviews": 153,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Galerie%20Gaswerk%20GmbH&query_place_id=ChIJXX_PZylQn0cRdCMXOwl_KvQ",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Galerie%20Gaswerk%20GmbH&query_place_id=ChIJXX_PZylQn0cRdCMXOwl_KvQ",
+        "web": "http://www.galerie-gaswerk.de/"
+      }
+    },
+    {
+      "pdfNr": 52,
+      "listNr": 238,
+      "name": "Thirsty Thursdays by MAD PRAGUE",
+      "mapsName": "Thirsty Thursdays by MAD PRAGUE",
+      "type": "Nachtclub",
+      "group": "Café & Bar",
+      "addr": "Melantrichova 504, 110 00 Staré Město, Tschechien",
+      "lat": 50.085257399999996,
+      "lon": 14.4211651,
+      "rating": 4.6,
+      "reviews": 100,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Thirsty%20Thursdays%20by%20MAD%20PRAGUE&query_place_id=ChIJNRE9HlmVC0cRbh_PrNkdyk0",
+      "details": {
+        "c1": "Nachtclub",
+        "c2": "",
+        "c3": "Mo–Mi geschlossen; Do 22–05; Fr–So geschlossen",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Thirsty%20Thursdays%20by%20MAD%20PRAGUE&query_place_id=ChIJNRE9HlmVC0cRbh_PrNkdyk0",
+        "web": "https://www.madprg.com/"
+      }
+    },
+    {
+      "pdfNr": 56,
+      "listNr": 262,
+      "name": "Lido 84",
+      "mapsName": "Lido 84",
+      "type": "Gourmetrestaurant (Gardasee)",
+      "group": "Restaurant",
+      "addr": "Corso Giuseppe Zanardelli, 196, 25083 Gardone Riviera BS, Italien",
+      "lat": 45.6251592,
+      "lon": 10.5755666,
+      "rating": 4.8,
+      "reviews": 1378,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lido%2084&query_place_id=ChIJx7BJHCKMgUcRA7aurgztHrQ",
+      "details": {
+        "c1": "Gourmetrestaurant, Italienisches Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Lido%2084&query_place_id=ChIJx7BJHCKMgUcRA7aurgztHrQ",
+        "web": "https://www.ristorantelido84.com/"
+      }
+    },
+    {
+      "pdfNr": 58,
+      "listNr": 308,
+      "name": "Drink Point (Samoobslužný výčep)",
+      "mapsName": "Drink Point (Samoobslužný výčep) a nově také výběr nejlepších řemeslných nealko speciálů v automatu",
+      "type": "Selbstzapf-Bar",
+      "group": "Café & Bar",
+      "addr": "Na Hrázi 893, 266 01 Beroun 1-Závodí, Tschechien",
+      "lat": 49.9774216,
+      "lon": 14.0743564,
+      "rating": 4.3,
+      "reviews": 29,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Drink%20Point%20(Samoobslu%C5%BEn%C3%BD%20v%C3%BD%C4%8Dep)%20a%20nov%C4%9B%20tak%C3%A9%20v%C3%BDb%C4%9Br%20nejlep%C5%A1%C3%ADch%20%C5%99emesln%C3%BDch%20nealko%20speci%C3%A1l%C5%AF%20v%20automatu&query_place_id=ChIJXYw9tcOlC0cROBmQv8hwjqQ",
+      "details": {
+        "c1": "Bar",
+        "c2": "",
+        "c3": "Mo–So 24 Stunden geöffnet",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Drink%20Point%20(Samoobslu%C5%BEn%C3%BD%20v%C3%BD%C4%8Dep)%20a%20nov%C4%9B%20tak%C3%A9%20v%C3%BDb%C4%9Br%20nejlep%C5%A1%C3%ADch%20%C5%99emesln%C3%BDch%20nealko%20speci%C3%A1l%C5%AF%20v%20automatu&query_place_id=ChIJXYw9tcOlC0cROBmQv8hwjqQ",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 62,
+      "listNr": 312,
+      "name": "Barrande",
+      "mapsName": "Barrande",
+      "type": "Tapasbar / Weinstube",
+      "group": "Café & Bar",
+      "addr": "nám. Joachima Barranda 16, 266 01 Beroun 1, Tschechien",
+      "lat": 49.9651198,
+      "lon": 14.072390599999999,
+      "rating": 4.9,
+      "reviews": 211,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barrande&query_place_id=ChIJUzAYX0ulC0cRJNJJj_UHTfQ",
+      "details": {
+        "c1": "Tapasbar, Weinstube, Weinhandlung",
+        "c2": "",
+        "c3": "Mo–Di geschlossen; Mi–Do 16–21; Fr–Sa 16–22; So geschlossen",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Barrande&query_place_id=ChIJUzAYX0ulC0cRJNJJj_UHTfQ",
+        "web": "http://www.barrande.cz/"
+      }
+    },
+    {
+      "pdfNr": 64,
+      "listNr": 324,
+      "name": "VEDES family store",
+      "mapsName": "VEDES Family Store (Roth)",
+      "type": "Spielwarengeschäft",
+      "group": "Sonstiges",
+      "addr": "Fuggerstraße 1, 91154 Roth, Deutschland",
+      "lat": 49.2489779,
+      "lon": 11.106870899999999,
+      "rating": 4.6,
+      "reviews": 347,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=VEDES%20Family%20Store%20(Roth)&query_place_id=ChIJr1Um7DpEn0cRIPXXSfx8sfI",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=VEDES%20Family%20Store%20(Roth)&query_place_id=ChIJr1Um7DpEn0cRIPXXSfx8sfI",
+        "web": "https://www.vedes-family-store.de/"
+      }
+    },
+    {
+      "pdfNr": 66,
+      "listNr": 336,
+      "name": "FunSportEvents Sport- & Freizeitan…",
+      "mapsName": "FunSportEvents Sport- & Freizeitanlage",
+      "type": "Lasertag / Indoorspielplatz / Freizeitzentrum",
+      "group": "Sport & Aktiv",
+      "addr": "Emerholzweg 73A, 70439 Stammheim, Deutschland",
+      "lat": 48.8540388,
+      "lon": 9.1381043,
+      "rating": 4.6,
+      "reviews": 725,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=FunSportEvents%20Sport-%20%26%20Freizeitanlage&query_place_id=ChIJBws9HJHQmUcRTUB-H_znBCU",
+      "details": {
+        "c1": "",
+        "c2": "Lasergamezentrum, Indoorspielplatz, Freizeitzentrum",
+        "c3": "",
+        "c4": "Mo–Do 10–18:30; Fr 10–22; Sa 12–22; So 12–20",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=FunSportEvents%20Sport-%20%26%20Freizeitanlage&query_place_id=ChIJBws9HJHQmUcRTUB-H_znBCU",
+        "web": "http://www.fun-sport-events.de/"
+      }
+    },
+    {
+      "pdfNr": 68,
+      "listNr": 345,
+      "name": "La Tasca",
+      "mapsName": "La Tasca - Tapasbar in Fürth",
+      "type": "Spanisches Restaurant / Tapasbar",
+      "group": "Restaurant",
+      "addr": "Friedrichstraße 20, 90762 Fürth, Deutschland",
+      "lat": 49.4721548,
+      "lon": 10.9892393,
+      "rating": 4.5,
+      "reviews": 774,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Tasca%20-%20Tapasbar%20in%20F%C3%BCrth&query_place_id=ChIJibfKZL9Vn0cRSidhgxWKYwg",
+      "details": {
+        "c1": "Spanisches Restaurant, Restaurant, Tapasbar",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo–So 17:30–23",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=La%20Tasca%20-%20Tapasbar%20in%20F%C3%BCrth&query_place_id=ChIJibfKZL9Vn0cRSidhgxWKYwg",
+        "web": "https://www.latasca-tapas.de/"
+      },
+      "note": "Einziger La-Tasca-Treffer in Franken (Fürth); Nachbarn in der Liste liegen in Schwabach, daher Ort nicht sicher"
+    },
+    {
+      "pdfNr": 70,
+      "listNr": 355,
+      "name": "Mountainbike Parcours Schwarzen…",
+      "mapsName": "XTrail",
+      "type": "Mountainbike-Parcours (XTrail)",
+      "group": "Sport & Aktiv",
+      "addr": "Hauptstraße 2, 90592 Schwarzenbruck, Deutschland",
+      "lat": 49.36116,
+      "lon": 11.244831,
+      "rating": 4.3,
+      "reviews": 8,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=XTrail&query_place_id=ChIJa74Ft09dn0cR5kFS7TywjDk",
+      "details": {
+        "c1": "",
+        "c2": "Park",
+        "c3": "",
+        "c4": "Mo–So 24 Stunden geöffnet",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=XTrail&query_place_id=ChIJa74Ft09dn0cR5kFS7TywjDk",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 72,
+      "listNr": 359,
+      "name": "Jungegger's Cafe & Bar",
+      "mapsName": "Jungegger's Cafe",
+      "type": "Café / Restaurant",
+      "group": "Café & Bar",
+      "addr": "Limbacher Str. 57, 91126 Schwabach-Limbach, Deutschland",
+      "lat": 49.33679,
+      "lon": 11.03479,
+      "rating": 4.3,
+      "reviews": 55,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jungegger's%20Cafe&query_place_id=ChIJL9PO0yRQn0cRMJpL0opgBg0",
+      "details": {
+        "c1": "Café, Restaurant",
+        "c2": "",
+        "c3": "Mo–Do 08–18; Fr–Sa 09–13; So geschlossen",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Jungegger's%20Cafe&query_place_id=ChIJL9PO0yRQn0cRMJpL0opgBg0",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 74,
+      "listNr": 362,
+      "name": "Paintball complex - barracks Hajek",
+      "mapsName": "Paintball complex - barracks Hajek",
+      "type": "Paintballanlage",
+      "group": "Sport & Aktiv",
+      "addr": "Hájecká (bez č.p, 253 01 Chýně, Tschechien",
+      "lat": 50.066795299999995,
+      "lon": 14.2008247,
+      "rating": 4.9,
+      "reviews": 499,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Paintball%20complex%20-%20barracks%20Hajek&query_place_id=ChIJyfdgxzGVC0cR68kf9MgLkJo",
+      "details": {
+        "c1": "",
+        "c2": "Paintballanlage",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Paintball%20complex%20-%20barracks%20Hajek&query_place_id=ChIJyfdgxzGVC0cR68kf9MgLkJo",
+        "web": "http://www.hrabarev.cz/"
+      }
+    },
+    {
+      "pdfNr": 76,
+      "listNr": 365,
+      "name": "SYRO Reisemobil Center",
+      "mapsName": "SYRO Reisemobile",
+      "type": "Wohnmobilhändler",
+      "group": "Sonstiges",
+      "addr": "Gottlieb-Daimler-Straße 1, 59439 Holzwickede, Deutschland",
+      "lat": 51.51265,
+      "lon": 7.61545,
+      "rating": 4.4,
+      "reviews": 254,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SYRO%20Reisemobile&query_place_id=ChIJn0cr3P0zcEERDFnIjeF6E24",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=SYRO%20Reisemobile&query_place_id=ChIJn0cr3P0zcEERDFnIjeF6E24",
+        "web": "http://www.syro-reisemobile.de/"
+      },
+      "note": "Standort laut Maps Holzwickede (NRW); Region der Nachbarn in der Liste (Miltenberg) passt nicht zwingend"
+    },
+    {
+      "pdfNr": 78,
+      "listNr": 368,
+      "name": "Goldener ADLER",
+      "mapsName": "Goldener ADLER Schwabach",
+      "type": "Italienisches Restaurant",
+      "group": "Restaurant",
+      "addr": "Hindenburgstraße 20, 91126 Schwabach, Deutschland",
+      "lat": 49.3259739,
+      "lon": 11.0208114,
+      "rating": 4.4,
+      "reviews": 379,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Goldener%20ADLER%20Schwabach&query_place_id=ChIJaYPCfNZPn0cRlbQ0QCVfc4E",
+      "details": {
+        "c1": "Italienisches Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo 11:30–14:30, 17–22:30; Di–Mi geschlossen; Do–So 11:30–14:30, 17–22:30",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Goldener%20ADLER%20Schwabach&query_place_id=ChIJaYPCfNZPn0cRlbQ0QCVfc4E",
+        "web": "http://goldener-adler-schwabach.de/"
+      }
+    },
+    {
+      "pdfNr": 82,
+      "listNr": 384,
+      "name": "Campingplatz \"Fischer-Michl\" Cam…",
+      "mapsName": "Campingplatz \"Fischer-Michl\" und Campingstüberl",
+      "type": "Campingplatz mit Campingstüberl (Altmühlsee)",
+      "group": "Hotel",
+      "addr": "Wald-Seezentrum 4, 91710 Gunzenhausen, Deutschland",
+      "lat": 49.1243291,
+      "lon": 10.717236699999999,
+      "rating": 4.6,
+      "reviews": 843,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Campingplatz%20%22Fischer-Michl%22%20und%20Campingst%C3%BCberl&query_place_id=ChIJGRzINZzLmEcRI0yUtX7pahs",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "Campingstüberl / Biergarten",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Campingplatz%20%22Fischer-Michl%22%20und%20Campingst%C3%BCberl&query_place_id=ChIJGRzINZzLmEcRI0yUtX7pahs",
+        "web": "https://www.campingplatz-fischer-michl.de/"
+      }
+    },
+    {
+      "pdfNr": 90,
+      "listNr": 414,
+      "name": "Ultimate-Laser",
+      "mapsName": "Ultimate-Laser",
+      "type": "Lasertag-Arena",
+      "group": "Sport & Aktiv",
+      "addr": "Am Rosenbaum 12, 40882 Homberg, Deutschland",
+      "lat": 51.298831,
+      "lon": 6.9315894,
+      "rating": 4.3,
+      "reviews": 25,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ultimate-Laser&query_place_id=ChIJy7ae2JzPuEcRuaPHYXbDWD4",
+      "details": {
+        "c1": "",
+        "c2": "Lasergamezentrum, Arena",
+        "c3": "",
+        "c4": "Mo geschlossen; Di–Fr 14–22; Sa 10–22; So 10–19",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Ultimate-Laser&query_place_id=ChIJy7ae2JzPuEcRuaPHYXbDWD4",
+        "web": "http://www.ultimate-laser.de/"
+      }
+    },
+    {
+      "pdfNr": 104,
+      "listNr": 451,
+      "name": "Lasertag Altenkirchen",
+      "mapsName": "Lasertag Altenkirchen",
+      "type": "Lasertag",
+      "group": "Sport & Aktiv",
+      "addr": "Rudolf-Diesel-Straße 17, 57610 Altenkirchen (Westerwald)-Auf den sechs Morgen, Deutschland",
+      "lat": 50.691174,
+      "lon": 7.624184,
+      "rating": 4.7,
+      "reviews": 222,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lasertag%20Altenkirchen&query_place_id=ChIJzXrXEyaXvkcR8UmznTL7V70",
+      "details": {
+        "c1": "",
+        "c2": "Lasergamezentrum, Eventmanagement-Firma, Fitnessraum",
+        "c3": "",
+        "c4": "Mo–Mi geschlossen; Do 15–18; Fr 16–23; Sa 13–23; So 13–20",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Lasertag%20Altenkirchen&query_place_id=ChIJzXrXEyaXvkcR8UmznTL7V70",
+        "web": "http://www.lasertag-altenkirchen.de/"
+      },
+      "note": "Altenkirchen ist mehrdeutig; Westerwald-Standort passt zu Nachbarn Bonn/Koblenz in der Liste"
+    },
+    {
+      "pdfNr": 106,
+      "listNr": 473,
+      "name": "AIRTIME TRAMPOLINPARK - Tramp…",
+      "mapsName": "Airtime Trampolinpark",
+      "type": "Trampolinpark",
+      "group": "Sport & Aktiv",
+      "addr": "Klingenhofstraße 70, 90411 Nürnberg-Nordwestliche Außenstadt, Deutschland",
+      "lat": 49.4766853,
+      "lon": 11.1151428,
+      "rating": 4.6,
+      "reviews": 4934,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Airtime%20Trampolinpark&query_place_id=ChIJI5swPPtXn0cRuDxdqap_8zU",
+      "details": {
+        "c1": "",
+        "c2": "Freizeitzentrum, Sportanlage, Sehenswürdigkeit",
+        "c3": "",
+        "c4": "Mo–Do 14–20; Fr 14–22; Sa 09–21; So 09–20",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Airtime%20Trampolinpark&query_place_id=ChIJI5swPPtXn0cRuDxdqap_8zU",
+        "web": "https://www.jumphouse.de/airtime/"
+      }
+    },
+    {
+      "pdfNr": 108,
+      "listNr": 478,
+      "name": "CS-Reisemobile",
+      "mapsName": "CS-Reisemobile",
+      "type": "Wohnmobilhändler",
+      "group": "Sonstiges",
+      "addr": "Krögerskoppel 5, 24558 Henstedt-Ulzburg, Deutschland",
+      "lat": 53.805096199999994,
+      "lon": 9.9724111,
+      "rating": 5,
+      "reviews": 21,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CS-Reisemobile&query_place_id=ChIJ2cPx0NsvskcR16jaFNlNWCA",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=CS-Reisemobile&query_place_id=ChIJ2cPx0NsvskcR16jaFNlNWCA",
+        "web": "http://www.cs-reisemobile.de/"
+      },
+      "note": "Einziger Treffer mit exaktem Namen (Henstedt-Ulzburg bei Hamburg); Region der Listen-Nachbarn nicht eindeutig"
+    },
+    {
+      "pdfNr": 110,
+      "listNr": 481,
+      "name": "LOCALE Ristorante, Vysoký Újezd",
+      "mapsName": "Locale Restaurant",
+      "type": "Italienisches Restaurant",
+      "group": "Restaurant",
+      "addr": "Pivovarská 1001, 267 16 Vysoký Újezd u Berouna, Tschechien",
+      "lat": 49.993546599999995,
+      "lon": 14.204488999999999,
+      "rating": 4.5,
+      "reviews": 1066,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Locale%20Restaurant&query_place_id=ChIJHUj_61S9C0cRhBsktOZ25hE",
+      "details": {
+        "c1": "Italienisches Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo–Do 11–22; Fr–Sa 11–23; So 11–22",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Locale%20Restaurant&query_place_id=ChIJHUj_61S9C0cRhBsktOZ25hE",
+        "web": "http://www.localevysokyujezd.cz/"
+      }
+    },
+    {
+      "pdfNr": 114,
+      "listNr": 487,
+      "name": "Milch- und Spargelhof Adel",
+      "mapsName": "Milch- und Spargelhof Adel",
+      "type": "Hofladen / Spargelhof",
+      "group": "Sonstiges",
+      "addr": "Lindenbachstraße 20, 91126 Schwabach-Nasbach, Deutschland",
+      "lat": 49.3404637,
+      "lon": 11.0253249,
+      "rating": 4.8,
+      "reviews": 125,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Milch-%20und%20Spargelhof%20Adel&query_place_id=ChIJu8UMLDJQn0cRvC1WmMXyUHQ",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Milch-%20und%20Spargelhof%20Adel&query_place_id=ChIJu8UMLDJQn0cRvC1WmMXyUHQ",
+        "web": "http://www.spargelhof-adel.de/"
+      }
+    },
+    {
+      "pdfNr": 122,
+      "listNr": 530,
+      "name": "Jízdní Kola Ramala Plzeň",
+      "mapsName": "Jízdní Kola Ramala Plzeň",
+      "type": "Fahrradgeschäft / Fahrradwerkstatt",
+      "group": "Sonstiges",
+      "addr": "Koterovská 2059/130, 326 00 Plzeň 2-Slovany-Východní Předměstí, Tschechien",
+      "lat": 49.7307358,
+      "lon": 13.4052894,
+      "rating": 4.5,
+      "reviews": 119,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=J%C3%ADzdn%C3%AD%20Kola%20Ramala%20Plze%C5%88&query_place_id=ChIJB8QrHwPuCkcRViDyYrvatNs",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=J%C3%ADzdn%C3%AD%20Kola%20Ramala%20Plze%C5%88&query_place_id=ChIJB8QrHwPuCkcRViDyYrvatNs",
+        "web": "http://www.ramala.cz/"
+      }
+    },
+    {
+      "pdfNr": 124,
+      "listNr": 545,
+      "name": "Blue Rent, a.s.",
+      "mapsName": "Blue Rent, a.s.",
+      "type": "Wohnmobil- und Wohnwagenvermietung",
+      "group": "Sonstiges",
+      "addr": "Čísovice 306, 252 04 Čisovice, Tschechien",
+      "lat": 49.875020899999996,
+      "lon": 14.30839,
+      "rating": 4.2,
+      "reviews": 94,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Rent%2C%20a.s.&query_place_id=ChIJ9Xz6bqSWC0cRtT32qMZpJoU",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Blue%20Rent%2C%20a.s.&query_place_id=ChIJ9Xz6bqSWC0cRtT32qMZpJoU",
+        "web": "http://bluerent.cz/"
+      },
+      "note": "Einziger Treffer mit exaktem Firmennamen (Čisovice bei Prag); in der Liste nur Firmeneintrag ohne Ortsangabe"
+    },
+    {
+      "pdfNr": 128,
+      "listNr": 559,
+      "name": "Arsch & Friedrich",
+      "mapsName": "Arsch & Friedrich",
+      "type": "Kneipe",
+      "group": "Café & Bar",
+      "addr": "u. Baustraße 14, 90478 Nürnberg, Deutschland",
+      "lat": 49.4446945,
+      "lon": 11.0936381,
+      "rating": 4.5,
+      "reviews": 194,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Arsch%20%26%20Friedrich&query_place_id=ChIJbUMEAp5Xn0cRj_wIZX5O2ZE",
+      "details": {
+        "c1": "Kneipe",
+        "c2": "",
+        "c3": "Mo–Mi geschlossen; Do 20–01; Fr–Sa 20–03; So geschlossen",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Arsch%20%26%20Friedrich&query_place_id=ChIJbUMEAp5Xn0cRj_wIZX5O2ZE",
+        "web": "https://m.facebook.com/arschundfriedrich"
+      }
+    },
+    {
+      "pdfNr": 138,
+      "listNr": 600,
+      "name": "Lanzheronivs'ka St, 26",
+      "mapsName": "Lanzheronivs'ka St, 26",
+      "type": "Straßenadresse / Gebäude in Odesa",
+      "group": "Sonstiges",
+      "addr": "Lanzheronivs'ka St, 26, Odesa, Odes'ka oblast, Ukraine, 65000",
+      "lat": 46.4853606,
+      "lon": 30.737549599999998,
+      "rating": null,
+      "reviews": null,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lanzheronivs'ka%20St%2C%2026&query_place_id=ChIJJ3Fc35cxxkARGh0W9lNh7_s",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Lanzheronivs'ka%20St%2C%2026&query_place_id=ChIJJ3Fc35cxxkARGh0W9lNh7_s",
+        "web": ""
+      },
+      "note": "In der Liste nur Straßenadresse; Maps zeigt nur Gebäude, keinen Betrieb"
+    },
+    {
+      "pdfNr": 140,
+      "listNr": 604,
+      "name": "Viys'kovy descent, 12",
+      "mapsName": "Viys'kovy descent, 12",
+      "type": "Straßenadresse / Gebäude in Odesa",
+      "group": "Sonstiges",
+      "addr": "Viys'kovy descent, 12, Odesa, Odes'ka oblast, Ukraine, 65000",
+      "lat": 46.4894201,
+      "lon": 30.7369871,
+      "rating": null,
+      "reviews": null,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Viys'kovy%20descent%2C%2012&query_place_id=ChIJQ-f8IrwxxkAR8nWimKVA2GI",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Viys'kovy%20descent%2C%2012&query_place_id=ChIJQ-f8IrwxxkAR8nWimKVA2GI",
+        "web": ""
+      },
+      "note": "In der Liste nur Straßenadresse; Maps zeigt nur Gebäude, keinen Betrieb"
+    },
+    {
+      "pdfNr": 146,
+      "listNr": 611,
+      "name": "Fume Lounge",
+      "mapsName": "Fume Lounge",
+      "type": "Restaurant / Lounge",
+      "group": "Restaurant",
+      "addr": "Troitskaya, 45, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.4768536,
+      "lon": 30.733921799999997,
+      "rating": 4.3,
+      "reviews": 331,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fume%20Lounge&query_place_id=ChIJ-dMq2poxxkARwxjhwo18md8",
+      "details": {
+        "c1": "Restaurant",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Fume%20Lounge&query_place_id=ChIJ-dMq2poxxkARwxjhwo18md8",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 154,
+      "listNr": 619,
+      "name": "Military gym Yellow",
+      "mapsName": "MILITARY GYM",
+      "type": "Fitnessstudio",
+      "group": "Sport & Aktiv",
+      "addr": "Fontans'ka Rd, 9Б, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.447483,
+      "lon": 30.7410602,
+      "rating": 4.5,
+      "reviews": 121,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MILITARY%20GYM&query_place_id=ChIJS4YyXsEzxkAR4mrNdeYlexo",
+      "details": {
+        "c1": "",
+        "c2": "Fitnessstudio",
+        "c3": "",
+        "c4": "Mo–Sa 08:30–21; So geschlossen",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=MILITARY%20GYM&query_place_id=ChIJS4YyXsEzxkAR4mrNdeYlexo",
+        "web": "https://www.instagram.com/military_gym_odesa?igsh=MW0yczV3djBsYzB3bw=="
+      },
+      "note": "Maps-Name lautet \"MILITARY GYM\" (ohne \"Yellow\"); Odesa passt zu den Nachbarn"
+    },
+    {
+      "pdfNr": 162,
+      "listNr": 633,
+      "name": "Craft Party Bar",
+      "mapsName": "Craft Party Bar",
+      "type": "Bar",
+      "group": "Café & Bar",
+      "addr": "Hrets'ka St, 35, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.482558999999995,
+      "lon": 30.737133999999998,
+      "rating": 4.3,
+      "reviews": 222,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Craft%20Party%20Bar&query_place_id=ChIJ6Zt_1pkxxkARXq0OtFZ8V3M",
+      "details": {
+        "c1": "Bar",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Craft%20Party%20Bar&query_place_id=ChIJ6Zt_1pkxxkARXq0OtFZ8V3M",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 164,
+      "listNr": 635,
+      "name": "granat",
+      "mapsName": "Granat",
+      "type": "Café / Bar",
+      "group": "Café & Bar",
+      "addr": "Yevropeysʹka St, Yevropeiska Sq, 1, Odesa, Odesa Oblast, Ukraine, 65001",
+      "lat": 46.4875176,
+      "lon": 30.7404391,
+      "rating": 4,
+      "reviews": 2829,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Granat&query_place_id=ChIJ-x614LwxxkAR5On8IzWRdA8",
+      "details": {
+        "c1": "Café, Bar, Kantine",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Granat&query_place_id=ChIJ-x614LwxxkAR5On8IzWRdA8",
+        "web": ""
+      }
+    },
+    {
+      "pdfNr": 170,
+      "listNr": 644,
+      "name": "Velyka Arnauts'ka St, 61",
+      "mapsName": "Velyka Arnauts'ka St, 61",
+      "type": "Straßenadresse / Gebäude in Odesa",
+      "group": "Sonstiges",
+      "addr": "Velyka Arnauts'ka St, 61, Odesa, Odes'ka oblast, Ukraine, 65000",
+      "lat": 46.472499299999996,
+      "lon": 30.7382124,
+      "rating": null,
+      "reviews": null,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Velyka%20Arnauts'ka%20St%2C%2061&query_place_id=ChIJpbeLAoMxxkARsBAMkyoO2h8",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Velyka%20Arnauts'ka%20St%2C%2061&query_place_id=ChIJpbeLAoMxxkARsBAMkyoO2h8",
+        "web": ""
+      },
+      "note": "In der Liste nur Straßenadresse; Maps zeigt nur Gebäude, keinen Betrieb"
+    },
+    {
+      "pdfNr": 176,
+      "listNr": 652,
+      "name": "Этнопарк  \" Нью  Васюки \"",
+      "mapsName": "Etnopark \"Nʹyu-Vasyuky\"",
+      "type": "Ethnopark / Freizeitpark",
+      "group": "Sehenswürdigkeit",
+      "addr": "Velykodolynsʹka Doroha, 11, Molodizhne, Odesa Oblast, Ukraine, 67840",
+      "lat": 46.3441666,
+      "lon": 30.5992614,
+      "rating": 4.6,
+      "reviews": 4456,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Etnopark%20%22N%CA%B9yu-Vasyuky%22&query_place_id=ChIJzQO1di7Mx0ARG7iKZMbLp7w",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Etnopark%20%22N%CA%B9yu-Vasyuky%22&query_place_id=ChIJzQO1di7Mx0ARG7iKZMbLp7w",
+        "web": "http://new-vasyuki.com.ua/"
+      }
+    },
+    {
+      "pdfNr": 180,
+      "listNr": 658,
+      "name": "Muzey Voskovykh Fihur \"U Baby Uti\"",
+      "mapsName": "Wachsmuseum \"U Baby Uti\"",
+      "type": "Wachsfigurenmuseum",
+      "group": "Museum & Kultur",
+      "addr": "Rishelievska St, 4, Odesa, Odesa Oblast, Ukraine, 65000",
+      "lat": 46.4841669,
+      "lon": 30.740737699999997,
+      "rating": 4.3,
+      "reviews": 1826,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wachsmuseum%20%22U%20Baby%20Uti%22&query_place_id=ChIJXat1DJgxxkART6TSM-3IY5Y",
+      "details": {
+        "c1": "",
+        "c2": "Mo–So 10–21",
+        "c3": "",
+        "c4": "",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Wachsmuseum%20%22U%20Baby%20Uti%22&query_place_id=ChIJXat1DJgxxkART6TSM-3IY5Y",
+        "web": "https://www.instagram.com/baba_utya/?hl=ru"
+      }
+    },
+    {
+      "pdfNr": 192,
+      "listNr": 682,
+      "name": "Underground Fitness",
+      "mapsName": "Underground Fitness",
+      "type": "Fitnessstudio",
+      "group": "Sport & Aktiv",
+      "addr": "Přívozní 1562/1, 170 00 Praha 7-Holešovice, Tschechien",
+      "lat": 50.1092618,
+      "lon": 14.451060199999999,
+      "rating": 4.2,
+      "reviews": 26,
+      "confidence": "hoch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Underground%20Fitness&query_place_id=ChIJY2L8xkzrC0cRCCUfgvyl5g8",
+      "details": {
+        "c1": "",
+        "c2": "Fitnessraum, Spa und Fitness-Studio",
+        "c3": "",
+        "c4": "Mo–So 07–22",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Underground%20Fitness&query_place_id=ChIJY2L8xkzrC0cRCCUfgvyl5g8",
+        "web": "http://www.undergroundfitness.cz/"
+      }
+    },
+    {
+      "pdfNr": 194,
+      "listNr": 684,
+      "name": "Infinit Wellness S.r.o.",
+      "mapsName": "Infinit relaxační centrum",
+      "type": "Wellnesszentrum (Sauna, Schwimmbad)",
+      "group": "Wellness & Therme",
+      "addr": "Malletova 2350/6, 190 00 Praha 9-Vysočany, Tschechien",
+      "lat": 50.1011886,
+      "lon": 14.4834011,
+      "rating": 4.5,
+      "reviews": 933,
+      "confidence": "mittel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Infinit%20relaxa%C4%8Dn%C3%AD%20centrum&query_place_id=ChIJxW2Ppk2TC0cRhGTedYCy9ic",
+      "details": {
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "c4": "Mo–So 07–22:30",
+        "c5": "",
+        "src": "https://www.google.com/maps/search/?api=1&query=Infinit%20relaxa%C4%8Dn%C3%AD%20centrum&query_place_id=ChIJxW2Ppk2TC0cRhGTedYCy9ic",
+        "web": "https://step.infinit.cz/"
+      },
+      "note": "Maps-Name \"Infinit relaxační centrum\"; Firmenname aus der Liste passt zum Betreiber"
+    }
+  ],
+  "notFound": [
+    {
+      "pdfNr": 20,
+      "listNr": 90,
+      "name": "Alchemist",
+      "reason": "In Nürnberg/Fürth/Schwabach/Erlangen kein \"Alchemist\" gefunden; nur Treffer in Berlin, Düsseldorf, Kopenhagen, Prag (Alchymist). Nachbarn (Südsee-Camp, Züricher Park, Kindermuseum Nürnberg) deuten auf Franken",
+      "candidates": [
+        {
+          "mapsName": "Alchymist Grand Hotel and Spa",
+          "addr": "Tržiště 19, 118 00 Praha-Malá Strana",
+          "why": "Ähnlicher Name (Alchymist), Prag gehört zu den Regionen der Liste, aber Nachbarn von Nr. 90 liegen in Nürnberg"
+        },
+        {
+          "mapsName": "The Alchemist",
+          "addr": "Linkstraße 4, 10785 Berlin",
+          "why": "Gleicher Name, aber Berlin"
+        },
+        {
+          "mapsName": "ALCHEMIST Bistro & Bar - Düsseldorf",
+          "addr": "Graf-Adolf-Straße 61, 40210 Düsseldorf",
+          "why": "Gleicher Name, aber NRW"
+        }
+      ]
+    },
+    {
+      "pdfNr": 42,
+      "listNr": 203,
+      "name": "Royal Club",
+      "reason": "Mehrere Treffer in Nürnberg/München, keiner eindeutig; PDF ohne Kategorie/Bewertung, Nachbarn (Nerudova 211 Café Prag, Ottobrunner Str. 61, Ghupft wia Gsprunga) geben keine eindeutige Region",
+      "candidates": [
+        {
+          "mapsName": "Royal Shisha Lounge",
+          "addr": "Sonnenstraße 18, 80336 München",
+          "why": "Nur Namensähnlichkeit, Kategorie Shisha-Bar nicht belegt"
+        }
+      ]
+    },
+    {
+      "pdfNr": 46,
+      "listNr": 215,
+      "name": "Lily bar",
+      "reason": "Kein Treffer mit Namen \"Lily Bar\" in Franken (Nürnberg, Schwabach); nur Namensähnliche (Lilly Bar München im Hotel) ohne passende Region",
+      "candidates": [
+        {
+          "mapsName": "Lilly Bar Munich",
+          "addr": "Dachauer Str. 37, 80335 München",
+          "why": "Hotelbar, Region München passt nicht zu den Nachbarn (Franken)"
+        }
+      ]
+    },
+    {
+      "pdfNr": 60,
+      "listNr": 310,
+      "name": "LOCKDOWN - restaurace, bageteri…",
+      "reason": "Nachbarn liegen in Beroun (Drink Point, SPORT BAR HOMOLKA, Zanz Bar); Suche nach LOCKDOWN restaurace/bageterie in Beroun und Prag ergibt keinen Treffer (evtl. geschlossen oder umbenannt)",
+      "candidates": []
+    },
+    {
+      "pdfNr": 84,
+      "listNr": 395,
+      "name": "Gasthaus \"Zum Hirschen\" beim Sch…",
+      "reason": "Name in der Liste abgeschnitten; mehrere Gasthäuser \"Zum Hirschen\" in Mittelfranken/Oberpfalz, keines eindeutig mit Zusatz \"beim Sch…\" (Schloss?) erkennbar",
+      "candidates": [
+        {
+          "mapsName": "Gasthaus & Pension zum Hirschen am Altmühlsee",
+          "addr": "Ansbacher Str. 4, 91735 Muhr am See",
+          "why": "Region Altmühlsee passt zu Nachbarn Campingplatz Fischer-Michl, aber kein Bezug zu \"Schloss\""
+        },
+        {
+          "mapsName": "Gasthof Zum Hirschen",
+          "addr": "Molsberger Str. 2, 91230 Happurg-Förrenbach",
+          "why": "Name ähnlich, Region Franken"
+        }
+      ]
+    },
+    {
+      "pdfNr": 102,
+      "listNr": 445,
+      "name": "😁 👍 FULL-ONE LASERTAG ARENA …",
+      "reason": "Kein Treffer für \"Full-One Lasertag Arena\" (Köln, Düsseldorf, Wuppertal, Neuss, Solingen geprüft); evtl. umbenannt oder geschlossen",
+      "candidates": []
+    },
+    {
+      "pdfNr": 116,
+      "listNr": 505,
+      "name": "Mundingen",
+      "reason": "Nur Ortsname; Mundingen existiert mehrfach (Emmendingen, Ehingen/Donau); Nachbarn (L’Oceanogràfic Valencia, California Bakery) geben keine Region her",
+      "candidates": [
+        {
+          "mapsName": "Mundingen",
+          "addr": "79312 Emmendingen",
+          "why": "Ortsteil, kein Ausflugsziel erkennbar"
+        },
+        {
+          "mapsName": "Mundingen",
+          "addr": "89584 Ehingen (Donau)",
+          "why": "Ortsteil, kein Ausflugsziel erkennbar"
+        }
+      ]
+    },
+    {
+      "pdfNr": 118,
+      "listNr": 508,
+      "name": "Russkiy Restoran",
+      "reason": "Nur Treffer in Moskau; Region passt nicht zur Liste",
+      "candidates": [
+        {
+          "mapsName": "Russkiy Restoran",
+          "addr": "Presnenskaya Naberezhnaya 2, Moskau",
+          "why": "Gleicher Name, aber Russland"
+        }
+      ]
+    },
+    {
+      "pdfNr": 120,
+      "listNr": 510,
+      "name": "Namaste",
+      "reason": "Zu generischer Name; mehrere Treffer (Nürnberg, München, Odesa), keine Kategorie/Bewertung im PDF",
+      "candidates": [
+        {
+          "mapsName": "Indisches Restaurant NAMASTE Nürnberg",
+          "addr": "Hirschelgasse 1, 90403 Nürnberg",
+          "why": "Franken passt, aber Name nicht eindeutig"
+        },
+        {
+          "mapsName": "Namaste студія йоги",
+          "addr": "Rishelievska St 26, Odesa",
+          "why": "Yoga-Studio in Odesa, ebenfalls möglich"
+        }
+      ]
+    },
+    {
+      "pdfNr": 126,
+      "listNr": 549,
+      "name": "Action City",
+      "reason": "Kein Treffer für \"Action City\" (Salzkammergut/Bad Ischl); nur ACTION-Märkte und City Outlet",
+      "candidates": []
+    },
+    {
+      "pdfNr": 130,
+      "listNr": 569,
+      "name": "Ostdeutsches Fahrzeug- & Technik…",
+      "reason": "Kein Treffer mit diesem Namen; ähnlichster Treffer im Harz weicht im Namen ab",
+      "candidates": [
+        {
+          "mapsName": "MT's Panzerfahren & DDR-Technik Museum Benneckenstein",
+          "addr": "Wernigeröder Str. 10, 38877 Oberharz am Brocken",
+          "why": "Technikmuseum DDR-Fahrzeuge im Harz (Nachbarn: Oberharzer Bergwerksmuseum, Baumannshöhle), Name aber verschieden"
+        }
+      ]
+    },
+    {
+      "pdfNr": 132,
+      "listNr": 589,
+      "name": "Misto",
+      "reason": "Zu generischer Name; kein passender Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 134,
+      "listNr": 592,
+      "name": "The Bar Chocolate",
+      "reason": "Kein Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 136,
+      "listNr": 594,
+      "name": "Jackson",
+      "reason": "Zu generischer Name; kein passender Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 142,
+      "listNr": 606,
+      "name": "Fitness Caffee",
+      "reason": "Kein Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 144,
+      "listNr": 608,
+      "name": "Club Rio",
+      "reason": "Zu generischer Name; nur Fitness-Clubs \"Rio\" in Odesa gefunden, Kategorie passt nicht sicher",
+      "candidates": [
+        {
+          "mapsName": "Fitnes-Klub \"Rio\"",
+          "addr": "Kosmonavtiv St 62/2, Odesa",
+          "why": "Fitnessstudio, nur Namensgleichheit"
+        }
+      ]
+    },
+    {
+      "pdfNr": 148,
+      "listNr": 613,
+      "name": "Rocoto",
+      "reason": "Kein Treffer in Odesa; Nachbarn deuten teils auf Medellín (Kolumbien)",
+      "candidates": []
+    },
+    {
+      "pdfNr": 160,
+      "listNr": 630,
+      "name": "Morgan Club",
+      "reason": "Kein Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 166,
+      "listNr": 639,
+      "name": "Salsa-Bus",
+      "reason": "Kein Treffer in Odesa",
+      "candidates": []
+    },
+    {
+      "pdfNr": 168,
+      "listNr": 642,
+      "name": "Йога  Дом",
+      "reason": "Kein sicherer Treffer; nur ähnlicher Name",
+      "candidates": [
+        {
+          "mapsName": "YogaDome - студія йоги",
+          "addr": "Nezalezhnosti 8g, Odesa",
+          "why": "Yoga-Studio in Odesa, Name ähnlich (Dom/Dome), nicht sicher"
+        }
+      ]
+    },
+    {
+      "pdfNr": 172,
+      "listNr": 646,
+      "name": "Posmitnoho St, 10",
+      "reason": "Maps findet unter dieser Straßenadresse nur andere Treffer (ODESA CITY, Hotels), keine eindeutige Adresse",
+      "candidates": []
+    },
+    {
+      "pdfNr": 174,
+      "listNr": 649,
+      "name": "Kinburn Camp Pokrovka",
+      "reason": "Nur Kinburn-Halbinsel als Ganzes gefunden (besetztes Gebiet); kein Camp",
+      "candidates": [
+        {
+          "mapsName": "Kinburn-Halbinsel",
+          "addr": "Oblast Mykolajiw",
+          "why": "Insel/Halbinsel, kein Camp Pokrovka"
+        }
+      ]
+    },
+    {
+      "pdfNr": 184,
+      "listNr": 665,
+      "name": "Rosana Boutique Hotel",
+      "reason": "Einziger Treffer in Seoul; passt nicht zu Odesa-Nachbarn",
+      "candidates": [
+        {
+          "mapsName": "Rosana Boutique Hotel",
+          "addr": "Samhaksa-ro 98, Seoul",
+          "why": "Gleicher Name, aber Südkorea"
+        }
+      ]
+    },
+    {
+      "pdfNr": 188,
+      "listNr": 673,
+      "name": "lite-bite: Paleo, vegan & low-carb S…",
+      "reason": "Kein Treffer; Nachbarn liegen in Medellín (Kolumbien)",
+      "candidates": []
+    },
+    {
+      "pdfNr": 200,
+      "listNr": 698,
+      "name": "Sanders Restaurant",
+      "reason": "Nachbarn in Kolumbien; kein sicherer Treffer",
+      "candidates": [
+        {
+          "mapsName": "Sanders Steakhaus",
+          "addr": "Längenstraße 10, 90491 Nürnberg",
+          "why": "Name ähnlich, Region passt nicht zu Nachbarn"
+        },
+        {
+          "mapsName": "SANDERS CERVECERIA & ROOFTOP",
+          "addr": "Bucaramanga, Kolumbien",
+          "why": "Region Kolumbien, aber unklar"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pdfNr": 10,
+      "listNr": 54,
+      "name": "Die Blume von Hawaii - Cocktail Ba…",
+      "reason": "Bereits in entries.json als \"Die Blume von Hawaii\""
+    },
+    {
+      "pdfNr": 12,
+      "listNr": 61,
+      "name": "\"Trödelstuben\", Wein- und Bierstub…",
+      "reason": "Bereits in entries.json als \"Trödelstuben – Wein- und Bierstube\""
+    },
+    {
+      "pdfNr": 26,
+      "listNr": 118,
+      "name": "Na Kopci",
+      "reason": "Bereits in entries.json als \"Restaurace Na Kopci\""
+    },
+    {
+      "pdfNr": 30,
+      "listNr": 146,
+      "name": "GRAM Restaurant",
+      "reason": "Bereits in entries.json als \"GRAM.\""
+    },
+    {
+      "pdfNr": 40,
+      "listNr": 191,
+      "name": "Röstzeit",
+      "reason": "Bereits in entries.json als \"Kaffeerösterei Röstzeit\""
+    },
+    {
+      "pdfNr": 44,
+      "listNr": 207,
+      "name": "SEETELHOTEL Kinderresort Usedom",
+      "reason": "Bereits in entries.json als \"SEETELHOTEL Kinderresort Usedom (TUI SUNEO)\""
+    },
+    {
+      "pdfNr": 48,
+      "listNr": 219,
+      "name": "Romantik-Camping Wolfgangsee Li…",
+      "reason": "Bereits in entries.json als \"Romantik-Camping Wolfgangsee Lindenstrand\""
+    },
+    {
+      "pdfNr": 54,
+      "listNr": 248,
+      "name": "GAME STATION muzeum her Cibien…",
+      "reason": "Bereits in entries.json als \"GAME STATION muzeum her Cibien's Corner\""
+    },
+    {
+      "pdfNr": 80,
+      "listNr": 382,
+      "name": "Am alten Badeweiher",
+      "reason": "Bereits in entries.json als \"Camping Am alten Badeweiher\""
+    },
+    {
+      "pdfNr": 86,
+      "listNr": 399,
+      "name": "Hill of Three Crosses",
+      "reason": "Kolumbien: Maps-Treffer mit exaktem Namen liegt in Cali (Santa Monica Residential, 4,7 / 4.479 Bewertungen); Nachbarn in der Liste (Colosal Restaurante, Urbania Café) ebenfalls Lateinamerika"
+    },
+    {
+      "pdfNr": 88,
+      "listNr": 406,
+      "name": "Gasthaus Zum grünen Tal Fam. Vitz…",
+      "reason": "Bereits in entries.json als \"Gasthaus Zum grünen Tal\""
+    },
+    {
+      "pdfNr": 92,
+      "listNr": 425,
+      "name": "Superfun",
+      "reason": "Bereits in entries.json als \"Superfun Amersfoort\""
+    },
+    {
+      "pdfNr": 94,
+      "listNr": 430,
+      "name": "Silverstone Party Center - Karting, …",
+      "reason": "Bereits in entries.json als \"Silverstone Partycenter (Karting, Lasergame & Bowling)\""
+    },
+    {
+      "pdfNr": 96,
+      "listNr": 436,
+      "name": "LaserZone LaserTag Essen West - …",
+      "reason": "Bereits in entries.json als \"LaserZone LaserTag Essen West (Borbeck)\""
+    },
+    {
+      "pdfNr": 98,
+      "listNr": 438,
+      "name": "BoTag Lasertag Bochum",
+      "reason": "Bereits in entries.json als \"BoTag Lasertag Bochum (Ruhr Lasertag)\""
+    },
+    {
+      "pdfNr": 100,
+      "listNr": 442,
+      "name": "LASERPLEX - LaserTag Arena Düss…",
+      "reason": "Bereits in entries.json als \"LASERPLEX - LaserTag Arena Düsseldorf\""
+    },
+    {
+      "pdfNr": 112,
+      "listNr": 483,
+      "name": "Krausnick",
+      "reason": "Bereits in entries.json als \"Tropical Islands (Krausnick)\""
+    },
+    {
+      "pdfNr": 150,
+      "listNr": 615,
+      "name": "Restaurante El Cielo",
+      "reason": "Kolumbien: Maps-Treffer \"Elcielo Medellín Restaurant\", Medellín (Nachbarn: Bárbaro Cocina Primitiva sede Poblado)"
+    },
+    {
+      "pdfNr": 152,
+      "listNr": 617,
+      "name": "Bárbaro Cocina Primitiva",
+      "reason": "Kolumbien: Maps-Treffer \"Bárbaro Cocina Primitiva sede Poblado\", Medellín"
+    },
+    {
+      "pdfNr": 156,
+      "listNr": 625,
+      "name": "Restoran Dizyngoff",
+      "reason": "Bereits in entries.json als \"Dizyngoff\""
+    },
+    {
+      "pdfNr": 158,
+      "listNr": 628,
+      "name": "Game-Bar Plays",
+      "reason": "Bereits in entries.json als \"Plays\""
+    },
+    {
+      "pdfNr": 178,
+      "listNr": 656,
+      "name": "Schokoladenmuseum",
+      "reason": "Bereits in entries.json als \"Schokoladenmuseum Odesa\""
+    },
+    {
+      "pdfNr": 182,
+      "listNr": 660,
+      "name": "Biopark",
+      "reason": "Bereits in entries.json als \"Biopark Odesa\""
+    },
+    {
+      "pdfNr": 186,
+      "listNr": 668,
+      "name": "Crossfit Deluxe",
+      "reason": "Kolumbien: Maps-Treffer \"Crossfit Deluxe\" in Medellín (Nachbarn Pisci La Asomadera, Tal Cual)"
+    },
+    {
+      "pdfNr": 190,
+      "listNr": 676,
+      "name": "Ocean Supercenter",
+      "reason": "Asien: Maps-Treffer ausschließlich in Myanmar (Yangon, Mandalay); Nachbar PARKROYAL Yangon"
+    },
+    {
+      "pdfNr": 196,
+      "listNr": 687,
+      "name": "Juan del Mar",
+      "reason": "In der Quelldatei als vermutlich Kolumbien vermerkt, nicht gesucht"
+    },
+    {
+      "pdfNr": 198,
+      "listNr": 692,
+      "name": "Castle Museum",
+      "reason": "In der Quelldatei als vermutlich Kolumbien vermerkt, nicht gesucht"
+    },
+    {
+      "pdfNr": 202,
+      "listNr": 701,
+      "name": "Junction Square",
+      "reason": "In der Quelldatei als vermutlich Asien vermerkt, nicht gesucht"
+    },
+    {
+      "pdfNr": 204,
+      "listNr": 704,
+      "name": "Brolly Sky Bar",
+      "reason": "Asien: Maps-Treffer \"Brolly Sky Bar\" in Mandalay, Myanmar; Nachbar United Living Mall"
+    },
+    {
+      "pdfNr": 206,
+      "listNr": 706,
+      "name": "Diamond Lake Hotel, KTV & BAR",
+      "reason": "In der Quelldatei als vermutlich Asien vermerkt, nicht gesucht"
+    }
+  ]
+}

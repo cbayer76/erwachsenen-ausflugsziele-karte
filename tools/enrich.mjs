@@ -262,7 +262,7 @@ for (const e of entries) {
   const addrFull = /deutschland|österreich|česko|tschechien|nederland|niederlande|italia|italien|schweiz|france|frankreich|latvija|lettland|polen|rumänien|spanien|ungarn|irland|ukraine|belgien|portugal|litauen|türkei|slowakei|kroatien|slowenien|dänemark|luxemburg|großbritannien|griechenland/i.test(e.addr) ? e.addr : e.addr + ', Deutschland';
   let lat = null, lon = null, approx = !!e.approx, dk = null, dm = null, distanceKm = null, err = null;
   try {
-    if (typeof e.lat === 'number' && typeof e.lon === 'number') { lat = e.lat; lon = e.lon; }
+    if (typeof e.lat === 'number' && typeof e.lon === 'number') { lat = +e.lat.toFixed(6); lon = +e.lon.toFixed(6); }
     else { const g = await geocode(e); lat = g.lat; lon = g.lon; approx = approx || g.approx; }
     distanceKm = +haversineKm(SCHWABACH, { lat, lon }).toFixed(1);
     try { const d = await drive(lat, lon); dk = d.driveKm; dm = d.driveMin; }
