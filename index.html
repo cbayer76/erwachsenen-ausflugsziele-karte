@@ -224,7 +224,8 @@
   .card-facts { display: flex; flex-wrap: wrap; gap: 4px; margin: 5px 0 0 32px; }
   .fact-pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--border); color: var(--text); background: var(--panel); }
   .card-special { margin-top: 5px; font-size: 12px; font-style: italic; color: var(--text-muted); }
-  .web-btn { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; font-size: 12.5px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 5px 10px; text-decoration: none; white-space: nowrap; background: var(--panel); }
+  .link-btns { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; margin-left: auto; }
+  .web-btn { display: inline-flex; align-items: center; gap: 5px; font-size: 12.5px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); border-radius: 8px; padding: 5px 10px; text-decoration: none; white-space: nowrap; background: var(--panel); }
   .web-btn:hover { background: #eef1ec; }
   .web-btn.maps { color: #1971c2; border-color: #1971c2; }
   .cuisine-line { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 6px 0 0 32px; }
@@ -1081,7 +1082,7 @@ function render() {
     </div>`;
 
     // Fakten, Besonderheit, Küchen-Badge: nur wenn Recherchedaten (DETAILS) vorhanden sind.
-    // Direktlink: immer. Website des Lokals, sonst Google Maps.
+    // Direktlinks: Google Maps immer, Website des Lokals zusätzlich, wenn bekannt (nebeneinander).
     const det = DETAILS[p.name];
     const food = !!det && (p.group === 'Restaurant' || p.group === 'Café & Bar');
     let factsHtml = '', specialHtml = '', cuisineHtml = '';
@@ -1106,9 +1107,7 @@ function render() {
       }
     }
     const hasWeb = !!(det && det.web && /^https?:\/\//.test(det.web));
-    const webHtml = hasWeb
-      ? `<a class="web-btn" href="${escapeHtml(det.web)}" target="_blank" rel="noopener" title="Website des Lokals">🌐 Website ↗</a>`
-      : `<a class="web-btn maps" href="${gmapsLink(p)}" target="_blank" rel="noopener" title="Im Google-Maps-Eintrag öffnen">📍 Google Maps ↗</a>`;
+    const webHtml = `<span class="link-btns">${hasWeb ? `<a class="web-btn" href="${escapeHtml(det.web)}" target="_blank" rel="noopener" title="Website des Lokals">🌐 Website ↗</a>` : ''}<a class="web-btn maps" href="${gmapsLink(p)}" target="_blank" rel="noopener" title="Im Google-Maps-Eintrag öffnen">📍 Google Maps ↗</a></span>`;
 
     const starsFilled = u.myRating != null ? Math.ceil(u.myRating / 2) : 0;
     const starsHtml = [1, 2, 3, 4, 5].map(n => `<span class="d4-star${n <= starsFilled ? ' f' : ''}" data-idx="${i}" data-n="${n}">★</span>`).join('');
