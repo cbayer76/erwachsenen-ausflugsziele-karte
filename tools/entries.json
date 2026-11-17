@@ -10405,5 +10405,28 @@
       "src": "https://www.google.com/maps/place/FITINN/@50.101815,14.4301579,17z",
       "web": "https://fitinn.cz/nase-studia/praha-centrum-stromovka/"
     }
+  },
+  {
+    "name": "Donautherme Ingolstadt",
+    "type": "Therme & Erlebnisbad",
+    "group": "Wellness & Therme",
+    "addr": "Südliche Ringstraße 63, 85053 Ingolstadt, Deutschland",
+    "addrNote": "",
+    "approx": false,
+    "rating": null,
+    "reviews": null,
+    "ratingDate": "",
+    "note": "Erlebnisbad mit Rutschenturm, Thermenlandschaft (ab 16) und Saunawelt mit 7 Saunen",
+    "lat": 48.7623059,
+    "lon": 11.4385551,
+    "details": {
+      "c1": "Bad 31 € (Tag); +5 € Therme, +13 € Sauna",
+      "c2": "7 Saunen + Dampfbad, Aufpreis 13 €",
+      "c3": "Thermal-, Sole-, Außen-, Sportbecken",
+      "c4": "tägl. ab 10 Uhr (Schließzeit nicht angegeben)",
+      "c5": "Quelltopf mit eigener Thermalquelle",
+      "src": "https://www.donautherme.de/info/preise/",
+      "web": "https://www.donautherme.de/"
+    }
   }
 ]
